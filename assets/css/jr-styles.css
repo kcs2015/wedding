@@ -37,7 +37,45 @@ section{
     
     
 }
+/* === COUPLE INFO === */
+#about-couple-main{
+    padding:0px;
+}
+.couple-bg-row{
+    padding-top: 15px;
+}
+.couple-info-card .card-block, .couple-info-card .card-block .card-link{
+    color:white;
+}
+    
+#bride-bg-row{
+    background: url('../img/bg/cleopatra.jpeg') no-repeat;
+    background-size: cover;
+}
+#groom-bg-row{
+     background: url('../img/bg/king-smoke.jpeg') no-repeat;
+    background-size: cover;
+}
+.couple-info-card{
+    background-color: rgba(184,142,82,.6) ;
+}
+.couple-info-card .card-title, .couple-info-card .card-subtitle{
+   color: white;
+}
+.couple-info-card .card-block.info-header{
+    text-align: center;
+    background-color: rgba(255,105,180,.1);
+   /* background: url('../img/bg/cleopatra.jpeg');*/
+}
 
+.couple-thumbnail-single{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
 /* === LOCATION MAIN STYLES === */
 #location-main{
    /* background: url('../img/sand-footsteps.jpg');*/
