@@ -31,6 +31,25 @@ blockquote{
     height: 90%;
     z-index: -1;
 }
+/* HELPER STYLES */
+.vertical-align-parent{
+    position: relative;
+}
+.vertical-align-child{
+    position: absolute;
+      position:absolute;
+    width:100%;
+    top:50%;
+     -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+}
+
+.wedding-main-text, .annoucement-text {
+    
+    font-family: 'Prata', serif;
+}
+
 /* === NAV STYLES === */
 .nav-link-separator{
     color: red;
@@ -64,6 +83,7 @@ blockquote{
     font-size: 16px;
      color:gold;
 }
+
 
 /* === COVER MAIN STYLES === */
 #cover-main{
@@ -335,8 +355,8 @@ blockquote{
 }
 
 .bridal-party-thumbnail{
-     width: 300px;
-    height:300px;
+     width: 150px;
+    height:150px;
      box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -349,6 +369,22 @@ blockquote{
     
     
 }
+#bridesmaids-main{
+    background: url('../img/bg/wedding-party-glasses.jpeg') no-repeat;
+   background-size: cover;
+    padding: 0px;
+}
+#bridesmaids-main .section-header{
+    color: white;
+}
+
+
+#bridesmaids-main  .bg-overlay{
+    background-color: rgba(255,255,255,0.5);
+    min-height: 100px;
+    border-radius: 5px;
+}
+
 
 .circular {
 	width: 300px;
