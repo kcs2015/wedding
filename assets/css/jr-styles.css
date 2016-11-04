@@ -31,18 +31,27 @@ blockquote{
     height: 90%;
     z-index: -1;
 }
-/* HELPER STYLES */
-.vertical-align-parent{
+
+/* ===  HELPER STYLES ===  */
+.vertical-align-parent, .horizontal-align-parent{
     position: relative;
 }
 .vertical-align-child{
-    position: absolute;
       position:absolute;
     width:100%;
     top:50%;
      -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
+}
+.horizontal-align-child{
+      position:absolute;
+    height:100%;
+    
+    left:50%;
+     -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
 }
 
 .wedding-main-text, .annoucement-text {
@@ -55,16 +64,16 @@ blockquote{
     color: red;
     
 }
-#navbar-site-top .nav-link{
+#navbar-site-top a.nav-link{
     color: white;
-    
+    font-size: 20px;
 }
 #navbar-site-top{
     background-color: rgba(1,1,1,0);
 }
 #navbar-site-top ul {
-    width: 35%;
-    margin: 0 auto;
+    display:inline-block;
+    margin:0 auto;
 }
 #navbar-site-top {
     background-color: rgba(255,255,255,.5);
@@ -76,12 +85,7 @@ blockquote{
 
 #navbar-site-top li {
    font-weight: bold;
-    font-size: 16px;
-}
-#navbar-site-top .nav-link {
-   font-weight: bold;
-    font-size: 16px;
-     color:gold;
+    color: white;
 }
 
 
