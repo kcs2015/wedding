@@ -19,7 +19,7 @@ $(document).ready(function() {
     transitionStyle:"fade"
   });
     
-    $('#clock').countdown('2017/11/04', function(event) {
+    $('#clock').countdown('2017/11/03', function(event) {
   var $this = $(this).html(event.strftime(''
     + '<div id="timer-weeks" class="timer-block"> %w <br><span>Weeks</span> </div> '
     + '<div id="timer-days" class="timer-block"> %d <br><span>Days</span> </div> '
