@@ -155,7 +155,7 @@ section{
 /* === COUPLE INFO === */
 #about-couple-main{
     padding:0px;
-    border: thick solid rgba(184,142,82,1);
+    border: thin solid rgba(184,142,82,1);
 }
 
 
@@ -176,7 +176,8 @@ section{
 }
 
 .couple-bg-row{
-    padding-top: 15px;
+    padding-top: 40px;
+    padding-bottom:25px
 }
 .couple-info-card .card-block, .couple-info-card .card-block .card-link{
     color:white;
@@ -185,12 +186,12 @@ section{
 #bride-bg-row{
     background: url('../img/bg/cleopatra.jpeg') no-repeat;
     background-size: cover;
-    border-right: medium solid rgba(184,142,82,1);
+    border-right: thin solid rgba(184,142,82,1);
 }
 #groom-bg-row{
      background: url('../img/bg/king-smoke.jpeg') no-repeat;
     background-size: cover;
-     border-left: medium solid rgba(184,142,82,1);
+     border-left: thin solid rgba(184,142,82,1);
 }
 .couple-info-card{
     background-color: rgba(184,142,82,.6) ;
@@ -211,6 +212,28 @@ section{
      box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.couple-gallery-carousel  img{
+    display: block;
+  width: 100%;
+  height: auto;
+    border: thick solid #B88E52 ;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.card-subtitle{
+    
+    font-family: 'Prata', serif;
+}
+.card .card-sub-subtitle{
+    font-size: 40px;
+    font-family: 'Tangerine', cursive;
+         
+}
+
+.card hr{
+    border-top: 3px solid rgba(0,0,0,.1);
 }
 /* === LOCATION MAIN STYLES === */
 #location-main{
@@ -237,28 +260,25 @@ section{
 
 #gallery-main-1{
     border-top: thick solid pink;
-    background: url('../img/bg/clouds.jpeg') ;
-    background-size: cover;
-    padding:0px;
-    background-attachment: fixed;
+    background: url('../img/bg/clouds.jpeg') no-repeat ;
+   background-attachment: fixed;
+    background-size: cover;    
+     background-position: bottom bottom;
+    
 }
 
 #gallery-main-1 .bg-overlay{
     background-color: rgba(255,255,255,.4);
     padding:20px;
-    height:100%;
+    height: 100%;
+    width:100%;
+        
 }
 
 .couple-gallery-carousel .item {
   margin: 20px;
 }
-.couple-gallery-carousel  img{
-    display: block;
-  width: 100%;
-  height: auto;
-    border: thick solid #B88E52 ;
-    box-shadow: 10px 10px 5px #888888;
-}
+
 
 
 #gallery-main{
