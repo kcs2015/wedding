@@ -225,9 +225,40 @@ section{
 	opacity: 0;
 	filter: alpha(opacity=0);
 	}
+
+/* === RSVP MAIN STYLES === */
+#rsvp-main{
+    /*background: url('../img/couple/club-night-kiss.jpg');*/
+    background-size: cover;
+    padding:35px;
+    position:relative;
+        padding-left:0px;
+    padding-right:0px;
+    
+}
+#rsvp-main .card {
+    border: thick solid pink;
+
+}
+
+#rsvp-main .section-header {
+   padding-top:12px;
+}
+#rsvp-main .color-stripe {
+   position:absolute;
+    height:300px;
+    width:100%;
+    background-color: #B88E52;
+    top:50%;
+     -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+}
+
 /* === FOOTER STYLES === */
 
     /* MAKE FOOTER STICK TO THE BOTTOM AND STYLE */
+
 #footer-spacer, #footer-main{
     width: 100%;
     height: 100px;
