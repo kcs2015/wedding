@@ -8,6 +8,7 @@ html, body{
 
 section{
     margin:0px;
+    min-height: 600px;
     /*border: medium solid black;*/
 }
 .page-section{
@@ -133,6 +134,13 @@ section{
 #location-info-content{
     background: rgba(255,255,255,.3);
     border-radius: 10px;
+    padding: 25px;
+}
+#location-main .bg-overlay{
+   background: rgba(0,0,0,.5);
+    border-radius:5px;
+    padding: 30px;
+    color:white;
 }
 
 /* === GALLERY MAIN STYLES === */
@@ -148,6 +156,7 @@ section{
 #gallery-main-1 .bg-overlay{
     background-color: rgba(255,255,255,.4);
     padding:20px;
+    height:100%;
 }
 
 .couple-gallery-carousel .item {
