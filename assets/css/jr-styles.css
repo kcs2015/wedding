@@ -1,3 +1,6 @@
+/* COLORS
+    GOLD:   #B88E52     rgba(184,142,82,.6)
+*/
 /* == MAIN STYLES == */
 html, body{
     height: 100%;
@@ -5,11 +8,11 @@ html, body{
 
 section{
     margin:0px;
-    border: medium solid black;
+    /*border: medium solid black;*/
 }
 .page-section{
     margin:0px;
-    border: medium solid black;
+    /*border: medium solid black;*/
     padding: 15px;
 }
 /* === NAV STYLES === */
@@ -31,15 +34,17 @@ section{
 
 /* === COVER MAIN STYLES === */
 #cover-main{
-    min-height:600px;
-    background: url('../img/flowers.jpeg');
-    background-size: cover;
+    min-height:800px;
+    background: url('../img/bg/rings-focused-bg-blurred.jpeg') no-repeat;
+   background-size: cover;
+    background-position:  left;
     
     
 }
 /* === COUPLE INFO === */
 #about-couple-main{
     padding:0px;
+    border: thick solid rgba(184,142,82,1);
 }
 .couple-bg-row{
     padding-top: 15px;
@@ -51,10 +56,12 @@ section{
 #bride-bg-row{
     background: url('../img/bg/cleopatra.jpeg') no-repeat;
     background-size: cover;
+    border-right: medium solid rgba(184,142,82,1);
 }
 #groom-bg-row{
      background: url('../img/bg/king-smoke.jpeg') no-repeat;
     background-size: cover;
+     border-left: medium solid rgba(184,142,82,1);
 }
 .couple-info-card{
     background-color: rgba(184,142,82,.6) ;
@@ -78,9 +85,54 @@ section{
 }
 /* === LOCATION MAIN STYLES === */
 #location-main{
-   /* background: url('../img/sand-footsteps.jpg');*/
+   background: url('../img/sand-footsteps-large.jpg') left no-repeat;
     background-size: cover;
+    padding: 30px;
 }
+#location-info-content{
+    background: rgba(255,255,255,.3);
+    border-radius: 10px;
+}
+
+/* === GALLERY MAIN STYLES === */
+
+.couple-gallery-carousel .item {
+  margin: 20px;
+}
+.couple-gallery-carousel  img{
+    display: block;
+  width: 100%;
+  height: auto;
+    border: thick solid #B88E52 ;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+
+#gallery-main{
+  /*  background: url('../img/bg/film-roll.jpeg');*/
+   /* background: url('../img/bg/blurred-gold.jpeg');*/
+    
+}
+.picture-frame{
+    background: url('../img/empty-picture-frame.jpg') no-repeat;
+    background-size:cover;
+    height:350px;
+    width:500px;
+    position: relative;
+}
+.gallery-slider-img{
+}
+.gallery-slider-img{
+    position: absolute;
+     height:200px;
+    width: 345px;
+    right: 15.5%;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+}
+
 
 /* === BRIDAL PARTY STYLES === */
 #bridal-party-main{

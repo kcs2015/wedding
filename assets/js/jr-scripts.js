@@ -10,7 +10,7 @@ $(document).ready(function() {
     transitionStyle:"fade"
   });
     
- $("#couple-gallery-carousel-main").owlCarousel({
+ $(".couple-gallery-carousel").owlCarousel({
       autoPlay : 3000,
     stopOnHover : true,
     navigation:true,
