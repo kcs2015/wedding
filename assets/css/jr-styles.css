@@ -15,6 +15,10 @@ section{
     /*border: medium solid black;*/
     padding: 15px;
 }
+.pre-footer-content{
+    height: 90%;
+    z-index: -1;
+}
 /* === NAV STYLES === */
 .nav-link-separator{
     color: red;
@@ -57,12 +61,29 @@ section{
    background-position:  left;
     
 }
-
 /* === COUPLE INFO === */
 #about-couple-main{
     padding:0px;
     border: thick solid rgba(184,142,82,1);
 }
+
+
+.section-header  {
+    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Tangerine', cursive;*/
+
+    
+}
+
+.section-header.dark-text {
+     text-shadow: 2px 2px #D3D3D3;
+    
+}
+.section-header.light-text {
+     text-shadow: 2px 2px #7e7e7e;
+    
+}
+
 .couple-bg-row{
     padding-top: 15px;
 }
@@ -105,6 +126,9 @@ section{
    background: url('../img/sand-footsteps-large.jpg') left no-repeat;
     background-size: cover;
     padding: 30px;
+}
+#location-carousel-main{
+  
 }
 #location-info-content{
     background: rgba(255,255,255,.3);
@@ -204,11 +228,68 @@ section{
 /* === FOOTER STYLES === */
 
     /* MAKE FOOTER STICK TO THE BOTTOM AND STYLE */
+#footer-spacer, #footer-main{
+    width: 100%;
+    height: 100px;
+}
         #footer-main{
-          /* position: absolute;
-            bottom: 0;*/
-            width: 100%;
-            height: 25px;
-            background-color: #f5f5f5;    
+           position: fixed;
+            bottom: 0;
+            left:0; 
+            float:left;
 
+    }
+    #clock{
+        width:100%;
+        height:100%;
+}
+     #timer-header{
+        width:30%;
+        height:100%;
+        background:#585858;
+        margin:0px;
+         padding: 0px;
+         font-family: 'Tangerine', cursive;
+         font-size:54px;
+        line-height: 100px; /* -- SAME HEIGHT AS #footer-main -- */
+    }
+    .timer-block{
+        color:white;
+        width:14%;
+        height:100%;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        font-size:32px;
+        float:left;
+        text-align:center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Prata', serif;    
+    }
+.timer-block span{
+        font-size:38px;
+    font-family: 'Tangerine', cursive;
+
+    font-weight:00;
+    }
+    #timer-weeks{
+       background: #a57f49; /* For browsers that do not support gradients */
+      
+    }
+    #timer-days{
+       background: #bf9963; /* For browsers that do not support gradients */
+      
+    }
+    #timer-hours{
+       background: #c6a474; /* For browsers that do not support gradients */
+      
+    }
+    #timer-min{
+       background: #cdaf85; /* For browsers that do not support gradients */
+      
+    }
+    #timer-sec{
+       background: #d4bb97; /* For browsers that do not support gradients */
+      
     }

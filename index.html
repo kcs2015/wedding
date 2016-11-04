@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="assets/owl.carousel/owl-carousel/owl.theme.css">
     
     <!-- GOOGLE FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Hanuman|Kaushan+Script|Prata|Tangerine" rel="stylesheet">
     
     <!-- CUSTOM STYLESHEET -->
     <link rel="stylesheet" href="assets/css/jr-styles.css" >
@@ -39,7 +39,8 @@
    
     </head>
     <body>
-        <nav id="navbar-site-top" class="navbar navbar-light navbar-fixed-top navbar-full">
+
+                <nav id="navbar-site-top" class="navbar navbar-light navbar-fixed-top navbar-full">
         <button class="navbar-toggler hidden-sm-up site-nav-toggler-btn" type="button" data-toggle="collapse" data-target="#nav-header" aria-controls="nav-header" aria-expanded="false" aria-label="Toggle navigation">
     &#9776;
   </button><div class="collapse navbar-toggleable-xs " id="nav-header">
@@ -72,8 +73,8 @@
           
             </div>
     </nav>
-    
-    <section id="cover-main" class="page-cover">
+        
+        <section id="cover-main" class="page-cover">
         <div class="container-fluid">
             <div class="row">
                 <br><br><br><br><br><h1 class="text-xs-center">Carousel of pictures with Us</h1>
@@ -82,13 +83,13 @@
         
         
     </section>
-      
+       
        <section id="gallery-main-1" class="page-section gallery-section" data-type="background" data-speed="5">
          <div class="bg-overlay">
          <div class="container-fluid">
           
                <div class="row">
-                <h2 class="display-4 text-xs-center">A Match Made In Heaven</h2>
+                <h2 class="display-4 section-header dark-text text-xs-center">A Match Made In Heaven</h2>
                  
                   <div id="gallery-carousel-main-1" class="couple-gallery-carousel owl-carousel">
 
@@ -122,7 +123,7 @@
                 
                <div id="bride-info-card" class="card couple-info-card">
                   <div class="card-block info-header">
-                    <h4 class="display-4 card-title">JESSICA MARTIN</h4>
+                    <h4 class="display-4 section-header light-text card-title">JESSICA MARTIN</h4>
                     <h4 class="card-subtitle">THE BRIDE</h4>
                     <h4 class="card-sub-subtitle">HIS BEAUTIFUL QUEEN</h4>
                     <img src="/assets/img/bahia1.jpg" alt="" class="couple-thumbnail-single rounded-circle">
@@ -148,7 +149,7 @@
                 
                <div id="groom-info-card" class="card couple-info-card">
                   <div class="card-block info-header">
-                    <h4 class="display-4 card-title">RICHARD KNIGHT</h4>
+                    <h4 class="display-4  section-header light-text card-title">RICHARD KNIGHT</h4>
                     <h4 class="card-subtitle">THE GROOM</h4>
                     <h4 class="card-sub-subtitle">HER CHARASMATIC KING</h4>
                     <img src="/assets/img/bahia1.jpg" alt="" class="couple-thumbnail-single rounded-circle">
@@ -180,7 +181,7 @@
             <div class="row">
                  <div class="col-xs-12 col-md-6 offset-md-0">
                  <div id="location-carousel-main" class="owl-carousel">
-                          <div> <img src="assets/img/bahia1.jpg" alt=""> </div>
+                          <div class="text-xs-center"> <img src="assets/img/bahia1.jpg" alt=""> </div>
                          
                          
                         </div> <!--   <div class="embed-responsive embed-responsive-4by3">
@@ -190,10 +191,10 @@
                          
                  </div>
                  <div id="location-info-content" class="col-xs-12 col-md-6">
-                     <h1 class="display-4 text-xs-center">Destination: <span>Cancun Mexico</span></h1>
+                     <h2 class="display-4 section-header dark-text text-xs-center">Destination: <span>Cancun Mexico</span></h2>
                      <hr>
                      <h2 class="text-xs-center">The Royalton <span>Riviera Cancun</span> <br><small>Luxury Resort &amp; Spa</small></h2><hr>
-                     <p class="text-xs-center"><a class="btn btn-warning" target="_blank" href="http://www.royaltonresorts.com/en/riviera-cancun/all-inclusive-resorts.aspx" role="button">Visit The Royalton</a></p>
+                     <p class="text-xs-center"><a class="btn btn-success " target="_blank" href="http://www.royaltonresorts.com/en/riviera-cancun/all-inclusive-resorts.aspx" role="button">Visit The Royalton <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
                      <dl class="row">
                           <dt class="col-sm-3">Resort</dt>
                           <dd class="col-sm-9">The Royalton</dd>
@@ -353,9 +354,8 @@
         
         
     </section>
-
-   
-   <section id="blog-main" class="page-section">
+        
+        <section id="blog-main" class="page-section">
         <div class="container-fluid">
             <div class="row">
                 <h1 class="text-xs-center">BLOG SECTION</h1>
@@ -406,11 +406,21 @@
         
     </section>-->
 
+        
+    
+    
+      
+       
+
    
+   
+   <div id="footer-spacer">
+       <!-- USED TO MAINTAIN SPACING AT BOTTOM OF PAGE FOR FIXED FOOTER-->
+   </div>
    
    <footer id="footer-main" class="footer-timer ">
-       <h1 class="text-xs-center"> TIMER</h1>
-           
+       <div id="timer-header" class="timer-block">Days To Wedding<br></div>
+           <div id="clock"></div>
    </footer>
    
     </body>
@@ -432,8 +442,11 @@
     <!-- OWL Carousel js plugin -->
     <script src="assets/owl.carousel/owl-carousel/owl.carousel.js"></script>
 	
-    <!-- RKM JS -->
+    <!-- Parallax JS -->
     <script src="assets/js/main.js" ></script>
+    
+    <!-- Countdown JS -->
+    <script src="assets/countdown/dist/jquery.countdown.min.js" ></script>
     
     <!-- RKM JS -->
     <script src="assets/js/jr-scripts.js" ></script>
