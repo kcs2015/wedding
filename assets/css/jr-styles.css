@@ -11,6 +11,17 @@ section{
     min-height: 600px;
     /*border: medium solid black;*/
 }
+
+blockquote{
+    font-size: 24px;
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: thick solid #d4bb97;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, .4);/
+	-webkit-box-shadow: 0px 10px 8px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0px 10px 8px rgba(0, 0, 0, .4);
+    background-color: #997379;
+}
 .page-section{
     margin:0px;
     /*border: medium solid black;*/
@@ -232,7 +243,7 @@ section{
          
 }
 
-.card hr{
+.thick-hr{
     border-top: 3px solid rgba(0,0,0,.1);
 }
 /* === LOCATION MAIN STYLES === */
@@ -254,6 +265,17 @@ section{
     border-radius:5px;
     padding: 30px;
     color:white;
+}
+
+#rates-table-wrapper-main{
+    padding: 5px;
+    border: medium solid rgba(255,255,255,.5);
+    border-radius:5px;
+}
+#rate-info-wrapper{
+    padding-left: 15px ;
+    background: rgba(184,142,82,.6);
+    border-radius: 5px;
 }
 
 /* === GALLERY MAIN STYLES === */
