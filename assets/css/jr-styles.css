@@ -336,7 +336,7 @@ font-family: 'Parisienne', cursive;
 #location-main .bg-overlay{
    background: rgba(0,0,0,.5);
     border-radius:5px;
-    padding: 30px;
+    padding: 5px;
     color:white;
 }
 
@@ -591,19 +591,26 @@ font-family: 'Parisienne', cursive;
 /* Small 1 . Above 360 px */
 @media screen and (min-width: 360px) {
     
-    
     .timer-block span{
         font-size:38px;
     }
+    
+    #location-info-bg-wrapper{
+        padding: 5px;
+    }
+    
+    #location-info-bg-wrapper .col-xs-12{
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    .timer-block span{
+        font-size:30px;
 }
 
 
 /* Small. Above 34em (544px) */
 @media screen and (min-width: 34em) {
-    #location-main .bg-overlay{
-      padding: 30px;
-
-    }
+   
     #location-main{
   
         padding: 30px;
@@ -647,7 +654,10 @@ font-family: 'Parisienne', cursive;
 
 /* Medium. Above 48em (768px) */
 @media screen and (min-width: 48em) {
+     #location-info-bg-wrapper{
+      padding: 30px;
 
+    }
 
 }
 
