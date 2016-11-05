@@ -499,6 +499,7 @@ font-family: 'Parisienne', cursive;
             bottom: 0;
             left:0; 
             float:left;
+            background-color: #d4bb97
 
     }
     #clock{
@@ -605,8 +606,8 @@ font-family: 'Parisienne', cursive;
     }
     .timer-block span{
         font-size:30px;
+    }
 }
-
 
 /* Small. Above 34em (544px) */
 @media screen and (min-width: 34em) {
@@ -654,7 +655,11 @@ font-family: 'Parisienne', cursive;
 
 /* Medium. Above 48em (768px) */
 @media screen and (min-width: 48em) {
-     #location-info-bg-wrapper{
+       #navbar-site-top a.nav-link{
+        font-size: 16px;
+        }
+    
+    #location-main .bg-overlay{
       padding: 30px;
 
     }
@@ -678,7 +683,7 @@ font-family: 'Parisienne', cursive;
     
         #location-info-content{
         padding: 5px;
-            margin-bottom: 15px;
+        margin-bottom: 15px;
     }
      
     #location-main{
@@ -686,9 +691,7 @@ font-family: 'Parisienne', cursive;
         padding-right:15px;
         margin-bottom: 15px;
     }
-    #navbar-site-top a.nav-link{
-        font-size: 16px;
-        }
+
     #timer-header{
         display: inline-block;
          font-size:40px;
@@ -698,12 +701,44 @@ font-family: 'Parisienne', cursive;
 
 /* Large. Above 62em (992px) */
 @media screen and (min-width: 62em) {
+        #navbar-site-top a.nav-link{
+        font-size: 20px;
+        }
     
-
+    #gallery-main-1 .bg-overlay{
+        padding-top: 100px;
+        
+    }
+        #timer-header{
+        display: inline-block;
+         font-size:50px;
+    }
+        .timer-block span{
+        font-size:45px;
+    }
 }
 
 /* Extra large. Above 75em (1200px) */
 @media screen and (min-width: 75em) {
+     #navbar-site-top a.nav-link{
+        font-size: 30px;
+        }
+    #location-info-header{
+        font-size: 38px;
+    }
+    #location-main .bg-overlay{
+        padding: 20px;
+    }
+     #gallery-main-1 .bg-overlay{
+        padding-top: 100px;
+        
+    }
+    
+     blockquote{
+        margin-left:10px;
+        padding-left: 15px;
+        font-size:20px;
+    }
 
     
 }
