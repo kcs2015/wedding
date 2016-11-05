@@ -354,7 +354,7 @@ font-family: 'Parisienne', cursive;
 /* === GALLERY MAIN STYLES === */
 
 #gallery-main-1{
-    border-top: thick solid pink;
+    border-top: thin solid #B88E52;
     background: url('../img/bg/clouds.jpeg') no-repeat ;
    background-attachment: fixed;
     background-size: cover;    
