@@ -13,9 +13,7 @@ section{
 }
 
 blockquote{
-    font-size: 24px;
-    margin-left: 20px;
-    padding-left: 10px;
+   
     border-left: thick solid #d4bb97;
     box-shadow: 0px 10px 8px rgba(0, 0, 0, .4);/
 	-webkit-box-shadow: 0px 10px 8px rgba(0, 0, 0, .4);
@@ -132,6 +130,7 @@ blockquote{
     transform:translate(-65%,-45%);
     
     min-height:100px;
+    z-index: -2;
 }
 #float-img-2{
     width:200px;
@@ -143,6 +142,7 @@ blockquote{
     transform:translate(-190%,-10%);
     
     height:100px;
+    z-index: -1;
 }
 
 
@@ -154,6 +154,55 @@ blockquote{
     box-shadow:10px 10px 10px 0px white inset;
     border-radius:100%*/
 }
+
+
+#cover-fade-in-header, #cover-fade-in-sub{
+    
+    
+}
+ #cover-fade-in-sub{
+    font-family: 'Prata', serif; 
+}
+#cover-fade-in-header{
+    
+font-family: 'Parisienne', cursive;
+    font-size: 55px;
+}
+    
+    font-size: 35px;
+}
+
+#fade-in-wrapper-1{
+    z-index: 10;
+    background-color: rgba(0,0,0,.5);
+}
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
 
 
 .heart {
@@ -274,7 +323,7 @@ blockquote{
 #location-main{
    background: url('../img/sand-footsteps-large.jpg') left no-repeat;
     background-size: cover;
-    padding: 30px;
+    padding: 10px;
 }
 #location-carousel-main{
   
@@ -297,7 +346,7 @@ blockquote{
     border-radius:5px;
 }
 #rate-info-wrapper{
-    padding-left: 15px ;
+    padding-left: 5px ;
     background: rgba(184,142,82,.6);
     border-radius: 5px;
 }
@@ -309,14 +358,15 @@ blockquote{
     background: url('../img/bg/clouds.jpeg') no-repeat ;
    background-attachment: fixed;
     background-size: cover;    
-     background-position: bottom bottom;
+     background-position: top ;
+    padding:0px;
     
 }
 
 #gallery-main-1 .bg-overlay{
     background-color: rgba(255,255,255,.4);
     padding:20px;
-    height: 100%;
+    height: 600px;
     width:100%;
         
 }
@@ -455,7 +505,21 @@ blockquote{
         width:100%;
         height:100%;
 }
-     #timer-header{
+     
+    .timer-block{
+        color:white;
+        width:20%;
+        height:100%;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        font-size:32px;
+        float:left;
+        text-align:center;
+    font-family: 'Prata', serif;    
+    }
+#timer-header{
+    display: none;
         width:30%;
         height:100%;
         background:#585858;
@@ -465,25 +529,10 @@ blockquote{
          font-size:54px;
         line-height: 100px; /* -- SAME HEIGHT AS #footer-main -- */
     }
-    .timer-block{
-        color:white;
-        width:14%;
-        height:100%;
-        display: inline-block;
-        margin: 0px;
-        padding: 0px;
-        font-size:32px;
-        float:left;
-        text-align:center;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Kaushan Script', cursive;
-    font-family: 'Prata', serif;    
-    }
-.timer-block span{
-        font-size:38px;
-    font-family: 'Tangerine', cursive;
 
-    font-weight:00;
+.timer-block span{
+        font-size:30px;
+    font-family: 'Tangerine', cursive;
     }
     #timer-weeks{
        background: #a57f49; /* For browsers that do not support gradients */
@@ -505,3 +554,111 @@ blockquote{
        background: #d4bb97; /* For browsers that do not support gradients */
       
     }
+
+/* === MEDIA QUERIES === */
+
+/* Small 1 . Above 320 px */
+@media screen and (min-width: 320px) {
+       #cover-fade-in-header, #cover-fade-in-sub{
+           text-align:center;
+    font-size:35px;
+    font-weight:bold;
+           color:white;
+               font-family: 'Prata', serif;
+        
+    }
+    #fade-in-wrapper-1{
+        z-index: 10;
+        background-color: rgba(0,0,0,.5);
+            border-radius: 12px;
+    }
+        #location-info-content{
+        padding: 5px;
+            margin-bottom: 15px;
+    }
+    
+    #location-info-header{
+        font-size: 35px;
+    }
+    blockquote{
+        margin-left:0px;
+        padding-left: 5px;
+        font-size:20px;
+    }
+
+}
+
+/* Small 1 . Above 360 px */
+@media screen and (min-width: 360px) {
+    
+    
+    .timer-block span{
+        font-size:38px;
+    }
+}
+
+
+/* Small. Above 34em (544px) */
+@media screen and (min-width: 34em) {
+    #location-main .bg-overlay{
+      padding: 30px;
+
+    }
+    #location-main{
+  
+        padding: 30px;
+    }
+    #rate-info-wrapper{
+        padding-left: 15px ;
+   
+    }
+    
+    .timer-block{
+        color:white;
+        width:20%;
+        height:100%;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        font-size:32px;
+        float:left;
+        text-align:center;
+    font-family: 'Prata', serif;    
+    }
+    
+    #timer-header{
+        width:30%;
+        height:100%;
+        background:#585858;
+        margin:0px;
+         padding: 0px;
+         font-family: 'Tangerine', cursive;
+         font-size:54px;
+        line-height: 100px; /* -- SAME HEIGHT AS #footer-main -- */
+    }
+        .timer-block{
+        color:white;
+        width:14%;
+        font-size:32px;    
+    }
+
+
+}
+
+/* Medium. Above 48em (768px) */
+@media screen and (min-width: 48em) {
+
+
+}
+
+/* Large. Above 62em (992px) */
+@media screen and (min-width: 62em) {
+    
+
+}
+
+/* Extra large. Above 75em (1200px) */
+@media screen and (min-width: 75em) {
+
+    
+}
