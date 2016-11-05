@@ -658,6 +658,41 @@ font-family: 'Parisienne', cursive;
       padding: 30px;
 
     }
+    
+    #cover-fade-in-header, #cover-fade-in-sub{
+    
+        font-size:65px;
+        font-weight:bold;
+         
+    }
+    
+    #gallery-main-1 .bg-overlay{
+        padding-top: 60px;
+        
+    }
+    
+    .couple-bg-row h4:first-child {
+        font-size:3.4rem;
+        
+    }
+    
+        #location-info-content{
+        padding: 5px;
+            margin-bottom: 15px;
+    }
+     
+    #location-main{
+        padding-left: 15px;
+        padding-right:15px;
+        margin-bottom: 15px;
+    }
+    #navbar-site-top a.nav-link{
+        font-size: 16px;
+        }
+    #timer-header{
+        display: inline-block;
+         font-size:40px;
+    }
 
 }
 
