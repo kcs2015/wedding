@@ -733,6 +733,12 @@ font-family: 'Parisienne', cursive;
     #timer-header{
         display: inline-block;
          font-size:28px;
+        line-height:normal;
+    }
+    .timer-header-section{
+        display: block;
+        font-size:38px;
+        padding-top:7px;
     }
 
 }
@@ -754,6 +760,15 @@ font-family: 'Parisienne', cursive;
         .time-name{
         font-size:35px;
             line-height:normal;
+    }
+    
+    #timer-header{
+         line-height:100px;
+    }
+    .timer-header-section{
+        display: inline;
+        font-size:48px;
+        padding-top:0px;
     }
 }
 
