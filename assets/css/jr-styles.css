@@ -642,9 +642,12 @@ font-family: 'Parisienne', cursive;
    
     }
     
+    #footer-main, #footer-spacer{
+        height:60px;
+    }
     #footer-main{
         border-top: medium solid white;
-        height:60px;
+        
     }
          
     .timer-block{

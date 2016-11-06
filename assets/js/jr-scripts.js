@@ -1,6 +1,12 @@
 $(document).ready(function() {
  
-  $("#location-carousel-main").owlCarousel({
+  $('.nav-link').click(function(){
+      $('#site-nav-toggler-btn').collapse('toggle');
+      
+});
+
+    
+    $("#location-carousel-main").owlCarousel({
       autoPlay : 3000,
     stopOnHover : true,
     navigation:true,
@@ -16,7 +22,8 @@ $(document).ready(function() {
     navigation:true,
     paginationSpeed : 1000,
     goToFirstSpeed : 2000,
-    transitionStyle:"fade"
+    transitionStyle:"fade",
+     itemsMobile:[320,1]
   });
     
     $('#clock').countdown('2017/11/03', function(event) {
