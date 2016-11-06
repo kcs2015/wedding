@@ -788,6 +788,48 @@ font-family: 'Parisienne', cursive;
         padding-left: 15px;
         font-size:20px;
     }
+     #timer-header span{
+        display: inline-block;
+         font-size:50px;
+    }
 
     
+}
+
+
+/* === ANIMATIONS === */
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .9 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .9 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .9 );
+  }
+  100%
+  {
+    transform: scale( .9 );
+  }
+}
+
+.heart-beat
+{
+    text-shadow: 1px 1px black;
+  font-size:50px;
+  color:firebrick;
+  animation: heartbeat 2s infinite;
 }
