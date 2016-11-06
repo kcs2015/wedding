@@ -25,7 +25,7 @@ $(document).ready(function() {
     + '<div id="timer-days" class="timer-block"><span class="time-value"> %d</span><span class="time-name">Days</span> </div> '
     + '<div id="timer-hours" class="timer-block"><span class="time-value"> %H</span><span class="time-name">Hours</span> </div> '
     + '<div id="timer-min" class="timer-block"><span class="time-value"> %M</span><span class="time-name">Min\'s</span> </div> '
-    + '<div id="timer-sec" class="timer-block"><span class="time-value"> %S</span><span class="time-name">Sec\'s</span> </div>'));
+    + '<div id="timer-sec" class="timer-block"><div class="time-value"> %S</div><div class="time-name">Sec\'s</div> </div>'));
            
 });
  
