@@ -21,11 +21,11 @@ $(document).ready(function() {
     
     $('#clock').countdown('2017/11/03', function(event) {
   var $this = $(this).html(event.strftime(''
-    + '<div id="timer-weeks" class="timer-block"> %w <br><span>Weeks</span> </div> '
-    + '<div id="timer-days" class="timer-block"> %d <br><span>Days</span> </div> '
-    + '<div id="timer-hours" class="timer-block"> %H <br><span>Hours</span> </div> '
-    + '<div id="timer-min" class="timer-block"> %M <br><span>Min\'s</span> </div> '
-    + '<div id="timer-sec" class="timer-block"> %S <br><span>Sec\'s</span> </div>'));
+    + '<div id="timer-weeks" class="timer-block"><span class="time-value"> %w</span><span class="time-name">Weeks</span> </div> '
+    + '<div id="timer-days" class="timer-block"><span class="time-value"> %d</span><span class="time-name">Days</span> </div> '
+    + '<div id="timer-hours" class="timer-block"><span class="time-value"> %H</span><span class="time-name">Hours</span> </div> '
+    + '<div id="timer-min" class="timer-block"><span class="time-value"> %M</span><span class="time-name">Min\'s</span> </div> '
+    + '<div id="timer-sec" class="timer-block"><span class="time-value"> %S</span><span class="time-name">Sec\'s</span> </div>'));
            
 });
  
