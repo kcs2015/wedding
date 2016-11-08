@@ -87,14 +87,18 @@ blockquote{
 
 /* === COVER MAIN STYLES === */
 #cover-main{
-   min-height:800px;
+   /*min-height:800px;*/
    background: url('../img/bg/rings-focused-bg-blurred.jpeg') no-repeat;
    background-size: cover;
    background-position:  left;
     padding:0px;
 }
 
- #cover-main, #cover-main .container-fluid{
+ #cover-main{
+   
+    height:98%;
+}
+#cover-main .container-fluid{
    
     height:100%;
 }
@@ -105,10 +109,17 @@ blockquote{
     position:absolute;
     width:100%;
     top:50%;
-    -webkit-transform: translateY(-30%);
-    -ms-transform: translateY(-30%);
-    -o-transform: translateY(-30%);
-    transform: translateY(-40%);
+    -webkit-transform: translateY(-75%);
+    -ms-transform: translateY(-75%);
+    -o-transform: translateY(-75%);
+    transform: translateY(-100%);
+    opacity: 1;
+}
+#cover-main .cover-fade-row{
+      position:absolute;
+    width:100%;
+    top:40%;
+
     opacity: 1;
 }
 
@@ -134,7 +145,7 @@ blockquote{
     width:200px;
 }
 
-#float-img-wrapper-2{
+#float-img-wrapper-2{ 
     left:0;
     top:0;
     transform:translate(-190%,-10%);
@@ -173,6 +184,13 @@ font-family: 'Parisienne', cursive;
 #fade-in-wrapper-1{
     z-index: 10;
     background-color: rgba(0,0,0,.5);
+    margin-top:45px;
+}
+#fade-in-wrapper-2{
+    z-index: 10;
+    background-color: rgba(0,0,0,.5);
+    margin-top:45px;
+    border-radius:20px;
 }
 
 /* make keyframes that tell the start state and the end state of our object */
@@ -581,18 +599,26 @@ font-family: 'Parisienne', cursive;
 
 /* Small 1 . Above 320 px */
 @media screen and (min-width: 320px) {
-       #cover-fade-in-header, #cover-fade-in-sub{
+   #cover-fade-in-header, #cover-fade-in-sub{
            text-align:center;
-    font-size:35px;
-    font-weight:bold;
-   color:white;
-       font-family: 'Prata', serif;
-
+        font-size:35px;
+        font-weight:bold;
+       color:white;
+               font-family: 'Prata', serif;
     }
+    #cover-fade-in-header{
+       /* font-family: 'Parisienne', cursive;*/
+        font-family: 'Prata', serif;
+    }
+    
     #fade-in-wrapper-1{
         z-index: 10;
         background-color: rgba(0,0,0,.5);
             border-radius: 12px;
+      
+    }
+    #cover-couple-img-main{
+        margin-bottom:-50px;
     }
         #location-info-content{
         padding: 5px;
@@ -715,11 +741,43 @@ font-family: 'Parisienne', cursive;
 
     }
     
-    #cover-fade-in-header, #cover-fade-in-sub{
+    #float-img-wrapper-2{
+    left:0;
+    top:0;
+    transform:translate(50%,-155%);
     
-        font-size:65px;
+    height:100px;
+    z-index: -1;
+}
+    #cover-fade-in-header{
+    
+        font-size:45px;
         font-weight:bold;
          
+    } 
+     #cover-fade-in-sub{
+    
+        font-size:40px;
+         
+    }
+    .cover-img-wrapper {
+        text-align:center;
+    }
+    
+    #cover-main .cover-img-row{
+          position:absolute;
+        width:100%;
+        top:65%;
+
+        opacity: 1;
+    }
+
+    #cover-main .cover-fade-row{
+          position:absolute;
+        width:100%;
+        top:60%;
+
+        opacity: 1;
     }
     
     #gallery-main-1 .bg-overlay{
@@ -768,6 +826,14 @@ font-family: 'Parisienne', cursive;
         font-size:35px;
             line-height:normal;
     }
+    #float-img-wrapper-2{
+    left:0;
+    top:0;
+    transform:translate(-185%,-85%);
+    
+    height:100px;
+    z-index: -1;
+}
 }
 
 /* Extra large. Above 75em (1200px) */

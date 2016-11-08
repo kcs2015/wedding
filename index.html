@@ -65,7 +65,7 @@
                   <a id="couple-nav-link"  class="nav-link" href="#about-couple-main"><span class="nav-link-separator"><i class="fa fa-heart-o" aria-hidden="true"></i> </span> Couple</a>
             </li>
             <li class="nav-item">
-              <a id="location-nav-link" class="nav-link" href="#location-main"><span class="nav-link-separator"><i class="fa fa-heart-o" aria-hidden="true"></i> </span> Location &amp; Travel Info</a> 
+              <a id="location-nav-link" class="nav-link location-info-link" href="#location-main"><span class="nav-link-separator"><i class="fa fa-heart-o" aria-hidden="true"></i> </span> Location &amp; Travel Info</a> 
             </li>
              
             
@@ -85,22 +85,39 @@
         
         <section id="cover-main" class="page-cover">
         <div class="container-fluid">
-            <div class="row cover-img-row">
-               <div id="fade-in-wrapper-1" class="box fade-in one">
-                            <h2 id="cover-fade-in-header" class="display-1"> Jessica &amp; Richard</h2> 
-                             <h2 id="cover-fade-in-sub" class="display-4">November 4th, 2017</h2> 
-                          </div>
-                <div class="col-xs-12 offset-xs-0 col-sm-8 col-md-6 offset-sm-4 col-lg-4 offset-lg-7">
-                    <div class="cover-img-wrapper">
-                       <div id="float-img-wrapper-1" class="cover-img-float"><img id="float-img-1" class="cover-couple-img" src="assets/img/couple/dr-kiss.jpg" alt=""></div>
-                       <div id="float-img-wrapper-2" class="cover-img-float"><img id="float-img-2" class="cover-couple-img" src="assets/img/couple/rich-jess-smile-side.jpg" alt="">
+            <div class="row cover-img-row clearfix">
+               <div class="col-xs-12 offset-xs-0 col-sm-8 col-md-8 offset-sm-4 col-lg-4 offset-lg-7">
+                <div class="cover-img-wrapper">
+                   <div id="float-img-wrapper-1" class="cover-img-float"><img id="float-img-1" class="cover-couple-img" src="assets/img/couple/dr-kiss.jpg" alt=""></div>
+                   <div id="float-img-wrapper-2" class="cover-img-float"><img id="float-img-2" class="cover-couple-img" src="assets/img/couple/rich-jess-smile-side.jpg" alt="">
+                  </div>
+                    <img id="cover-couple-img-main" class="cover-couple-img" src="assets/img/couple/jess-rich-smile.jpg" alt="">
+                     
+                </div>
+               
+
+
+            </div>
+               <!--<div class="col-xs-12 offset-xs-0 col-sm-8 col-md-6 offset-sm-4 col-lg-4 offset-lg-7">
+                <div class="cover-img-wrapper">
+                   <div id="float-img-wrapper-1" class="cover-img-float"><img id="float-img-1" class="cover-couple-img" src="assets/img/couple/dr-kiss.jpg" alt=""></div>
+                   <div id="float-img-wrapper-2" class="cover-img-float"><img id="float-img-2" class="cover-couple-img" src="assets/img/couple/rich-jess-smile-side.jpg" alt="">
+                  </div>
+                    <img class="cover-couple-img" src="assets/img/couple/jess-rich-smile.jpg" alt="">
+
+                </div>
+
+            </div>-->
+            </div>
+            <div class="row cover-fade-row clearfix">
+             <div class="col-xs-12 offset-xs-0 col-sm-8 col-md-8 offset-sm-4 col-lg-4 offset-lg-7">
+                    <div id="fade-in-wrapper-2" class="box fade-in one">
+                        <h2 id="cover-fade-in-header" class="display-1"> Jessica &amp; Richard</h2> 
+                         <h2 id="cover-fade-in-sub" class="display-4">November 4th, 2017</h2> 
                       </div>
-                        <img class="cover-couple-img" src="assets/img/couple/jess-rich-smile.jpg" alt="">
-                        
-                    </div>
-                    
                 </div>
             </div>
+            
         </div>
         
         
@@ -117,13 +134,13 @@
                   <div id="gallery-carousel-main-1" class="couple-gallery-carousel owl-cadsrousel">
 
                           <div class="item"><img class="rounded" src="assets/img/couple/couple-kiss-cheek-300.jpg" alt="Owl Image"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/club-night-kiss.jpg" alt="Owl Image"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/couple-kiss-cheek-300.jpg" alt="Owl Image"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/dr-kiss.jpg" alt="Owl Image"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/couple-kiss-cheek-300.jpg" alt="Owl Image"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/rich-jess-smile-side.jpg" alt="Owl Image"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/couple-kiss-cheek-300.jpg" alt="Owl Image"></div>
-                          <div class="item"><img class="rounded" src="assets/img/couple/couple-kiss-cheek-300.jpg" alt="Owl Image"></div>
-                          <div class="item"><img class="rounded" src="assets/img/couple/couple-kiss-cheek-300.jpg" alt="Owl Image"></div>
-                          <div class="item"><img class="rounded" src="assets/img/couple/couple-kiss-cheek-300.jpg" alt="Owl Image"></div>
-                          <div class="item"><img class="rounded" src="assets/img/couple/couple-kiss-cheek-300.jpg" alt="Owl Image"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/rich-jess-smile-side.jpg" alt="Owl Image"></div>
                          <div class="item"><img class="rounded" src="assets/img/couple/couple-kiss-cheek-300.jpg" alt="Owl Image"></div>
                     </div>
                </div>
@@ -445,32 +462,41 @@
                   <hr>
                
                   <div class="card-block">
-                    <form id="rsvp-form" class="wedding-main-text">
+                    <form id="rsvp-form" class="wedding-main-text" action="//theknightcouple.us14.list-manage.com/subscribe/post?u=e979f64a411e296b5acec32cc&amp;id=4051286caa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
    <div class="form-group row">
-    <div class="col-sm-6">
+    <div class="col-sm-3">
     
-    <label for="exampleInputEmail1">Name</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your First &amp; Last Name">
+    <label for="mce-FNAME">First Name</label>
+    <input type="email" class="form-control" id="mce-FNAME" aria-describedby="" placeholder="Enter Your First Name" name="FNAME">
+    </div>    <div class="col-sm-3">
+    
+    <label for="mce-LNAME">Last Name</label>
+    <input type="email" class="form-control" id="mce-LNAME" aria-describedby="" placeholder="Enter Your Last Name" name="LNAME">
     </div>
-  <div class="col-sm-6">
+    <div class="col-sm-3">
     
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <label for="mce-PHONE">Phone Number</label>
+    <input type="text" class="form-control" id="mce-PHONE" aria-describedby="" placeholder="xxx-xxx-xxxx">
+    </div>
+  <div class="col-sm-3">
+    
+    <label for="mce-EMAIL">Email address</label>
+    <input type="email" class="form-control" id="mce-EMAIL" aria-describedby="emailHelp" placeholder="Enter email" name="EMAIL">
     <small id="emailHelp" class="form-text text-muted">To send important info to your inbox</small>
   </div> 
                         </div> 
  <div class="form-group row">
     <div class="col-sm-8">
-    <label for="exampleSelect1"> Please choose your Travel dates:</label>
-    <select class="form-control" id="exampleSelect1">
+    <label for="mce-TRAVDATES"> Please choose your Travel dates:</label>
+    <select class="form-control" id="mce-TRAVDATES" name="TRAVDATES">
       <option>3 Nights: Thu. Nov 2nd - Sun. Nov 5th, 2017</option>
       <option>3 Nights: Fri. Nov 3rd - Mon. Nov 6th, 2017</option>
       <option>4 Nights: Thu. Nov 2nd- Mon. Nov 6th, 2017</option>
     </select>
   </div>
     <div class="col-sm-4">
-         <label for="exampleSelect1">Number of Guests:</label>
-    <select class="form-control" id="exampleSelect1">
+         <label for="mce-NUMGUESTS">Number of Guests:</label>
+    <select class="form-control" id="mce-NUMGUESTS" name="NUMGUESTS">
       <option>1</option>
       <option>2</option>
       <option>3</option>
@@ -481,35 +507,35 @@
      </div>
   
   <div class="form-group">
-    <label for="formAddress">Mailing Address</label>
-    <input type="text" class="form-control" id="formAddress" aria-describedby="" placeholder="Enter Your Street Address">
+    <label for="mce-ADDR">Mailing Address</label>
+    <input type="text" class="form-control" id="mce-ADDR" aria-describedby="" placeholder="Enter Your Street Address" name="ADDR">
   </div>  
  <div class="form-group">
-    <label for="formAddress2">Address 2</label>
-    <input type="text" class="form-control" id="formAddress2" aria-describedby="" placeholder="Enter Apt, Suite, etc">
+    <label for="mce-ADDR2">Address 2</label>
+    <input type="text" class="form-control" id="mce-ADDR2" aria-describedby="" placeholder="Enter Apt, Suite, etc"  name="ADDR2">
     
   </div>  
 
    <div class="form-group row">
     <div class="col-sm-4">
-     <label for="formCity">City</label>
-    <input type="text" class="form-control" id="formCity" aria-describedby="" placeholder="Enter Your City">
+     <label for="mce-CITY">City</label>
+    <input type="text" class="form-control" id="mce-CITY" aria-describedby="" placeholder="Enter Your City" name="CITY">
     </div>
     <div class="col-sm-4">
-     <label for="formState" >State</label>
-    <input type="text" class="form-control" id="formState" aria-describedby="" placeholder="Enter Your State">
+     <label for="mce-STATE" >State</label>
+    <input type="text" class="form-control" id="mce-STATE" aria-describedby="" placeholder="Enter Your State" name="STATE">
  
        </div>
    
     <div class="col-sm-4">
-      <label for="formZipCode">Zip Code</label>
-    <input type="text" class="form-control" id="formZipCode" aria-describedby="" placeholder="Enter Your Zip Code">
+      <label for="mce-ZIP">Zip Code</label>
+    <input type="text" class="form-control" id="mce-ZIP" aria-describedby="" placeholder="Enter Your Zip Code"  name="ZIP">
  
  </div>
     
   </div>  
   <br>
-  <p><strong>Please ensure that you have read the important hotel information <a href="#location-main">here</a></strong></p>
+  <p><strong>Please ensure that you have read the important hotel information <a href="#location-main" class="location-info-link">here</a></strong></p>
   <hr>
  
 <p class="text-xs-center">

@@ -18,12 +18,15 @@ $(document).ready(function() {
     
  $(".couple-gallery-carousel").owlCarousel({
       autoPlay : 3000,
-    stopOnHover : true,
+      items : 9,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+    /*stopOnHover : true,
     navigation:true,
     paginationSpeed : 1000,
     goToFirstSpeed : 2000,
     transitionStyle:"fade",
-     itemsMobile:[320,1]
+     itemsMobile:[320,1]*/
   });
     
     $('#clock').countdown('2017/11/03', function(event) {
@@ -49,7 +52,7 @@ $(document).ready(function() {
 
        $('#about-couple-main').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:50});});
            
-    $('#location-nav-link').click( function(){
+    $('.location-info-link').click( function(){
 
        $('#location-main').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:50});});
         
@@ -61,6 +64,7 @@ $(document).ready(function() {
         $('#rsvp-nav-link').click( function(){
 
        $('#rsvp-main').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:50});
+
            
 });
  
