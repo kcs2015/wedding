@@ -295,6 +295,7 @@ font-family: 'Parisienne', cursive;
 }
 .couple-info-card{
     background-color: rgba(184,142,82,.6) ;
+    border: thin groove white;
 }
 .couple-info-card .card-title, .couple-info-card .card-subtitle{
    color: white;
@@ -508,7 +509,7 @@ font-family: 'Parisienne', cursive;
 
 #footer-spacer, #footer-main{
     width: 100%;
-    height: 100px;
+    height: 120px;
     border-top: thin solid white;
 }
         #footer-main{
@@ -545,10 +546,11 @@ font-family: 'Parisienne', cursive;
          padding: 5px;
          font-family: 'Tangerine', cursive;
          /*font-size:54px;*/
-    font-size:21px;
-        line-height: 20px; /* -- SAME HEIGHT AS #footer-main -- */
+    font-size:32px;
+        line-height: 28px; /* -- SAME HEIGHT AS #footer-main -- */
     border-bottom: thin solid white;
     text-shadow: 1px 1px black;
+    
     }
 #clock{
     display:block;
@@ -560,16 +562,14 @@ font-family: 'Parisienne', cursive;
     text-shadow: 1px 1px black;
 
 }
-.time-value{
-     padding-top:5px;
-    font-size: 20px;
-    
-}
+    .time-value{
+         font-size:35px;
+    }
 
 .time-name{
     height:40%;
     line-height: inherit;
-         font-size:25px;
+         font-size:27px;
     font-family: 'Tangerine', cursive;
     padding-top:0px;
 }
@@ -649,10 +649,11 @@ font-family: 'Parisienne', cursive;
         padding-right: 7px;
     }
     .time-value{
-         font-size:20px;
+         font-size:35px;
     }
     .time-name{
-         font-size:25px;
+         font-size:27px;
+        line-height: normal;
     }
 }
 
