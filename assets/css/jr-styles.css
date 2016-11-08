@@ -356,6 +356,18 @@ font-family: 'Parisienne', cursive;
     padding: 5px;
     color:white;
 }
+/* OWL CAROUSEL STAYLES FOR LOCATION INFO SECTION */
+#bar{
+  width: 0%;
+  max-width: 100%;
+  height: 4px;
+  background: #bf9963;
+}
+#progressBar{
+  width: 100%;
+  background: #EDEDED;
+}
+
 
 #rates-table-wrapper-main{
     padding: 5px;
@@ -792,7 +804,7 @@ font-family: 'Parisienne', cursive;
     }
     
         #location-info-content{
-        padding: 5px;
+        padding: 15px;
         margin-bottom: 15px;
     }
      
