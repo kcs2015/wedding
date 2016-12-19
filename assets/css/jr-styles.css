@@ -551,15 +551,15 @@ font-family: 'Parisienne', cursive;
     }
 #timer-header{
     display: block;
-        width:100%;
-        height:30%;
-        background:#585858;
-        margin:0px;
-         padding: 5px;
-         font-family: 'Tangerine', cursive;
-         /*font-size:54px;*/
-    font-size:32px;
-        line-height: 28px; /* -- SAME HEIGHT AS #footer-main -- */
+    width:100%;
+    height:30%;
+    background:#585858;
+    margin:0px;
+    padding: 5px;
+    font-family: 'Tangerine', cursive;
+    /*font-size:54px;*/
+    font-size:29px;
+    line-height: 28px; /* -- SAME HEIGHT AS #footer-main -- */
     border-bottom: thin solid white;
     text-shadow: 1px 1px black;
     
@@ -825,8 +825,8 @@ font-family: 'Parisienne', cursive;
 @media screen and (min-width: 62em) {
     .timer-block span{
         display: inline-block;   
-        font-size:40px;
-        padding-left:8px;
+        font-size:38px;
+        padding-left:7px;
     }
     
     #navbar-site-top a.nav-link{
