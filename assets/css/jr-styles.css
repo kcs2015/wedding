@@ -36,7 +36,7 @@ blockquote{
 }
 .vertical-align-child{
       position:absolute;
-    width:100%;
+    /*width:100%;*/
     top:50%;
      -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -88,10 +88,11 @@ blockquote{
 /* === COVER MAIN STYLES === */
 #cover-main{
    /*min-height:800px;*/
-   background: url('../img/bg/rings-focused-bg-blurred.jpeg') no-repeat;
+  /* background: url('../img/bg/rings-focused-bg-blurred.jpeg') no-repeat;*/
+   background: url('../img/engagement/mr-mrs-kiss.jpg') no-repeat;
    background-size: cover;
-   background-position:  left;
-    padding:0px;
+   background-position:  top;
+   padding:0px;
 }
 
  #cover-main{
@@ -175,7 +176,7 @@ blockquote{
 #cover-fade-in-header{
     
 font-family: 'Parisienne', cursive;
-    font-size: 55px;
+    font-size: 75px;
 }
     
     font-size: 35px;
@@ -189,8 +190,12 @@ font-family: 'Parisienne', cursive;
 #fade-in-wrapper-2{
     z-index: 10;
     background-color: rgba(0,0,0,.5);
-    margin-top:45px;
+    margin-top:5px;
+    padding-top: 5px;
     border-radius:20px;
+    border-color:gold;
+    border-width:2px;
+    border-style:solid;
 }
 
 /* make keyframes that tell the start state and the end state of our object */
@@ -459,6 +464,9 @@ font-family: 'Parisienne', cursive;
 }
 #bridesmaids-main .section-header{
     color: white;
+}
+#bridesmaids-main .vertical-align-child{
+    width: 100%;
 }
 
 
@@ -764,7 +772,7 @@ font-family: 'Parisienne', cursive;
 }
     #cover-fade-in-header{
     
-        font-size:45px;
+        font-size:65px;
         font-weight:bold;
          
     } 
