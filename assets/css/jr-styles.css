@@ -89,9 +89,9 @@ blockquote{
 #cover-main{
    /*min-height:800px;*/
   /* background: url('../img/bg/rings-focused-bg-blurred.jpeg') no-repeat;*/
-   background: url('../img/engagement/mr-mrs-kiss.jpg') no-repeat;
+   background: url('../img/engagement/mr-mrs-both-kiss.jpg') no-repeat;
    background-size: cover;
-   background-position:  top;
+   background-position:  -200px 50px;
    padding:0px;
 }
 
@@ -619,13 +619,23 @@ font-family: 'Parisienne', cursive;
 
 /* Small 1 . Above 320 px */
 @media screen and (min-width: 320px) {
+    #cover-main{
+        background-position: 32% 30px;
+    }
    #cover-fade-in-header, #cover-fade-in-sub{
            text-align:center;
-        font-size:35px;
+       
         font-weight:bold;
        color:white;
                font-family: 'Prata', serif;
     }
+    #cover-fade-in-header{
+     font-size:40px;
+    }
+    #cover-fade-in-sub{
+       font-size:24px; 
+    }
+    
     #cover-fade-in-header{
        /* font-family: 'Parisienne', cursive;*/
         font-family: 'Prata', serif;
@@ -657,8 +667,11 @@ font-family: 'Parisienne', cursive;
 }
 
 /* Small 1 . Above 360 px */
-@media screen and (min-width: 360px) {
 
+@media screen and (min-width: 360px) {
+     #cover-main{
+      background-position: 32% 40px;
+    }
     
     #location-info-bg-wrapper{
         padding: 5px;
@@ -677,9 +690,17 @@ font-family: 'Parisienne', cursive;
     }
 }
 
+/* Small 1 . Above 360 px AND Landscape */
+@media screen and (min-width: 360px) and (orientation: landscape) {
+    #cover-main{
+        background-position: 14% 30px;
+    }
+}
+
 /* Small. Above 34em (544px) */
+
 @media screen and (min-width: 34em) {
-   
+
     #location-main{
   
         padding: 30px;
@@ -751,8 +772,36 @@ font-family: 'Parisienne', cursive;
 
 }
 
+/* Small. Above 34em (544px) AND Landscape */
+
+@media screen and (min-width: 34em)  and (orientation: landscape) {
+    #cover-main{
+        background-position: 9% 30px;
+    }
+}
+
+/* iPhone 6. Above  (666px) AND Landscape */
+
+@media screen and (min-width: 666px)  and (orientation: landscape) {
+    #cover-main{
+        background-position: 5% 30px;
+    }
+}
+
+/* iPhone 6 Plus. Above (735px) AND Landscape */
+
+@media screen and (min-width: 735px)  and (orientation: landscape) {
+    #cover-main{
+        background-position: 0% 30px;
+    }
+}
+
 /* Medium. Above 48em (768px) */
 @media screen and (min-width: 48em) {
+     #cover-main{
+        background-position: 24% 30px;
+    }
+    
        #navbar-site-top a.nav-link{
         font-size: 16px;
         }
@@ -829,8 +878,30 @@ font-family: 'Parisienne', cursive;
 
 }
 
+/* iPad. Above (768px) AND Landscape */
+
+@media screen and (min-width: 768px)  and (orientation: landscape) {
+    #cover-main{
+        background-position: -5% 30px;
+    }
+}
+
 /* Large. Above 62em (992px) */
 @media screen and (min-width: 62em) {
+   #cover-main{
+        background-position:  0px 50px;
+    }
+    #cover-fade-in-header{
+    
+        font-size:85px;
+        font-weight:bold;
+         
+    } 
+     #cover-fade-in-sub{
+    
+        font-size:50px;
+         
+    }
     .timer-block span{
         display: inline-block;   
         font-size:38px;
@@ -862,6 +933,28 @@ font-family: 'Parisienne', cursive;
     z-index: -1;
 }
 }
+
+/* Large. Above 62em (992px) */
+@media screen and (min-width: 62em)  and (orientation: landscape) {
+    #cover-main{
+        background-position: 0% 30px;
+    }
+}
+
+/* iPad Pro. Above 64em (1024px) */
+@media screen and (min-width: 64em){
+    #cover-main{
+        background-position: 28% 30px;
+    }
+    
+}
+/* iPad Pro. Above 64em (1024px) */
+@media screen and (min-width: 64em)  and (orientation: landscape) {
+    #cover-main{
+        background-position: 0% 30px;
+    }
+}
+
 
 /* Extra large. Above 75em (1200px) */
 @media screen and (min-width: 75em) {
