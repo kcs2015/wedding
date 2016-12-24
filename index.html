@@ -9,6 +9,10 @@
      <meta name="description" content="Jessica Martin and Richard Knight's Egypytian Wedding" >
 
 
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>-->
+        <script src="assets/jquery/3.0.0/jquery.min.js"></script>
+        
    <!-- HTML shiv and Respond.js IE8 support of HTML5 elements and media queries -->
 
         <!--[if lt IE 9]>
@@ -650,7 +654,134 @@
         
     </section>
 
-   
+   <section id="deposit-info" class="page-section">
+       
+       <div class="container-fluid">
+           <div class="row">
+               <div  class="col-xs-6">
+                    <div id="deposit-info-row" class="row">
+                       <h2 class="display-4 wedding-main-text text-xs-center">After You R.S.V.P.</h2>
+                   <div id="deposit-info-wrapper">
+                       
+                       
+                    <p class="text-xs-center">Fill out the form below for detailed instructions to hotel and airfare reservations
+                   
+                   <form id="deposit-info-form" action="">
+                       <div class="form-group row">
+                          <label for="name" class="col-xs-3 col-form-label">Enter Your Name</label>
+                          <div class="col-xs-9">
+                            <input class="form-control" type="text" placehoder="Your Name" id="name">
+                          </div>
+                        </div>
+                           
+                       
+                       <div class="form-group row">
+                           
+                           
+                            <label for="room-select" class="col-xs-3 col-form-label">Select Your Suite:</label> 
+                               <div class="col-xs-9">
+                               <select class="form-control" id="room-select">
+                              <option>Luxury Junior Suite</option>
+                              <option>Hideaway Luxury Junior Suite (Adults Only)</option>
+                              <option>Diamond Club Luxury Junior Suite</option>
+                            </select>
+                           </div>
+                          </div>
+                          
+                           <div class="form-group row">
+                           
+                             <div class="col-xs-10">
+                       <fieldset class="form-group">
+                            <legend>Deposit Amount</legend>
+                            <div class="form-check">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="deposit-amount" id="deposit-50" value="50" checked>
+                                $50 - Room Deposit Only
+                              </label>
+                            </div>
+                            <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="deposit-amount" id="deposit-100" value="100">
+                                 $100 - Room + Discounted Airfare Deposit
+                              </label>
+                            </div>
+                            <div class="form-check disabled">
+                            
+                            </div>
+                          </fieldset>
+                       </div></div>
+                       
+                       <p class="text-xs-center">
+                <button id="deposit-info-submit" type="button" class="btn btn-primary">Submit</button>
+
+                <script>
+                        $('#deposit-info-submit').click(
+                        function(){
+
+               // Get form variables
+                    var name = $('#name').val();
+                    var depositAmount = $("#deposit-info-form input[type='radio']:checked").val();
+                    var room = $('#room-select').val();
+                    var depositOutput = '';
+                // Create output string
+                   // alert("Name: " + name + " Deposit Amount: " + depositAmount + " Room: " + room);
+                    depositOutput = "Name: " + name + " Deposit Amount: " + depositAmount + " Room: " + room;
+                
+                //Set text field value to output string
+                    $('#deposit-info-notes').val(depositOutput);
+                
+                // Expand collapse
+                $('#deposit-info-collapse').collapse('show');
+                });
+
+                   </script>
+                </p>
+                                  <div class="collapse" id="deposit-info-collapse">
+                  <div class="card card-block">
+                   <p class="text-xs-center">Follow the directions below to reserve your room and discounted airfare</p>
+
+                      <p class="deposit-instruction"><span class="deposit-step-num">1. </span> Copy the following notes below</p>
+                      <p><input type="text" id="deposit-info-notes"></p>
+                      <p class="deposit-instruction"><span class="deposit-step-num">2. </span> Go to our Wedding Deposit Link:</p>
+                    <p id="wedding-acct-link" ><a href="https://cash.me/$theknightcouple" target="_blank">https://cash.me/$theknightcouple</a></p>
+
+                      <p class="deposit-instruction"><span class="deposit-step-num">3. </span> Paste your notes from the section above into the notes section </p>
+                      <p> SCREENSHOT</p>
+                      <p class="deposit-instruction"><span class="deposit-step-num">4. </span> Send your deposit </p>
+                      <p> SCREENSHOT</p>
+                       <p class="deposit-instruction"> Once complete we will send you additional information regarding rooms and discounted airfare rates</p>
+                  </div><!-- END CARD -->
+                </div><!-- END COLLAPSE-->
+                                   </form>
+
+
+                                   </div>
+                       
+           </div>
+                    
+               </div>               
+                  <div class="col-xs-6">
+                   Follow the directions below to reserve your room and discounted airfare</p>
+                    <p>Follow the directions below to reserve your room and discounted airfare</p>
+                    February 4th 9 Estimated cost $300 - $450 *depends on length of stay
+                      <p class="deposit-instruction"><span class="deposit-step-num">1. </span> Go to the packages section here</p>
+                      <p class="deposit-instruction"><span class="deposit-step-num">2. </span> Decide which luxury package you would like during your stay</p>
+                      <p class="deposit-instruction"><span class="deposit-step-num">3. </span> $50 for the hotel - by January 14th</p>
+                      <p class="deposit-instruction"><span class="deposit-step-num">4. </span> $50 for the discounted airfare - by February 4th 9 Estimated cost $300 - $450 *depends on length of stay</p>
+                      
+                      <ol>
+                       <li>Go to the packages section here </li>
+                       <li>Decide which luxury package you would like during your stay</li>
+                       <li>$50 for the hotel - by January 14th  </li>
+                       <li>$50 for the discounted airfare - by February 4th 9 Estimated cost $300 - $450 *depends on length of stay</li>
+                       <li></li>
+                   </ol>
+                   
+               </div>
+           </div>
+           
+       </div>
+   </section>
 
    <section id="bridesmaids-main" class="page-section vertical-align-parent">
         <div class="bridal-party-info-row vertical-align-child">
@@ -824,9 +955,7 @@
    
     </body>
        
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>-->
-        <script src="assets/jquery/3.0.0/jquery.min.js"></script>
+    
     <!-- TETHER JS-->
        <script src="assets/tether/1.2.0/tether.min.js"></script>
        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>-->

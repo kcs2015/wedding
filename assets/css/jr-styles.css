@@ -579,6 +579,51 @@ background-size: cover;
       transform: translateY(-50%);
 }
 
+#deposit-info{
+    background: url('../img/engagement/rich-jess-sand-img.jpg') no-repeat;   
+    background-size: cover;
+    background-position: center center;
+    padding: 0px;
+}
+
+#deposit-info-row{
+    background-color:rgba(184,142,82,.6);
+    min-height: 700px;
+    padding: 15px;
+}
+
+#deposit-info-wrapper{
+    border: thick solid grey;
+    padding: 20px;
+    background-color:rgba(102, 204, 255,.6);
+}
+
+.deposit-step-num{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.deposit-instruction{
+    font-size: 16px;
+    color: #B88E52;
+}
+.deposit-instruction span{
+     color: #B88E52;
+}
+#deposit-info-notes{
+    height:50px;
+    width: 400px;
+    padding: 15px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#wedding-acct-link{
+    font-size:28px;
+    font-weight:400;
+    
+}
+
 /* === FOOTER STYLES === */
 
     /* MAKE FOOTER STICK TO THE BOTTOM AND STYLE */
