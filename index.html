@@ -216,6 +216,11 @@
                   <div class="card-block info-header">
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia explicabo id veniam iste officiis nesciunt animi vitae, doloribus atque temporibus perferendis esse porro recusandae quibusdam magnam natus praesentium necessitatibus iusto?
                     </p>
+                    
+                    <div class="text-xs-center">
+                        <button id="groom-words-btn" type="button" class="btn btn-primary btn-sm couple-words-to-front-btn">Done</button>
+                
+                    </div>
                     </div> <div class="card-block social-links">
      
                     <a href="https://www.facebook.com/Nippylavernnyc" target="_blank" class="card-link "><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
@@ -242,9 +247,9 @@
                <div class="col-xs-12 col-sm-6">
                        <div id="groom-bg-row" class="couple-bg-row row vertical-align-parent">
                            <div class="col-xs-12 col-sm-12 col-md-12 offset-md-0 col-lg-8 offset-lg-2 vertical-align-child">
-                <div class="flip-container-1" ontouchstart="this.classList.toggle('hover');">
-                 <div class="flipper-1">
-		<div class="front-1">
+                <div class="flip-container" >
+                 <div class="flipper">
+		<div class="front">
 			 <div id="groom-info-card" class="card couple-info-card">
                   <div class="card-block info-header">
                     <h4 class="display-4  section-header light-text card-title">Richard Knight</h4>
@@ -271,12 +276,17 @@
               
   
 		</div>
-		<div class="back-1">
+		<div class="back">
 			<!-- back content -->
 			<div id="bride-info-card" class="card couple-info-card ">
                   <div class="card-block info-header">
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia explicabo id veniam iste officiis nesciunt animi vitae, doloribus atque temporibus perferendis esse porro recusandae quibusdam magnam natus praesentium necessitatibus iusto?
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia explicabo id veniam iste officiis nesciunt animi vitae, doloribus atque temporibus perferendis esse porro recusandae quibusdam magnam natus praesentium necessitatibus iusto?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia explicabo id veniam iste officiis nesciunt animi vitae, doloribus atque temporibus perferendis esse porro recusandae quibusdam magnam natus praesentium necessitatibus iusto?
+                  
                     </p>
+                    <div class="text-xs-center">
+                        <button id="groom-words-btn" type="button" class="btn btn-primary btn-sm couple-words-to-front-btn">Done</button>
+                
+                    </div>
                     </div> <div class="card-block">
      
                     <a href="https://www.facebook.com/Nippylavernnyc" target="_blank" class="card-link "><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
@@ -303,6 +313,41 @@
         </div>
         </div>
         
+        <script>
+           $('.couple-words-btn').click(function(event){
+                //console.log('this object', this);
+               var btn_id = '#' + this.getAttribute('id');
+               
+               //console.log('this object: ', btn_id);
+               
+               // Set class of flipper card to 'flip-now'
+               var curr_flipper = $(this).closest('.flipper');
+                $(curr_flipper).css('transform','rotateY(180deg)');
+                
+               var curr_back = $(this).closest('.back');
+                var curr_container = $(this).closest('.flip-container');
+                 
+               // DISABLED - FLIP ON HOVER 
+              /* $( curr_container ).hover(function() {
+                  $(curr_flipper).css('transform','rotateY(180deg)');
+                  $(curr_flipper).css('transform','');
+                   // $(this).css('transform','rotateY(180deg)');
+                    //console.log('focus out ', this);
+               });*/
+               
+           });
+            $('.couple-words-to-front-btn').click(function(event){
+                var btn_id = '#' + this.getAttribute('id');
+               
+               // Set class of flipper card to 'flip-now'
+               var curr_flipper = $(this).closest('.flipper');
+                $(curr_flipper).css('transform','');
+                
+            
+               });
+             
+            
+           </script>
         
     </section> 
        
@@ -658,7 +703,7 @@
        
        <div class="container-fluid">
            <div class="row">
-               <div  class="col-xs-6">
+               <div  class="col-xs-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 ">
                     <div id="deposit-info-row" class="row">
                        <h2 class="display-4 wedding-main-text text-xs-center">After You R.S.V.P.</h2>
                    <div id="deposit-info-wrapper">
@@ -670,7 +715,7 @@
                        <div class="form-group row">
                           <label for="name" class="col-xs-3 col-form-label">Enter Your Name</label>
                           <div class="col-xs-9">
-                            <input class="form-control" type="text" placehoder="Your Name" id="name">
+                            <input class="form-control" type="text" placehoder="Your Name" id="name" placeholder="First & Last Name">
                           </div>
                         </div>
                            
@@ -690,42 +735,54 @@
                           
                            <div class="form-group row">
                            
-                             <div class="col-xs-10">
+                            
                        <fieldset class="form-group">
-                            <legend>Deposit Amount</legend>
-                            <div class="form-check">
+                             <div class="col-xs-4">Deposit Amount</div>
+                             <div class="col-xs-8"><div class="form-check">
                               <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="deposit-amount" id="deposit-50" value="50" checked>
-                                $50 - Room Deposit Only
+                                $50-Room Deposit Only
                               </label>
                             </div>
                             <div class="form-check">
                             <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="deposit-amount" id="deposit-100" value="100">
-                                 $100 - Room + Discounted Airfare Deposit
+                                 $100-Room + Airfare Deposit
                               </label>
                             </div>
-                            <div class="form-check disabled">
-                            
-                            </div>
+                           </div>
+                           
                           </fieldset>
-                       </div></div>
+                       </div>
                        
                        <p class="text-xs-center">
                 <button id="deposit-info-submit" type="button" class="btn btn-primary">Submit</button>
-
+                      
                 <script>
                         $('#deposit-info-submit').click(
                         function(){
 
                // Get form variables
                     var name = $('#name').val();
+                            
+                            
                     var depositAmount = $("#deposit-info-form input[type='radio']:checked").val();
                     var room = $('#room-select').val();
+                    var room_type = '';
+                    
+                    if (room == 'Luxury Junior Suite'){
+                        room_type = 'Lux Jr'
+                    }  else if (room == 'Hideaway Luxury Junior Suite (Adults Only)'    ) {
+                        room_type = 'Hdy Lux Jr';
+                        
+                    }   else if (room == 'Diamond Club Luxury Junior Suite'    ) {
+                        room_type = 'Dmd Lux Jr';
+                        
+                    }     
                     var depositOutput = '';
                 // Create output string
-                   // alert("Name: " + name + " Deposit Amount: " + depositAmount + " Room: " + room);
-                    depositOutput = "Name: " + name + " Deposit Amount: " + depositAmount + " Room: " + room;
+                   // alert("Name: " + name + " Deposit Amount: " + depositAmount + " Rm: " + room);
+                    depositOutput = "Nm: " + name + " Amt: " + depositAmount + " Rm: " + room_type;
                 
                 //Set text field value to output string
                     $('#deposit-info-notes').val(depositOutput);
@@ -736,23 +793,32 @@
 
                    </script>
                 </p>
+                                  </form>
                                   <div class="collapse" id="deposit-info-collapse">
                   <div class="card card-block">
-                   <p class="text-xs-center">Follow the directions below to reserve your room and discounted airfare</p>
+                   <p class="text-xs-center">Follow the directions below to reserve your room and discounted airfare:</p>
 
                       <p class="deposit-instruction"><span class="deposit-step-num">1. </span> Copy the following notes below</p>
-                      <p><input type="text" id="deposit-info-notes"></p>
+                      <p><input type="text" id="deposit-info-notes" class="deposit-info-display-item" value=""><button class="btn btn-primary copy-btn" data-toggle="tooltip" data-placement="top" title="Copied!" data-copytarget="#deposit-info-notes">Copy</button></p>
+                      
+                  
+                     
                       <p class="deposit-instruction"><span class="deposit-step-num">2. </span> Go to our Wedding Deposit Link:</p>
-                    <p id="wedding-acct-link" ><a href="https://cash.me/$theknightcouple" target="_blank">https://cash.me/$theknightcouple</a></p>
+                    <p id="wedding-acct-link" ><a href="https://cash.me/$theknightcouple" target="_blank">https://cash.me/$theknightcouple</a>
+                      <p>*If you do not have a Square Cash account signup <a href="https://cash.me/app/SLBNDJD">here</a> for $10 account credit</p>
 
                       <p class="deposit-instruction"><span class="deposit-step-num">3. </span> Paste your notes from the section above into the notes section </p>
-                      <p> SCREENSHOT</p>
-                      <p class="deposit-instruction"><span class="deposit-step-num">4. </span> Send your deposit </p>
-                      <p> SCREENSHOT</p>
-                       <p class="deposit-instruction"> Once complete we will send you additional information regarding rooms and discounted airfare rates</p>
+                      <p> <img src="assets/img/screenshot-cash-note.jpg" alt="" class="rounded deposit-screenshot deposit-info-display-item " style="max-width: 100%; height:auto;"></p>
+                      <p class="deposit-instruction"><span class="deposit-step-num">4. </span> Enter your deposit details (Amount and Debit Card Info) </p>
+                      <p> <img src="assets/img/screenshot-cash-payment-details.jpg" alt="" class="rounded deposit-screenshot deposit-info-display-item" style="max-width: 100%; height:auto;"></p>
+                      <ol>
+                          <li>Enter you deposit amount - Ex: $50 or $100</li>
+                          <li>Enter your debit card information</li>
+                          <li><strong>**Ensure that your Name and room type are in the notes of the payment.</strong></li>
+                      </ol>
+                       <p class="deposit-instruction"> Once complete we will send you additional information regarding rooms and discounted airfare rates as our information becomes available</p>
                   </div><!-- END CARD -->
                 </div><!-- END COLLAPSE-->
-                                   </form>
 
 
                                    </div>
@@ -760,24 +826,7 @@
            </div>
                     
                </div>               
-                  <div class="col-xs-6">
-                   Follow the directions below to reserve your room and discounted airfare</p>
-                    <p>Follow the directions below to reserve your room and discounted airfare</p>
-                    February 4th 9 Estimated cost $300 - $450 *depends on length of stay
-                      <p class="deposit-instruction"><span class="deposit-step-num">1. </span> Go to the packages section here</p>
-                      <p class="deposit-instruction"><span class="deposit-step-num">2. </span> Decide which luxury package you would like during your stay</p>
-                      <p class="deposit-instruction"><span class="deposit-step-num">3. </span> $50 for the hotel - by January 14th</p>
-                      <p class="deposit-instruction"><span class="deposit-step-num">4. </span> $50 for the discounted airfare - by February 4th 9 Estimated cost $300 - $450 *depends on length of stay</p>
-                      
-                      <ol>
-                       <li>Go to the packages section here </li>
-                       <li>Decide which luxury package you would like during your stay</li>
-                       <li>$50 for the hotel - by January 14th  </li>
-                       <li>$50 for the discounted airfare - by February 4th 9 Estimated cost $300 - $450 *depends on length of stay</li>
-                       <li></li>
-                   </ol>
-                   
-               </div>
+                  
            </div>
            
        </div>
@@ -980,6 +1029,8 @@
     <script src="assets/animatescroll/animatescroll.min.js"></script>
     <!-- RKM JS -->
     <script src="assets/js/jr-scripts.js" ></script>
+    <!-- Clipboard JS-->
+    <script src="assets/js/clipboard.min.js"></script>
     
         
 <script>if(typeof jQuery=='undefined'){document.write('<'+'script');document.write(' language="javascript"');document.write(' type="text/javascript"');document.write(' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">');document.write('</'+'script'+'>')}</script><script>if(!image_urls){var image_urls=Array()}if(!flash_urls){var flash_urls=Array()}image_urls['rain1']="http://2.bp.blogspot.com/-IQXNv-_CBLE/TpWcK7LL4VI/AAAAAAAAG0I/bcxYcqc_uI0/pinkpetal1.png";image_urls['rain2']="http://4.bp.blogspot.com/-teXCIicWPF4/TpWcLLg0A2I/AAAAAAAAG0U/IPPCr1gponc/pinkpetal2.png";image_urls['rain3']="http://3.bp.blogspot.com/-3JG9HLECCRU/TpWcLZGSYtI/AAAAAAAAG0g/zIJINua93TE/redpetal1.png";image_urls['rain4']="http://2.bp.blogspot.com/-BByhQEK5E24/TpWcLux4xRI/AAAAAAAAG0s/x2hIr1AV_Ac/redpetal2.png";$(document).ready(function(){var c=$(window).width();var d=$(window).height();var e=function(a,b){return Math.round(a+(Math.random()*(b-a)))};var f=function(a){setTimeout(function(){a.css({left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100)}).animate({top:(d-10)+'px'},e(7500,8000),function(){$(this).fadeOut('slow',function(){f(a)})})},e(1,8000))};$('<div></div>').attr('id','rainDiv')

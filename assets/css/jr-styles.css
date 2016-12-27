@@ -605,7 +605,7 @@ background-size: cover;
     text-shadow: 2px 2px black;
 }
 .deposit-instruction{
-    font-size: 16px;
+    font-size: 21px;
     color: #B88E52;
 }
 .deposit-instruction span{
@@ -613,13 +613,24 @@ background-size: cover;
 }
 #deposit-info-notes{
     height:50px;
-    width: 400px;
+    width: 250px;
     padding: 15px;
+    box-shadow: 10px 10px 5px #888888;
+    margin-right: 15px;
+    margin-bottom: 16px;
+}
+
+.success-field{
+    border-color: green;
+     box-shadow: 10px 10px 5px green;
+}
+
+.deposit-info-display-item{
     box-shadow: 10px 10px 5px #888888;
 }
 
 #wedding-acct-link{
-    font-size:28px;
+    font-size:14px;
     font-weight:400;
     
 }
@@ -764,6 +775,15 @@ background-size: cover;
         padding-left: 5px;
         font-size:20px;
     }
+    
+    #deposit-info-notes{
+        width: 200px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    #wedding-account-link{
+        font-size: 18px ;
+    }
 
 }
 
@@ -789,6 +809,16 @@ background-size: cover;
          font-size:27px;
         line-height: normal;
     }
+    #wedding-acct-link{
+        font-size:16px;
+        font-weight:400;
+
+    }
+        #deposit-info-notes{
+        width: 240px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
 }
 
 /* Small 1 . Above 360 px AND Landscape */
@@ -796,6 +826,22 @@ background-size: cover;
     #cover-main{
         background-position: 14% 30px;
     }
+}
+
+/* Small - Nexus 5X. Above 412px (412px) */
+
+@media screen and (min-width: 412px) {
+ #wedding-acct-link{
+        font-size:280px;
+        font-weight:400;
+
+    }
+        #deposit-info-notes{
+        width: 260px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    
 }
 
 /* Small. Above 34em (544px) */
@@ -870,7 +916,15 @@ background-size: cover;
         line-height:normal;
         font-size: 25px;
     }
-
+     #deposit-info-notes{
+        width: 290px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    } 
+    #wedding-acct-link{
+        font-size:20px;
+        font-weight:400px;
+    }
 }
 
 /* Small. Above 34em (544px) AND Landscape */
@@ -879,8 +933,8 @@ background-size: cover;
     #cover-main{
         background-position: -30px 30px;
     }
-}
 
+}
 /* iPhone 6. Above  (666px) AND Landscape */
 
 @media screen and (min-width: 666px)  and (orientation: landscape) {
@@ -890,6 +944,8 @@ background-size: cover;
         #groom-info-card .section-header{
         font-size:3.2rem;
     }
+        
+
 }
 
 /* iPhone 6 Plus. Above (735px) AND Landscape */
@@ -898,6 +954,7 @@ background-size: cover;
     #cover-main{
         background-position: 0px 30px;
     }
+    
 
 }
 
@@ -979,6 +1036,16 @@ background-size: cover;
     #timer-header{
         display: inline-block;
          font-size:28px;
+    }
+     #wedding-acct-link{
+        font-size:27px;
+        font-weight:400;
+
+    }
+        #deposit-info-notes{
+        width: 350px;
+        margin-right: 15px;
+        margin-bottom: 15px;
     }
 
 }
@@ -1152,7 +1219,7 @@ background-size: cover;
 }
 	/* flip the pane when hovered */
 	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
+		/*transform: rotateY(180deg);*/
 	}
 
 .flip-container, .front, .back {
@@ -1195,7 +1262,9 @@ background-size: cover;
 }
 	/* flip the pane when hovered */
 	.flip-container-1:hover .flipper-1, .flip-container-1.hover-1 .flipper-1 {
+/*
 		transform: rotateY(180deg);
+*/
 	}
 
 .flip-container-1, .front-1, .back-1 {
