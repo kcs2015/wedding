@@ -255,6 +255,14 @@ blockquote{
   top: 0;
 }
 
+/* === GALLERY SECTION === */
+
+#gallery-main-1 .section-header{
+    font-family: 'Tangerine', cursive;
+    font-weight: 600;
+    color: #4E4948;
+}
+
 /* === COUPLE INFO === */
 #about-couple-main{
     padding:0px;
@@ -306,6 +314,10 @@ background-size: cover ;
     
 background-size: cover;
     border-right: thin solid rgba(184,142,82,1);
+}
+
+#bride-info-card .section-header{
+    font-weight: 200;
 }
 
 #bride-about-img-wall{
@@ -594,6 +606,16 @@ background-size: cover;
     border: thick solid grey;
     padding: 20px;
     background-color:rgba(102, 204, 255,.6);
+    color: white;
+}
+
+#deposit-info-wrapper p:first-of-type {
+       font-size:20px;
+
+}
+
+#deposit-info-collapse .card{
+    color: black;
 }
 
 .deposit-step-num{

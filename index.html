@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
      <title>Welcome to Our Egyptian Wedding</title> 
      <meta http-equiv="x-ua-compatible" content="ie=edge">
-     <meta name="description" content="Jessica Martin and Richard Knight's  Wedding" >
+     <meta name="description" content="Jessica Martin and Richard Knight's Egyptian Wedding" >
 
 
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
@@ -75,6 +75,9 @@
               <a id="location-nav-link" class="nav-link location-info-link" href="#location-main"><span class="nav-link-separator"><i class="fa fa-heart-o" aria-hidden="true"></i> </span> Location &amp; Travel Info</a> 
             </li>
              
+            <li class="nav-item">
+              <a id="rsvp-nav-link" class="nav-link" href="#rsvp-main"><span class="nav-link-separator"><i class="fa fa-heart-o" aria-hidden="true"></i> </span>RSVP</a>
+            </li>
             
              <li class="nav-item">
               <a id="bridal-party-nav-link" class="nav-link" href="#bridesmaids-main"><span class="nav-link-separator"><i class="fa fa-heart-o" aria-hidden="true"></i> </span>Bridal Party</a>
@@ -82,9 +85,7 @@
             
             
            
-            <li class="nav-item">
-              <a id="rsvp-nav-link" class="nav-link" href="#rsvp-main"><span class="nav-link-separator"><i class="fa fa-heart-o" aria-hidden="true"></i> </span>RSVP</a>
-            </li>
+            
           </ul>
           
           
@@ -640,6 +641,7 @@
       <option>3 Nights: Thu. Nov 2nd - Sun. Nov 5th, 2017</option>
       <option>3 Nights: Fri. Nov 3rd - Mon. Nov 6th, 2017</option>
       <option>4 Nights: Thu. Nov 2nd- Mon. Nov 6th, 2017</option>
+       <option>4+ Nights</option>
     </select>
   </div>
     <div class="col-sm-4">
@@ -712,11 +714,12 @@
                        
                        
                     <p class="text-xs-center">Fill out the form below for detailed instructions to hotel and airfare reservations
+                    <hr>
                    
                    <form id="deposit-info-form" action="">
                        <div class="form-group row">
-                          <label for="name" class="col-xs-3 col-form-label">Enter Your Name</label>
-                          <div class="col-xs-9">
+                          <label for="name" class="col-xs-4 col-form-label">Enter Your Name</label>
+                          <div class="col-xs-8">
                             <input class="form-control" type="text" placehoder="Your Name" id="name" placeholder="First & Last Name">
                           </div>
                         </div>
@@ -725,8 +728,8 @@
                        <div class="form-group row">
                            
                            
-                            <label for="room-select" class="col-xs-3 col-form-label">Select Your Suite:</label> 
-                               <div class="col-xs-9">
+                            <label for="room-select" class="col-xs-4 col-form-label">Select Your Suite:</label> 
+                               <div class="col-xs-8">
                                <select class="form-control" id="room-select">
                               <option>Luxury Junior Suite</option>
                               <option>Hideaway Luxury Junior Suite (Adults Only)</option>
@@ -798,7 +801,7 @@
                                   </form>
                                   <div class="collapse" id="deposit-info-collapse">
                   <div class="card card-block">
-                   <p class="text-xs-center">Follow the directions below to reserve your room and discounted airfare:</p>
+                   <p id="deposit-intro-instructions"class="text-xs-center">Follow the directions below to reserve your room and discounted airfare:</p>
 
                       <p class="deposit-instruction"><span class="deposit-step-num">1. </span> Copy the following notes below</p>
                       <p><input type="text" id="deposit-info-notes" class="deposit-info-display-item" value=""><button class="btn btn-primary copy-btn" data-toggle="tooltip" data-placement="top" title="Copied!" data-copytarget="#deposit-info-notes">Copy</button></p>
@@ -816,6 +819,7 @@
                       <ol>
                           <li>Enter you deposit amount - Ex: $50 or $100</li>
                           <li>Enter your debit card information</li>
+                          <li>Submit your deposit</li>
                           <li><strong>**Ensure that your Name and room type are in the notes of the payment.</strong></li>
                       </ol>
                        <p class="deposit-instruction"> Once complete we will send you additional information regarding rooms and discounted airfare rates as our information becomes available</p>
