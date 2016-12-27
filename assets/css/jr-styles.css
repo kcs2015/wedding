@@ -37,15 +37,17 @@ blockquote{
 .vertical-align-child{
       position:absolute;
     /*width:100%;*/
-    top:50%;
+    top:60%;
      -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
 }
+
+#cover-fade-in-div{
+}
 .horizontal-align-child{
       position:absolute;
     height:100%;
-    
     left:50%;
      -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -165,17 +167,14 @@ blockquote{
     border-radius:100%*/
 }
 
-
-#cover-fade-in-header, #cover-fade-in-sub{
-    
-    
-}
  #cover-fade-in-sub{
     font-family: 'Prata', serif; 
+     font-size: 20px;
 }
 #cover-fade-in-header{
     
-font-family: 'Parisienne', cursive;
+/*font-family: 'Parisienne', cursive;*/
+    font-family: 'Great Vibes', cursive;
     font-size: 75px;
 }
     
@@ -193,7 +192,6 @@ font-family: 'Parisienne', cursive;
     margin-top:5px;
     padding-top: 5px;
     border-radius:20px;
-    border-color:gold;
     border-width:2px;
     border-style:solid;
 }
@@ -741,16 +739,18 @@ background-size: cover;
        color:white;
                font-family: 'Prata', serif;
     }
-    #cover-fade-in-header{
-     font-size:40px;
-    }
     #cover-fade-in-sub{
-       font-size:24px; 
+       /*font-size:24px; */
     }
     
     #cover-fade-in-header{
+     font-size:50px;
+        
        /* font-family: 'Parisienne', cursive;*/
-        font-family: 'Prata', serif;
+        font-family: 'Great Vibes', cursive;
+         font-family: 'Tangerine', cursive;
+        font-weight:200;        
+    color:#d4bb97;
     }
     
     #fade-in-wrapper-1{
@@ -983,8 +983,8 @@ background-size: cover;
 }
     #cover-fade-in-header{
     
-        font-size:65px;
-        font-weight:bold;
+        font-size:85px;
+        font-weight:200;
          
     } 
      #cover-fade-in-sub{
@@ -1063,10 +1063,14 @@ background-size: cover;
    #cover-main{
         background-position:  0px 50px;
     }
+    
+    #cover-fade-in-div{
+        top:70%;
+    }
+    
     #cover-fade-in-header{
     
-        font-size:85px;
-        font-weight:bold;
+        font-size:115px;
          
     } 
      #cover-fade-in-sub{
