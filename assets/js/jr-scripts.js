@@ -20,9 +20,7 @@ $(document).ready(function() {
     
  $(".couple-gallery-carousel").owlCarousel({
       autoPlay : 3000,
-      items : 9,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
+      items : 4,
     /*stopOnHover : true,
     navigation:true,
     paginationSpeed : 1000,
@@ -127,32 +125,55 @@ $(document).ready(function() {
 });
     
     $('body').animatescroll();
+    
+
+    
+    
    $('#home-nav-link').click( function(){
 
        $('#cover-main').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});
+       
+             // Collapse navbar once nav-link is clicked   
+        //   $('#nav-header').collapse('hide');  
    });
        $('#gallery-nav-link').click( function(){
 
-       $('#gallery-main-1').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});});
-           
+       $('#gallery-main-1').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});
+       
+             // Collapse navbar once nav-link is clicked   
+        //   $('#nav-header').collapse('hide'); 
+       });
+          
        $('#couple-nav-link').click( function(){
 
-       $('#about-couple-main').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:50});});
+       $('#about-couple-main').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:50});
+       
+             // Collapse navbar once nav-link is clicked   
+          // $('#nav-header').collapse('hide'); 
+       });
            
     $('.location-info-link').click( function(){
 
-       $('#location-main').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:50});});
+       $('#location-main').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:50});
+             // Collapse navbar once nav-link is clicked   
+         //  $('#nav-header').collapse('hide'); 
+    });
         
         $('#bridal-party-nav-link').click( function(){
 
        $('#bridesmaids-main').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:50});
+            
+             // Collapse navbar once nav-link is clicked   
+         //  $('#nav-header').collapse('hide'); 
 });
             
         $('#rsvp-nav-link').click( function(){
 
        $('#rsvp-main').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:50});
-
-           
+             // Collapse navbar once nav-link is clicked   
+         //  $('#nav-header').collapse('hide'); 
+  
+                   
 });
     
 

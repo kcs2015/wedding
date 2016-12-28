@@ -66,21 +66,21 @@
             </li>
             <li class="nav-item">
                  
-              <a id="gallery-nav-link" class="nav-link" href="#gallery-main-1"><span class="nav-link-separator"><i class="fa fa-heart-o" aria-hidden="true"></i> </span> Gallery</a>
+              <a id="gallery-nav-link" class="nav-link" href="#gallery-main-1"><span class="nav-link-separator"> </span> Gallery</a>
             </li>
             <li class="nav-item">
-                  <a id="couple-nav-link"  class="nav-link" href="#about-couple-main"><span class="nav-link-separator"><i class="fa fa-heart-o" aria-hidden="true"></i> </span> Couple</a>
+                  <a id="couple-nav-link"  class="nav-link" href="#about-couple-main"><span class="nav-link-separator"> </span> Couple</a>
             </li>
             <li class="nav-item">
-              <a id="location-nav-link" class="nav-link location-info-link" href="#location-main"><span class="nav-link-separator"><i class="fa fa-heart-o" aria-hidden="true"></i> </span> Location &amp; Travel Info</a> 
+              <a id="location-nav-link" class="nav-link location-info-link" href="#location-main"><span class="nav-link-separator"></span> Location &amp; Travel Info</a> 
             </li>
              
             <li class="nav-item">
-              <a id="rsvp-nav-link" class="nav-link" href="#rsvp-main"><span class="nav-link-separator"><i class="fa fa-heart-o" aria-hidden="true"></i> </span>RSVP</a>
+              <a id="rsvp-nav-link" class="nav-link" href="#rsvp-main"><span class="nav-link-separator"></span>RSVP</a>
             </li>
             
              <li class="nav-item">
-              <a id="bridal-party-nav-link" class="nav-link" href="#bridesmaids-main"><span class="nav-link-separator"><i class="fa fa-heart-o" aria-hidden="true"></i> </span>Bridal Party</a>
+              <a id="bridal-party-nav-link" class="nav-link" data-toggle="collapse" href="#nav"><span class="nav-link-separator"></span>Bridal Party</a>
             </li>
             
             
@@ -130,7 +130,7 @@
                 </div>
             </div>
             -->
-                 <div id="cover-fade-in-div" class="col-xs-12 col-sm-6 col-md-8 offset-sm-3 offset-md-2 col-lg-8  offset-lg-2 vertical-align-child">
+                 <div id="cover-fade-in-div" class="col-xs-12 col-sm-10 col-md-8 offset-sm-1 offset-md-2 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 vertical-align-child">
                     <div id="fade-in-wrapper-2" class="box fade-in one">
                         <h1 id="cover-fade-in-header" class="display-1">Richard &amp; Jessica</h1> 
                          <h2 id="cover-fade-in-sub" class="display-4">November 4th, 2017</h2> 
@@ -223,7 +223,7 @@
                     <div class="text-xs-center">
                         <button id="groom-words-btn" type="button" class="btn btn-primary btn-sm couple-words-to-front-btn">Done</button>
                 
-                    </div>
+                      </div>
                     </div> <div class="card-block social-links">
      
                     <a href="https://www.facebook.com/Nippylavernnyc" target="_blank" class="card-link "><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
@@ -624,28 +624,34 @@
     </div>
     <div class="col-sm-3">
     
-    <label for="mce-PHONE">Phone Number</label>
+    <label for="mce-PHONE">Phone #</label>
     <input type="text" class="form-control" id="mce-PHONE" aria-describedby="" placeholder="xxx-xxx-xxxx">
     </div>
   <div class="col-sm-3">
     
-    <label for="mce-EMAIL">Email address</label>
+    <label for="mce-EMAIL">Email Addr.</label>
     <input type="email" class="form-control" id="mce-EMAIL" aria-describedby="emailHelp" placeholder="Enter email" name="EMAIL">
     <small id="emailHelp" class="form-text text-muted">To send important info to your inbox</small>
   </div> 
                         </div> 
  <div class="form-group row">
-    <div class="col-sm-8">
+    <div class="col-sm-6">
     <label for="mce-TRAVDATES"> Please choose your Travel dates:</label>
     <select class="form-control" id="mce-TRAVDATES" name="TRAVDATES">
+      <option>Select Your Dates Here</option>
       <option>3 Nights: Thu. Nov 2nd - Sun. Nov 5th, 2017</option>
       <option>3 Nights: Fri. Nov 3rd - Mon. Nov 6th, 2017</option>
       <option>4 Nights: Thu. Nov 2nd- Mon. Nov 6th, 2017</option>
-       <option>4+ Nights</option>
+       <option>Other Dates</option>
     </select>
+
   </div>
-    <div class="col-sm-4">
-         <label for="mce-NUMGUESTS">Number of Guests:</label>
+    <div class="col-sm-3">
+         <label for="mce-OTHERDATES">Enter Dates (if necessary)</label>
+    <input type="text" class="form-control" id="mce-OTHERDATES" aria-describedby="" placeholder="Enter Your Travel Dates (if necessary)" name="OTHERDATES">
+     </div>
+    <div class="col-sm-2">
+         <label for="mce-NUMGUESTS"># of Guests:</label>
     <select class="form-control" id="mce-NUMGUESTS" name="NUMGUESTS">
       <option>1</option>
       <option>2</option>
