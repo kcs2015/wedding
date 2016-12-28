@@ -2,6 +2,18 @@ $(document).ready(function() {
  
 
     $("#location-carousel-main").owlCarousel({
+              items: 1,
+        autoplay : true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,   
+        nav:true,
+        loop:true
+    
+        
+            
+  });
+
+     /* OLD $("#location-carousel-main").owlCarousel({
       autoPlay : 3000,
     stopOnHover : true,
     navigation:true,
@@ -9,19 +21,76 @@ $(document).ready(function() {
     goToFirstSpeed : 2000,
     singleItem : true,
     transitionStyle:"fade"
-  });
+  });*/
 
     
  $(".couple-gallery-carousel").owlCarousel({
-      autoPlay : 3000,
-      items : 4,
+ 
+    loop:true,
+     nav: true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+     responsiveClass:true,
+    responsive : {
+    // breakpoint from 0 up
+    0 : {
+     items:1
+    
+    },
+    // breakpoint from 480 up
+    430 : {
+        items:1,
+        nav:false
+    },// breakpoint from 480 up
+    480 : {
+        items:2,
+         nav:false
+    },
+    // breakpoint from 768 up
+    768 : {
+        items:2
+    },
+    // breakpoint from 768 up
+    860 : {
+        items:3,
+         nav:false
+    },
+    // breakpoint from 768 up
+    1160 : {
+        items:4,
+        nav:true
+    },
+    // breakpoint from 768 up
+    1500 : {
+        items:5,
+        nav:true
+    },
+    // breakpoint from 768 up
+    1900 : {
+        items:6,
+        nav:true
+    }
+}
     /*stopOnHover : true,
     navigation:true,
     paginationSpeed : 1000,
     goToFirstSpeed : 2000,
     transitionStyle:"fade",
      itemsMobile:[320,1]*/
-  });
+  }); 
+    
+    /*OLD $(".couple-gallery-carousel").owlCarousel({
+      autoPlay : 3000,
+      items : 4,
+    stopOnHover : true,
+    navigation:true,
+    paginationSpeed : 1000,
+    goToFirstSpeed : 2000,
+    transitionStyle:"fade",
+     itemsMobile:[320,1]
+  });*/
     /* OWL CAROUSEL WITH PROGRESS BAR */
   var time = 7; // time in seconds
  

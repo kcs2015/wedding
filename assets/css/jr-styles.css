@@ -59,6 +59,10 @@ blockquote{
     font-family: 'Prata', serif;
 }
 
+/* == MODIFY OWL CAROUSEL == */
+    .owl-carousel{
+        z-index: 0;
+}
 /* === NAV STYLES === */
 
 #navbar-site-top a.nav-link{
