@@ -71,6 +71,12 @@ blockquote{
     font-family: 'Prata', serif; 
     text-shadow:2px 2px black;
 }
+
+#navbar-site-top a.nav-link:hover{
+ 
+text-decoration-color: grey;
+    text-decoration: underline;  
+}
 #navbar-site-top ul {
     display:inline-block;
     margin:0 auto;
