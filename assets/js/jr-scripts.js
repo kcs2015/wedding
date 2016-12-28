@@ -1,12 +1,6 @@
 $(document).ready(function() {
  
-  $('.nav-link').click(function(){
-      $('#site-nav-toggler-btn').collapse('toggle');
-      
-});
 
-    
-    
     $("#location-carousel-main").owlCarousel({
       autoPlay : 3000,
     stopOnHover : true,
@@ -126,8 +120,20 @@ $(document).ready(function() {
     
     $('body').animatescroll();
     
-
-    
+    // BOOTSTRAP MODIFICATION - Close Nav menu once mobile nav link is clicked
+      $('.nav-link').click(function(){
+          var isTogglerExpanded = $('#site-nav-toggler-btn').attr('aria-expanded');
+          console.log('toggle',isTogglerExpanded);
+          
+          
+          if (isTogglerExpanded == 'true'){
+          // if Toggler button is expanded
+              $('#nav-header').collapse('toggle');
+             
+              
+          }
+      
+});
     
    $('#home-nav-link').click( function(){
 
@@ -182,8 +188,9 @@ $(document).ready(function() {
     $('.copy-btn').click(function(event){
             $(this).tooltip('show');
             var targetField = event.target.getAttribute('data-copytarget');
-            console.log('tool: ', targetField);
+            //console.log('tool: ', targetField);
         $(targetField).addClass('success-field');
+        $(targetField).css('box-shadow','10px 10px 5px green');
             
     });
     

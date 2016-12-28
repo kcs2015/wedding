@@ -360,12 +360,19 @@ background-size: cover;
    /* background: url('../img/bg/cleopatra.jpeg');*/
 }
 
+.couple-card-info .card-block{
+    padding: 1rem;
+}
 .couple-info-card .card-block.info-header{
     text-align: center;
+    padding: 1rem;
     padding-bottom: 0rem;
 }
 .couple-info-card .card-block.social-links{
+      padding: 1rem;
     padding-top: 0rem;
+    text-align: center;
+    
 }
 
 .couple-words-btn, .couple-words-to-front-btn{
@@ -373,7 +380,9 @@ background-size: cover;
 }
 
 .couple-words-btn{
-    box-shadow: 5px 5px 10px rgba(82, 58, 0, 1);
+    
+    margin-top:5px;
+     margin-bottom:5px;
 }
 
 
@@ -594,12 +603,17 @@ background-size: cover;
       transform: translateY(-50%);
 }
 
+#rsvp-form .form-group div{
+    margin-bottom: 5px;
+}
+/* === DEPOSIT INFO STYLES === */
 #deposit-info{
     background: url('../img/engagement/rich-jess-sand-img.jpg') no-repeat;   
     background-size: cover;
     background-position: center center;
     padding: 0px;
 }
+
 
 #deposit-info-row{
     background-color:rgba(184,142,82,.6);
@@ -1080,6 +1094,11 @@ background-size: cover;
         margin-bottom: 15px;
     }
 
+    #rsvp-form .form-group div{
+        margin-bottom: 1px;
+    }
+    
+    
     #timer-header{
         display: inline-block;
          font-size:28px;

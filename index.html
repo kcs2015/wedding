@@ -37,6 +37,8 @@
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Hanuman|Kaushan+Script|Parisienne|Prata|Tangerine|Great+Vibes" rel="stylesheet">
     
+    <!-- LIGHT BOX -->
+    <link href="assets/lightbox2-master/src/css/lightbox.css" rel="stylesheet">
     
     <!-- CUSTOM STYLESHEET -->
     <link rel="stylesheet" href="assets/css/animations.css" >
@@ -217,11 +219,11 @@
 			<!-- back content -->
 			<div id="bride-info-card" class="card couple-info-card ">
                   <div class="card-block info-header">
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia explicabo id veniam iste officiis nesciunt animi vitae, doloribus atque temporibus perferendis esse porro recusandae quibusdam magnam natus praesentium necessitatibus iusto?
+                    <p class="card-text">"She is the love of my life, the pain in my side, the push when I want stop, the battery that keeps me going, my north star when I can't find my way, she's my everything. Not sure what I did to get such an amazing, beautiful and talented woman in my life, but Thank God I did it." - Rich
                     </p>
                     
                     <div class="text-xs-center">
-                        <button id="groom-words-btn" type="button" class="btn btn-primary btn-sm couple-words-to-front-btn">Done</button>
+                        <button id="groom-words-btn" type="button" class="btn btn-primary btn-sm couple-words-to-front-btn"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></button>
                 
                       </div>
                     </div> <div class="card-block social-links">
@@ -283,14 +285,14 @@
 			<!-- back content -->
 			<div id="bride-info-card" class="card couple-info-card ">
                   <div class="card-block info-header">
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia explicabo id veniam iste officiis nesciunt animi vitae, doloribus atque temporibus perferendis esse porro recusandae quibusdam magnam natus praesentium necessitatibus iusto?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia explicabo id veniam iste officiis nesciunt animi vitae, doloribus atque temporibus perferendis esse porro recusandae quibusdam magnam natus praesentium necessitatibus iusto?
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia explicabo id veniam iste officiis nesciunt animi vitae, doloribus atque temporibus perferendis esse porro recusandae quibusdam magnam natus praesentium necessitatibus iusto?
                   
                     </p>
                     <div class="text-xs-center">
-                        <button id="groom-words-btn" type="button" class="btn btn-primary btn-sm couple-words-to-front-btn">Done</button>
+                        <button id="groom-words-btn" type="button" class="btn btn-primary btn-sm couple-words-to-front-btn"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></button>
                 
                     </div>
-                    </div> <div class="card-block">
+                    </div> <div class="card-block social-links">
      
                     <a href="https://www.facebook.com/Nippylavernnyc" target="_blank" class="card-link "><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
                     <a href="https://www.instagram.com/nippylavern" target="_blank" class="card-link "><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
@@ -602,7 +604,7 @@
        </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2">                    
+                <div class="col-xs-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 ">                    
                        <h2 class="display-4 wedding-main-text text-xs-center">Will You Be Attending?</h2> 
                        
                        <hr class="thick-hr">
@@ -631,12 +633,12 @@
     
     <label for="mce-EMAIL">Email Addr.</label>
     <input type="email" class="form-control" id="mce-EMAIL" aria-describedby="emailHelp" placeholder="Enter email" name="EMAIL">
-    <small id="emailHelp" class="form-text text-muted">To send important info to your inbox</small>
+    <!--<small id="emailHelp" class="form-text text-muted">To send important info to your inbox</small>-->
   </div> 
                         </div> 
  <div class="form-group row">
     <div class="col-sm-6">
-    <label for="mce-TRAVDATES"> Please choose your Travel dates:</label>
+    <label for="mce-TRAVDATES">Choose your Travel dates:</label>
     <select class="form-control" id="mce-TRAVDATES" name="TRAVDATES">
       <option>Select Your Dates Here</option>
       <option>3 Nights: Thu. Nov 2nd - Sun. Nov 5th, 2017</option>
@@ -647,8 +649,8 @@
 
   </div>
     <div class="col-sm-3">
-         <label for="mce-OTHERDATES">Enter Dates (if necessary)</label>
-    <input type="text" class="form-control" id="mce-OTHERDATES" aria-describedby="" placeholder="Enter Your Travel Dates (if necessary)" name="OTHERDATES">
+         <label for="mce-OTHERDATES">Enter Dates</label>
+    <input type="text" class="form-control" id="mce-OTHERDATES" aria-describedby="" placeholder="(if necessary)" name="OTHERDATES">
      </div>
     <div class="col-sm-2">
          <label for="mce-NUMGUESTS"># of Guests:</label>
@@ -724,8 +726,8 @@
                    
                    <form id="deposit-info-form" action="">
                        <div class="form-group row">
-                          <label for="name" class="col-xs-4 col-form-label">Enter Your Name</label>
-                          <div class="col-xs-8">
+                          <label for="name" class="col-xs-5 col-form-label">Your Name:</label>
+                          <div class="col-xs-7">
                             <input class="form-control" type="text" placehoder="Your Name" id="name" placeholder="First & Last Name">
                           </div>
                         </div>
@@ -734,8 +736,8 @@
                        <div class="form-group row">
                            
                            
-                            <label for="room-select" class="col-xs-4 col-form-label">Select Your Suite:</label> 
-                               <div class="col-xs-8">
+                            <label for="room-select" class="col-xs-5 col-form-label">Your Suite:</label> 
+                               <div class="col-xs-7">
                                <select class="form-control" id="room-select">
                               <option>Luxury Junior Suite</option>
                               <option>Hideaway Luxury Junior Suite (Adults Only)</option>
@@ -748,8 +750,8 @@
                            
                             
                        <fieldset class="form-group">
-                             <div class="col-xs-4">Deposit Amount</div>
-                             <div class="col-xs-8"><div class="form-check">
+                             <div class="col-xs-5">Deposit Amount</div>
+                             <div class="col-xs-7"><div class="form-check">
                               <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="deposit-amount" id="deposit-50" value="50" checked>
                                 $50-Room Deposit Only
@@ -765,9 +767,10 @@
                            
                           </fieldset>
                        </div>
-                       
-                       <p class="text-xs-center">
-                <button id="deposit-info-submit" type="button" class="btn btn-primary">Submit</button>
+                      
+                   <p class="text-xs-center">
+                          <button id="deposit-info-submit" type="button" class="btn btn-primary"><i class="fa fa-chevron-down" aria-hidden="true"></i> Submit <i class="fa fa-chevron-down" aria-hidden="true"></i></button><p/>
+                     
                       
                 <script>
                         $('#deposit-info-submit').click(
@@ -810,18 +813,24 @@
                    <p id="deposit-intro-instructions"class="text-xs-center">Follow the directions below to reserve your room and discounted airfare:</p>
 
                       <p class="deposit-instruction"><span class="deposit-step-num">1. </span> Copy the following notes below</p>
-                      <p><input type="text" id="deposit-info-notes" class="deposit-info-display-item" value=""><button class="btn btn-primary copy-btn" data-toggle="tooltip" data-placement="top" title="Copied!" data-copytarget="#deposit-info-notes">Copy</button></p>
+                      <p  class="text-xs-center"><input type="text" id="deposit-info-notes" class="deposit-info-display-item" value=""><button class="btn btn-primary copy-btn" data-toggle="tooltip" data-placement="top" title="Copied!" data-copytarget="#deposit-info-notes">Copy</button></p>
                       
                   
                      
                       <p class="deposit-instruction"><span class="deposit-step-num">2. </span> Go to our  Deposit Page:</p>
-                    <p id="wedding-acct-link" ><a href="https://cash.me/$theknightcouple" target="_blank">Jessica &amp; Richard's Wedding Deposit Link</a>
-                      <p>*If you do not have a Square Cash account signup <a href="https://cash.me/app/SLBNDJD">here</a> for $10 account credit</p>
+                    <p id="wedding-acct-link"  class="text-xs-center" ><a href="https://cash.me/$theknightcouple" target="_blank">Jessica &amp; Richard's Wedding Deposit Link</a>
+                      <p  class="text-xs-center">*If you do not have a Square Cash account signup <a href="https://cash.me/app/SLBNDJD">here</a> for $10 account credit</p>
 
                       <p class="deposit-instruction"><span class="deposit-step-num">3. </span> Paste your notes from the section above into the notes section </p>
-                      <p> <img src="assets/img/screenshot-cash-note.jpg" alt="" class="rounded deposit-screenshot deposit-info-display-item " style="max-width: 100%; height:auto;"></p>
+                      <p  class="text-xs-center">  <a href="assets/img/screenshot-cash-note.jpg" data-lightbox="roadtrip"><img src="assets/img/screenshot-cash-note.jpg" alt="Cash Note Screenshot" class="rounded deposit-screenshot deposit-info-display-item " style="max-width: 100%; height:auto;"></a>
+                       </p>
+                      <div class="click-to-zoom-text text-xs-center">(Click to Zoom Pic) </div>
+    
+                      
                       <p class="deposit-instruction"><span class="deposit-step-num">4. </span> Enter your deposit details (Amount and Debit Card Info) </p>
-                      <p> <img src="assets/img/screenshot-cash-payment-details.jpg" alt="" class="rounded deposit-screenshot deposit-info-display-item" style="max-width: 100%; height:auto;"></p>
+                      <p class="text-xs-center">  <a href="assets/img/screenshot-cash-payment-details.jpg" data-lightbox="roadtrip"><img src="assets/img/screenshot-cash-payment-details.jpg" alt="Cash Payment Details Screenshot" class="rounded deposit-screenshot deposit-info-display-item" style="max-width: 100%; height:auto;"></a></p>
+                      <div class="click-to-zoom-text text-xs-center">(Click to Zoom Pic) </div>
+                        <br>
                       <ol>
                           <li>Enter you deposit amount - Ex: $50 or $100</li>
                           <li>Enter your debit card information</li>
@@ -1039,10 +1048,17 @@
     
     <!-- Animated Scroll -->
     <script src="assets/animatescroll/animatescroll.min.js"></script>
+    
+     <!-- Clipboard JS-->
+    <script src="assets/js/clipboard.min.js"></script>
+    
+     <!-- LIGHT BOX -->
+     <script src="assets/lightbox2-master/src/js/lightbox.js"></script>
+   
     <!-- RKM JS -->
     <script src="assets/js/jr-scripts.js" ></script>
-    <!-- Clipboard JS-->
-    <script src="assets/js/clipboard.min.js"></script>
+    
+   
     
         
 <script>if(typeof jQuery=='undefined'){document.write('<'+'script');document.write(' language="javascript"');document.write(' type="text/javascript"');document.write(' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">');document.write('</'+'script'+'>')}</script><script>if(!image_urls){var image_urls=Array()}if(!flash_urls){var flash_urls=Array()}image_urls['rain1']="http://2.bp.blogspot.com/-IQXNv-_CBLE/TpWcK7LL4VI/AAAAAAAAG0I/bcxYcqc_uI0/pinkpetal1.png";image_urls['rain2']="http://4.bp.blogspot.com/-teXCIicWPF4/TpWcLLg0A2I/AAAAAAAAG0U/IPPCr1gponc/pinkpetal2.png";image_urls['rain3']="http://3.bp.blogspot.com/-3JG9HLECCRU/TpWcLZGSYtI/AAAAAAAAG0g/zIJINua93TE/redpetal1.png";image_urls['rain4']="http://2.bp.blogspot.com/-BByhQEK5E24/TpWcLux4xRI/AAAAAAAAG0s/x2hIr1AV_Ac/redpetal2.png";$(document).ready(function(){var c=$(window).width();var d=$(window).height();var e=function(a,b){return Math.round(a+(Math.random()*(b-a)))};var f=function(a){setTimeout(function(){a.css({left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100)}).animate({top:(d-10)+'px'},e(7500,8000),function(){$(this).fadeOut('slow',function(){f(a)})})},e(1,8000))};$('<div></div>').attr('id','rainDiv')
