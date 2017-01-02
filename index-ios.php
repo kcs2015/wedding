@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
  <html lang="en">
   <head>
+  
+     
    
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
@@ -63,6 +65,51 @@
       
     </head>
     <body>
+               <?PHP
+      
+  /*
+*	Mobile device detection
+*/
+if( !function_exists('mobile_user_agent_switch') ){
+	function mobile_user_agent_switch(){
+		$device = '';
+		//return $_SERVER['HTTP_USER_AGENT']; 
+		if( stristr($_SERVER['HTTP_USER_AGENT'],'ipad') ) {
+			$device = "ios ipad";
+		} else if( stristr($_SERVER['HTTP_USER_AGENT'],'iphone') || strstr($_SERVER['HTTP_USER_AGENT'],'iphone') ) {
+			$device = "ios iphone";
+		} else if( stristr($_SERVER['HTTP_USER_AGENT'],'blackberry') ) {
+			$device = "blackberry";
+		} else if( stristr($_SERVER['HTTP_USER_AGENT'],'android') ) {
+			$device = "android";
+		} else if ( stristr($_SERVER['HTTP_USER_AGENT'],'windows') ) {
+            $device = 'windows';
+        } else if ( stristr($_SERVER['HTTP_USER_AGENT'],'linux') ) {
+            $device = 'linux';
+        } else if ( stristr($_SERVER['HTTP_USER_AGENT'],'macintosh') ) {
+            $device = 'macintosh';
+        } else {
+            $device = 'undefined';
+        }
+		
+		if( $device ) {
+			return $device; 
+		} return false; {
+			return false;
+		}
+	}
+    $curr_device = mobile_user_agent_switch();
+    
+    ?>
+  
+      <script> 
+              windowHeight = $(window).innerHeight();
+        // alert('DEVICE: ' + '<?PHP echo mobile_user_agent_switch(); ?>' + '\n HEIGHT / WIDTH: ' +  screen.height + ' ' + screen.width + '\n wHEIGHT / wWIDTH: ' +  windowHeight + ' ' + window.width); console.log('user_agent')</script>
+      
+    <?php
+}
+      
+?> 
 
                <nav id="navbar-site-top" class="navbar navbar-light navbar-fixed-top navbar-full ">
         <div class="container">
@@ -84,25 +131,25 @@
    
           <ul class="nav navbar-nav wedding-main-text">
             <li class="nav-item active">
-                  <a id="home-nav-link" class="nav-link" href="#cover-main">Home <span class="sr-only">(current)</span></a>
+                  <a id="home-nav-link" class="nav-link" >Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                  
-              <a id="gallery-nav-link" class="nav-link" href="#gallery-main-1"><span class="nav-link-separator"> </span> Gallery</a>
+              <a id="gallery-nav-link" class="nav-link" ><span class="nav-link-separator"> </span> Gallery</a>
             </li>
             <li class="nav-item">
-                  <a id="couple-nav-link"  class="nav-link" href="#about-couple-main"><span class="nav-link-separator"> </span> Couple</a>
+                  <a id="couple-nav-link"  class="nav-link" ><span class="nav-link-separator"> </span> Couple</a>
             </li>
             <li class="nav-item">
-              <a id="location-nav-link" class="nav-link location-info-link" href="#location-main"><span class="nav-link-separator"></span> Location &amp; Travel Info</a> 
+              <a id="location-nav-link" class="nav-link location-info-link" ><span class="nav-link-separator"></span> Location &amp; Travel Info</a> 
             </li>
              
             <li class="nav-item">
-              <a id="rsvp-nav-link" class="nav-link" href="#rsvp-main"><span class="nav-link-separator"></span>RSVP</a>
+              <a id="rsvp-nav-link" class="nav-link" ><span class="nav-link-separator"></span>RSVP</a>
             </li>
             
              <li class="nav-item">
-              <a id="bridal-party-nav-link" class="nav-link" data-toggle="collapse" href="#nav"><span class="nav-link-separator"></span>Bridal Party</a>
+              <a id="bridal-party-nav-link" class="nav-link" data-toggle="collapse" ><span class="nav-link-separator"></span>Bridal Party</a>
             </li>
             
             
@@ -113,8 +160,15 @@
           
             </div>
     </nav>
-        
-        <section id="cover-main" class="page-cover">
+        <style>
+#cover-main {
+    background-color: yellow; 
+    color: red;
+}
+</style>
+          <div id="top-menu-spacer" class="" style="">
+        </div>
+        <section id="cover-main" class="page-cover" style="">
         <div class="container-fluid">
          <div class="row">
                <div id="cover-main-container-inner-wrapper" class="container-inner-wrapper" >
@@ -156,6 +210,7 @@
                     <div id="fade-in-wrapper-2" class="box fade-in one">
                         <h1 id="cover-fade-in-header" class="display-1">Richard &amp; Jessica</h1> 
                          <h2 id="cover-fade-in-sub" class="display-4">November 4th, 2017</h2> 
+                         
                       </div>
                 </div>
             
@@ -168,8 +223,32 @@
         
         
     </section>
+      <script>
+           /* windowHeight = $(window).innerHeight();
        
-       <section id="gallery-main-1" class="page-section gallery-section" >
+         
+          // get size
+           var x = document.getElementById("cover-main").style.height = screen.availHeight +'px';
+          var x = document.getElementById("cover-main").style.width = screen.availWidth;
+                   
+              $('#cover-main').height( windowHeight);
+        $('#cover-main .container-fluid').height( windowHeight);
+      //  $('#cover-main').css('width',  screen.width +'px');
+          
+         var divHeight =  $('#cover-main').height() ;
+          
+          var bgInfo =  $('#cover-main').height() ;
+          
+          var bgIMG = $('#cover-main').css('background-size');
+     //     console.log('background', bgInfo);
+
+        $(document).ready(function(){
+            
+     //    alert("cover height: " + divHeight + "\nwindow height: " + windowHeight + "\ncontainer height: " + windowHeight ) ;  
+        });*/
+        </script>
+       
+       <section id="gallery-main-1" class="page-section gallery-section" style="background-attachment:scroll;">
          <div class="bg-overlay ">
             <div class="container-fluid">
           
@@ -194,6 +273,7 @@
            </div>
          
         </div>
+           </div>
         
         
     </section>
@@ -841,7 +921,7 @@
                    <p id="deposit-intro-instructions"class="text-xs-center">Follow the directions below to reserve your room and discounted airfare:</p>
 
                       <p class="deposit-instruction"><span class="deposit-step-num">1. </span> Copy the following notes below</p>
-                      <p  class="text-xs-center"><input type="text" id="deposit-info-notes" class="deposit-info-display-item" value=""><button class="btn btn-primary copy-btn" data-toggle="tooltip" data-placement="top" title="Copied!" data-copytarget="#deposit-info-notes">Copy</button></p>
+                      <p class="text-xs-center "><input type="text" id="deposit-info-notes" class="deposit-info-display-item" value=""><button id="dep-notes-copy-btn" class="btn btn-primary copy-btn <?php echo($curr_device); ?>" data-toggle="tooltip" data-placement="top" title="Copied!" data-copytarget="#deposit-info-notes">Copy</button></p>
                       
                   
                      
@@ -1087,11 +1167,11 @@
     <script src="assets/js/jr-scripts.js" ></script>
     
    
-    
-        
+
+        <!--
 <script>if(typeof jQuery=='undefined'){document.write('<'+'script');document.write(' language="javascript"');document.write(' type="text/javascript"');document.write(' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">');document.write('</'+'script'+'>')}</script><script>if(!image_urls){var image_urls=Array()}if(!flash_urls){var flash_urls=Array()}image_urls['rain1']="http://2.bp.blogspot.com/-IQXNv-_CBLE/TpWcK7LL4VI/AAAAAAAAG0I/bcxYcqc_uI0/pinkpetal1.png";image_urls['rain2']="http://4.bp.blogspot.com/-teXCIicWPF4/TpWcLLg0A2I/AAAAAAAAG0U/IPPCr1gponc/pinkpetal2.png";image_urls['rain3']="http://3.bp.blogspot.com/-3JG9HLECCRU/TpWcLZGSYtI/AAAAAAAAG0g/zIJINua93TE/redpetal1.png";image_urls['rain4']="http://2.bp.blogspot.com/-BByhQEK5E24/TpWcLux4xRI/AAAAAAAAG0s/x2hIr1AV_Ac/redpetal2.png";$(document).ready(function(){var c=$(window).width();var d=$(window).height();var e=function(a,b){return Math.round(a+(Math.random()*(b-a)))};var f=function(a){setTimeout(function(){a.css({left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100)}).animate({top:(d-10)+'px'},e(7500,8000),function(){$(this).fadeOut('slow',function(){f(a)})})},e(1,8000))};$('<div></div>').attr('id','rainDiv')
 .css({position:'fixed',width:(c-20)+'px',height:'1px',left:'0px',top:'-5px',display:'block'}).appendTo('body');for(var i=1;i<=20;i++){var g=$('<img/>').attr('src',image_urls['rain'+e(1,4)])
 .css({position:'absolute',left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100),'margin-left':0}).addClass('rainDrop').appendTo('#rainDiv');f(g);g=null};var h=0;var j=0;$(window).resize(function(){c=$(window).width();d=$(window).height()})});</script>
-<script>if(typeof jQuery=='undefined'){document.write('<'+'script');document.write(' language="javascript"');document.write(' type="text/javascript"');document.write(' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">');document.write('</'+'script'+'>')}</script><script>$(document).ready(function(){var a=$('<img>').attr({'src':'http://2.bp.blogspot.com/-IQXNv-_CBLE/TpWcK7LL4VI/AAAAAAAAG0I/bcxYcqc_uI0/pinkpetal1.png','border':0});$('<a></a>').css({position:'absolute',right:'0px',top:'22px','z-index':'90'}).attr({'href':'http://tutorialuntukblog.blogspot.com/2011/10/tutorial-kelopak-bunga-berguguran-di.html'}).append(a).appendTo('body')});</script>
+<script>if(typeof jQuery=='undefined'){document.write('<'+'script');document.write(' language="javascript"');document.write(' type="text/javascript"');document.write(' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">');document.write('</'+'script'+'>')}</script><script>$(document).ready(function(){var a=$('<img>').attr({'src':'http://2.bp.blogspot.com/-IQXNv-_CBLE/TpWcK7LL4VI/AAAAAAAAG0I/bcxYcqc_uI0/pinkpetal1.png','border':0});$('<a></a>').css({position:'absolute',right:'0px',top:'22px','z-index':'90'}).attr({'href':'http://tutorialuntukblog.blogspot.com/2011/10/tutorial-kelopak-bunga-berguguran-di.html'}).append(a).appendTo('body')});</script> -->
     
 </html>

@@ -1,6 +1,32 @@
 $(document).ready(function() {
  
+    // SET COVER MAIN DIV TO SIZE OF VIEWPORT TO AVOID ADDRESS BAR ISSUE ON IOS
+     windowHeight = $(window).innerHeight();
+       
+         
+          // get size
+           var x = document.getElementById("cover-main").style.height = screen.availHeight +'px';
+          var x = document.getElementById("cover-main").style.width = screen.availWidth;
+                   
+              $('#cover-main').height( windowHeight);
+        $('#cover-main .container-fluid').height( windowHeight);
+      //  $('#cover-main').css('width',  screen.width +'px');
+          
+         var divHeight =  $('#cover-main').height() ;
+          
+          var bgInfo =  $('#cover-main').height() ;
+          
+          var bgIMG = $('#cover-main').css('background-size');
+     //     console.log('background', bgInfo);
 
+        $(document).ready(function(){
+            
+     //    alert("cover height: " + divHeight + "\nwindow height: " + windowHeight + "\ncontainer height: " + windowHeight ) ;  
+        });
+
+    // END SET COVER MAIN
+    
+    
     $("#location-carousel-main").owlCarousel({
               items: 1,
         autoplay : true,
@@ -206,7 +232,7 @@ $(document).ready(function() {
     
    $('#home-nav-link').click( function(){
 
-       $('#cover-main').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});
+       $('#cover-main').animatescroll({scrollSpeed:2000,easing:'easeOutSine'});
        
              // Collapse navbar once nav-link is clicked   
         //   $('#nav-header').collapse('hide');  
