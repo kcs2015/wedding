@@ -137,7 +137,7 @@ text-decoration-color: grey;
   /* background: url('../img/bg/rings-focused-bg-blurred.jpeg') no-repeat;*/
    background: url('../img/engagement/mr-mrs-both-kiss.jpg') no-repeat;
    background-size: cover;
-   background-position:  -200px 10px;
+   background-position:  -175px 30px;
    padding:0px;
 }
 
@@ -533,15 +533,20 @@ background-size: cover;
     background-size: cover;    
      background-position: center;
     padding:0px;
+    height: 650px;
+    
+}
+#vertical-gallery-parent{
+    min-height: 70px;
     
 }
 
 #gallery-main-1 .bg-overlay{
     background-color: rgba(255,255,255,.4);
     padding:20px;
-    height: 600px;
+    height: 100%;
     width:100%;
-        
+    padding-top: 70px;      
 }
 
 .couple-gallery-carousel .item {
@@ -604,12 +609,14 @@ background-size: cover;
     background-size: cover;
     background-position: top;
     padding: 0px;
+    min-height: 500px;
 }
 #bridesmaids-main .section-header{
     color: white;
 }
 #bridesmaids-main .vertical-align-child{
     width: 100%;
+    top:50%;
 }
 
 
@@ -617,6 +624,10 @@ background-size: cover;
     background-color: rgba(255,255,255,0.5);
     min-height: 100px;
     border-radius: 5px;
+}
+
+.bridal-party-info-section{
+    margin-bottom: 30px;
 }
 
 
@@ -843,7 +854,7 @@ background-size: cover;
 /* Small 1 . Above 320 px */
 @media screen and (min-width: 320px) {
     #cover-main{
-        background-position: -186px 30px;
+        background-position: -175px 30px;
     }
    #cover-fade-in-header, #cover-fade-in-sub{
            text-align:center;
@@ -903,7 +914,7 @@ background-size: cover;
 
 @media screen and (min-width: 360px) {
      #cover-main{
-      background-position: -185px 40px;
+      background-position: -200px 40px;
     }
     
     #location-info-bg-wrapper{
@@ -936,13 +947,17 @@ background-size: cover;
 /* Small 1 . Above 360 px AND Landscape */
 @media screen and (min-width: 360px) and (orientation: landscape) {
     #cover-main{
-        background-position: 14% 30px;
+        background-position: -220px 30px;
     }
 }
 
 /* Small - Nexus 5X. Above 412px (412px) */
 
 @media screen and (min-width: 412px) {
+    #cover-main{
+        background-position: -195px 30px;
+    }
+    
  #wedding-acct-link{
         font-size:20px;
         font-weight:400;
@@ -1058,6 +1073,18 @@ background-size: cover;
        /* background-position: -30px 30px;*/
         background-position: 0px 30px;
     }
+    
+    #cover-fade-in-header{
+    
+        font-size:55px;
+        font-weight:200;
+         
+    } 
+     #cover-fade-in-sub{
+    
+        font-size:25px;
+         
+    }
 
 }
 
@@ -1078,6 +1105,25 @@ background-size: cover;
     
 
 }
+/* Galaxy tab. Above 576em AND Landscape */
+
+@media screen and (min-width: 576px)  and (orientation: landscape) {
+    
+     #cover-fade-in-header{
+    
+        font-size:55px;
+        font-weight:200;
+         
+    } 
+     #cover-fade-in-sub{
+    
+        font-size:25px;
+         
+    }
+    
+}
+
+
 /* iPhone 6. Above  (666px) AND Landscape */
 
 @media screen and (min-width: 666px)  and (orientation: landscape) {
@@ -1089,6 +1135,17 @@ background-size: cover;
         font-size:3.2rem;
     }
         
+        #cover-fade-in-header{
+    
+        font-size:55px;
+        font-weight:200;
+         
+    } 
+     #cover-fade-in-sub{
+    
+        font-size:25px;
+         
+    }
 
 }
 
@@ -1110,7 +1167,11 @@ background-size: cover;
     .nav-link-separator{
         border-left: 1px solid #373a3c;
     padding-right: 10px;
-}
+}      
+     #cover-main-header-spacer{
+        height: 25px;
+    }   
+    
     
     #cover-main{
         background-position: -178px 0px;
@@ -1217,15 +1278,24 @@ background-size: cover;
 /* iPad. Above (768px) AND Landscape */
 
 @media screen and (min-width: 768px)  and (orientation: landscape) {
+  
     #cover-main{
        /* background-position: -5% 30px;*/
       background-position: 0px 30px;
     }
+     #cover-main-header-spacer{
+        height: 20px;
+    }   
+    
 }
 
 /* Large. Above 62em (992px) */
 @media screen and (min-width: 62em) {
-   #cover-main{
+   
+     #cover-main-header-spacer{
+        height: 20px;
+    }   
+    #cover-main{
         background-position:  0px 50px;
     }
     
