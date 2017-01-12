@@ -824,7 +824,7 @@
                    <div id="deposit-info-wrapper">
                        
                        <p class="text-xs-center">Please review the:</p>
-                       <p class="text-xs-center"><strong><a href="#location-main" class="location-info-link">Important Hotel &amp; Travel Information Here</a></strong></p>
+                       <h4 class="text-xs-center display-5"><strong><a href="#location-main" class="location-info-link">Important Hotel &amp; Travel Information Here</a></strong></h4>
                        <p>Then fill out the form below for detailed instructions to reserve your hotel and airfare accomadations</p>
                        
                     <hr>
