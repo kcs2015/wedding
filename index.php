@@ -826,7 +826,7 @@
                        <p class="text-xs-center">Please review the:</p>
                        <p class="text-xs-center"><strong><a href="#location-main" class="location-info-link">Important Hotel &amp; Travel Information Here</a></strong></p>
                        <p>Then fill out the form below for detailed instructions to reserve your hotel and airfare accomadations</p>
-                       <?php var_dump($_SERVER); ?>
+                       
                     <hr>
                    
                    <form id="deposit-info-form" action="">
