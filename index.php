@@ -724,7 +724,7 @@
     <div class="col-sm-3">
     
     <label for="mce-PHONE">Phone #</label>
-    <input type="text" class="form-control" id="mce-PHONE" aria-describedby="" placeholder="xxx-xxx-xxxx">
+    <input type="text" class="form-control" id="mce-PHONE" name="PHONE" aria-describedby="" placeholder="xxx-xxx-xxxx">
     </div>
   <div class="col-sm-3">
     
@@ -823,8 +823,10 @@
                        <h2 class="display-4 wedding-main-text text-xs-center">After You R.S.V.P.</h2>
                    <div id="deposit-info-wrapper">
                        
-                       
-                    <p class="text-xs-center">Fill out the form below for detailed instructions to hotel and airfare reservations
+                       <p class="text-xs-center">Please review the:</p>
+                       <p class="text-xs-center"><strong><a href="#location-main" class="location-info-link">Important Hotel &amp; Travel Information Here</a></strong></p>
+                       <p>Then fill out the form below for detailed instructions to reserve your hotel and airfare accomadations</p>
+                       <?php var_dump($_SERVER); ?>
                     <hr>
                    
                    <form id="deposit-info-form" action="">
@@ -1175,7 +1177,28 @@
 .css({position:'absolute',left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100),'margin-left':0}).addClass('rainDrop').appendTo('#rainDiv');f(g);g=null};var h=0;var j=0;$(window).resize(function(){c=$(window).width();d=$(window).height()})});</script>
 <script>if(typeof jQuery=='undefined'){document.write('<'+'script');document.write(' language="javascript"');document.write(' type="text/javascript"');document.write(' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">');document.write('</'+'script'+'>')}</script><script>$(document).ready(function(){var a=$('<img>').attr({'src':'http://2.bp.blogspot.com/-IQXNv-_CBLE/TpWcK7LL4VI/AAAAAAAAG0I/bcxYcqc_uI0/pinkpetal1.png','border':0});$('<a></a>').css({position:'absolute',right:'0px',top:'22px','z-index':'90'}).attr({'href':'http://tutorialuntukblog.blogspot.com/2011/10/tutorial-kelopak-bunga-berguguran-di.html'}).append(a).appendTo('body')});</script>
          
-  <?php   } // END IF ?>
+  <?php   } // END IF 
+     
+     // Check if we need to scroll to another section on load of page
+      
+     // If # found then animate scroll to web section
+     if (isset($_GET['page-section'])){ 
+        $page_section = "deposit-info"; ?>
+         <script>
+            
+          $(document).ready(function(){
+            //alert("<?php echo($_GET['page-section']); ?>");
+              $('#<?php echo($_GET['page-section']); ?>').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:50});
+
+
+          });
+        </script>
+        
+        
+    <?php }
+     
+     
+     ?>
         
 
     

@@ -218,7 +218,7 @@ $(document).ready(function() {
     // BOOTSTRAP MODIFICATION - Close Nav menu once mobile nav link is clicked
       $('.nav-link').click(function(){
           var isTogglerExpanded = $('#site-nav-toggler-btn').attr('aria-expanded');
-          console.log('toggle',isTogglerExpanded);
+          //console.log('toggle',isTogglerExpanded);
           
           
           if (isTogglerExpanded == 'true'){
