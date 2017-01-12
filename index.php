@@ -59,7 +59,23 @@
    <!-- CUSTOM STYLESHEET -->
     <link rel="stylesheet" href="assets/css/jr-styles.css" >
     
-          
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">      
       
     </head>
     <body>
@@ -216,13 +232,24 @@
                   
                   <div id="gallery-carousel-main-1" class="couple-gallery-carousel owl-carousel owl-theme vertical-align-child" style="height:100px">
 
-                          <div class="item"><img class="rounded img-thumbnail" src="assets/img/couple/couple-kiss-cheek-300.jpg" width= "150" height= "150" alt="Owl Image"></div>
-                          <div class="item"><img class="rounded" src="assets/img/couple/couple-kiss-cheek-300.jpg" alt="Owl Image"></div>
-                          <div class="item"><img class="rounded" src="assets/img/couple/couple-kiss-cheek-300.jpg" alt="Owl Image"></div>
-                          <div class="item"><img class="rounded" src="assets/img/couple/couple-kiss-cheek-300.jpg" alt="Owl Image"></div>
-                            <div class="item"><img class="rounded" src="assets/img/couple/couple-kiss-cheek-300.jpg" alt="Owl Image"></div>
-                    </div>
-                      
+                         <!-- <div class="item"><img class="rounded img-thumbnail" src="assets/img/couple/couple-kiss-cheek-300.jpg" width= "150" height= "150" alt="Owl Image"></div>-->
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-vegas-smiles.jpg" alt="Owl Image"></div>
+                          
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-bbq-smiles.jpg" alt="Jessica and Rich @ BBQ Smiling"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-board-plane.jpg" alt="Jessica and Rich @ Airport"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-dr-beach-kiss.jpg" alt="Jessica and Rich In DR With Kiss On Cheek"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-dr-beach-smiles.jpg" alt="Jessica and Rich @ Beach in DR"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-dr-jess-bday-smiles.jpg" alt="Jessica and Rich in DR for Jessica's B'day"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-hard-rock-guitars.jpg" alt="Jessica and Rich @ Hard Rock Cafe"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-hug-mothers-day-restaurant.jpg" alt="Jessica and Rich Hug at restaurant"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-hug-night-club-dark.jpg" alt="Jessica and Rich @ Night Club"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-hug-tank.jpg" alt="Jessica and Rich Hug By Big Fish Tank "></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-kiss-club.jpg" alt="Jessica and Rich Kiss on Cheek @ Club"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-lion-king-escalator.jpg" alt="Jessica and Rich @ Lion King Escalator"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-lion-king-rafiki.jpg" alt="Jessica and Rich @ Lion King"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-night-club.jpg" alt="Jessica and Rich @ Night Club"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-smile-casino.jpg" alt="Jessica and Rich @ Casino"></div>
+                                  
                   </div>
                   
                     
@@ -507,44 +534,44 @@
   <tbody>
     <tr>
       <th scope="row">Single</th>
-      <td>$741</td>
-      <td>$252</td>
+      <td>$781</td>
+      <td>$292</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
-      <td>$513</td>
-      <td>$176</td>
+      <td>$553</td>
+      <td>$216</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
-      <td>$477</td>
-      <td>$164</td>
+      <td>$517</td>
+      <td>$204</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
-      <td>$456</td>
-      <td>$157</td>
+      <td>$496</td>
+      <td>$197</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
-      <td>$447</td>
-      <td>$154</td>
+      <td>$487</td>
+      <td>$194</td>
      
     </tr>
   <tr>
       <th scope="row">Children<br><small>-- under 12 -- </small></th>
       <td>$165</td>
-      <td>$20</td>
+      <td>$60</td>
      
     </tr>
   <tr>
       <th scope="row">2x Children <br><small>-- under 12 -- </small></th>
-      <td>$288</td>
-      <td>$101</td>
+      <td>$328</td>
+      <td>$141</td>
      
     </tr>
   </tbody>
@@ -564,32 +591,32 @@
   <tbody>
     <tr>
       <th scope="row">Single</th>
-      <td>$822</td>
-      <td>$279</td>
+      <td>$862</td>
+      <td>$319</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
-      <td>$570</td>
-      <td>$195</td>
+      <td>$610</td>
+      <td>$235</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
-      <td>$528</td>
-      <td>$181</td>
+      <td>$568</td>
+      <td>$221</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
-      <td>$507</td>
-      <td>$174</td>
+      <td>$547</td>
+      <td>$214</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
-      <td>$447</td>
-      <td>$154</td>
+      <td>$487</td>
+      <td>$194</td>
      
     </tr>
     
@@ -610,44 +637,44 @@
   <tbody>
     <tr>
       <th scope="row">Single</th>
-      <td>$876</td>
-      <td>$297</td>
+      <td>$916</td>
+      <td>$337</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
-      <td>$603</td>
-      <td>$206</td>
+      <td>$643</td>
+      <td>$246</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
-      <td>$558</td>
-      <td>$198</td>
+      <td>$598</td>
+      <td>$238</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
-      <td>$537</td>
-      <td>$184</td>
+      <td>$577</td>
+      <td>$224</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
-      <td>$522</td>
-      <td>$179</td>
+      <td>$542</td>
+      <td>$219</td>
      
     </tr>
     <tr>
       <th scope="row">Children<br><small>-- under 12 -- </small></th>
-      <td>$165</td>
-      <td>$20</td>
+      <td>$205</td>
+      <td>$60</td>
      
     </tr>
   <tr>
       <th scope="row">2x Children <br><small>-- under 12 -- </small></th>
-      <td>$333</td>
-      <td>$116</td>
+      <td>$373</td>
+      <td>$156</td>
      
     </tr>
   </tbody>
