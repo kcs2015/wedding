@@ -233,17 +233,19 @@
                   <div id="gallery-carousel-main-1" class="couple-gallery-carousel owl-carousel owl-theme vertical-align-child" style="height:100px">
 
                          <!-- <div class="item"><img class="rounded img-thumbnail" src="assets/img/couple/couple-kiss-cheek-300.jpg" width= "150" height= "150" alt="Owl Image"></div>-->
+                          <!--<div class="item"><img class="rounded" src="assets/img/couple/jess-rich-hug-tank.jpg" alt="Jessica and Rich Hug By Big Fish Tank "></div>-->
+                          <!--<div class="item"><img class="rounded" src="assets/img/couple/jess-rich-dr-beach-smiles.jpg" alt="Jessica and Rich @ Beach in DR"></div>
+                          -->
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-vegas-smiles.jpg" alt="Owl Image"></div>
                           
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-bbq-smiles.jpg" alt="Jessica and Rich @ BBQ Smiling"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-board-plane.jpg" alt="Jessica and Rich @ Airport"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-dr-beach-kiss.jpg" alt="Jessica and Rich In DR With Kiss On Cheek"></div>
-                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-dr-beach-smiles.jpg" alt="Jessica and Rich @ Beach in DR"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-dr-jess-bday-smiles.jpg" alt="Jessica and Rich in DR for Jessica's B'day"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-hard-rock-guitars.jpg" alt="Jessica and Rich @ Hard Rock Cafe"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-hug-mothers-day-restaurant.jpg" alt="Jessica and Rich Hug at restaurant"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-hug-night-club-dark.jpg" alt="Jessica and Rich @ Night Club"></div>
-                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-hug-tank.jpg" alt="Jessica and Rich Hug By Big Fish Tank "></div>
+                         
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-kiss-club.jpg" alt="Jessica and Rich Kiss on Cheek @ Club"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-lion-king-escalator.jpg" alt="Jessica and Rich @ Lion King Escalator"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-lion-king-rafiki.jpg" alt="Jessica and Rich @ Lion King"></div>
@@ -262,7 +264,7 @@
          
         </div>
            </div>
-        
+           </div>
     </section>
        <section id="about-couple-main" class="page-section">
         <div class="container-fluid">
@@ -301,7 +303,7 @@
 			<!-- back content -->
 			<div id="bride-info-card" class="card couple-info-card ">
                   <div class="card-block info-header">
-                    <p class="card-text"><span class="large-quote">"</span>She is the love of my life, the pain in my side, the push when I want stop, the battery that keeps me going, my north star when I can't find my way, she's my everything. </p>
+                    <p class="card-text"><span class="large-quote">"</span>She is the love of my life, the pain in my side, the push when I want to stop, the battery that keeps me going, my north star when I can't find my way, she's my everything. </p>
                     <p class="card-text">Not sure what I did to get such an amazing, beautiful and talented woman in my life, but Thank God I did it." - Richard Knight
                     </p>
                     
@@ -743,11 +745,14 @@
     </select>
 
   </div>
-    <div class="col-sm-3">
+    <div class="col-sm-5">
          <label for="mce-OTHERDATES">Enter Dates</label>
     <input type="text" class="form-control" id="mce-OTHERDATES" aria-describedby="" placeholder="(if necessary)" name="OTHERDATES">
      </div>
-    <div class="col-sm-2">
+   
+     </div> <!-- END FORM-GROUP-ROW -->
+      <div class="form-group row">
+         <div class="col-sm-4">
          <label for="mce-NUMGUESTS"># of Guests:</label>
     <select class="form-control" id="mce-NUMGUESTS" name="NUMGUESTS">
       <option>1</option>
@@ -757,7 +762,10 @@
       <option>5</option>
     </select>
      </div>
-     </div>
+       <div class="col-sm-8"> <label for="ADDLGNAMES">Add'l Guest Names</label>
+    <textarea class="form-control" name="ADDLGNAMES" id="ADDLGNAMES" rows="3"></textarea>
+          </div>
+      </div> <!-- END FORM-GROUP-ROW -->
   
   <div class="form-group">
     <label for="mce-ADDR">Mailing Address</label>

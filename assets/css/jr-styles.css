@@ -602,14 +602,15 @@ background-size: cover;
     
 }
 #bridesmaids-main{
-    background: url('../img/bg/wedding-party-glasses.jpeg') no-repeat;
+  /*  background: url('../img/bg/wedding-party-glasses.jpeg') no-repeat;*/
+  background: url('../img/bg/jess-rich-walking-black-white.jpg') no-repeat;
   
    /* background: url('../img/bg/marriage-fireworks.jpg') no-repeat;
   */
     background-size: cover;
-    background-position: top;
+    background-position: 0 top;
     padding: 0px;
-    min-height: 500px;
+    min-height: 700px;
 }
 #bridesmaids-main .section-header{
     color: white;
