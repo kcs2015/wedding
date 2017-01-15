@@ -496,27 +496,30 @@
                          
                         <h2 id="location-info-header" class="display-4 text-xs-center">Important Info Below: <br>Please Read</h2>
                      
-                     <p>Please ensure that you RSVP at the bottom of this page. In the coming weeks you will receive information on how to reserve your room and schedule a payment plan (based on your room occupancy) </p> 
-                        <blockquote>
-                            <p>A deposit of $65 is required to hold your room per person  (These rates are based on double occupancy).  </p> <p>If you would like  to have your own room a payment of $130 is required to hold your room. </p> 
+                         <p>Below you will find detailed information about reserving your room and discounted airfare.</p>
+                         <p>We have 3 Luxury Suite Packages available:</p>
+                         <ul>
+                             <li>Luxury Junior Suite</li>
+                             <li>Hideaway Luxury Junior Suite - Adults Only</li>
+                             <li>Diamond Club Luxury Junior Suite</li>
+                         </ul>
+                           <hr>
+                            <p>If you plan on sharing a room, please make a note of how many people you will be sharing with and each persons name before you RSVP on this page. A deposit is required for each person you are sharing the room with. </p>
+                             <blockquote>
+                            <p>A deposit of $100 per person is required to hold your room.</p> 
+                            <p>If you would like to have your own room, a payment of $150 is required to hold your room. </p> 
 
+                            </blockquote>
                             
-                        </blockquote>
-                         
-                     <p>If you plan on sharing a room, please make a note of how many people you will be sharing with and each persons name. A deposit is required for each person you are sharing the room with. </p> <p>Please note: The maximum persons allowed in one room is 5. Please do not wait until the last minute to book your room as this is a busy season for traveling.</p>
-
-                     <p>Your Deposit will hold a luxury Junior Suite. If you would like to stay on the Hideaway (Adults Only) or the Diamond club side. Please make note of this when signing up as this side of the resort has a higher rate.</p>
-
-                     <p>Once you receive your rate the Payment Plan schedule will go as follows:</p>
-                    
-                    <div id="rate-info-wrapper" class=""><ul>
-                        <li>Each payment will be due on <strong>the 20th of every month</strong></li>
-                        <li>50% of the total Room cost must be paid for  <strong>May 20th, 2017</strong></li>
-                        <li>The Final payment is Due <strong>August 20th, 2017</strong></li>
-                    </ul></div>
-                    
+                             <p>Please note: The maximum persons allowed in one room is 5. Please do not wait until the last minute to book your room as this is a busy season for traveling.</p>
+                             <hr>
+                       <p>Your Deposit will hold a Luxury Junior Suite. If you would like to stay on the Hideaway (Adults Only) or the Diamond Club side. Please make note of this when you RSVP as this side of the resort has a higher rate.</p>
+                       
+                           <p>You can review the prices for each package and occupancy level below</p>
+                           
+                      
                      <p class="text-xs-center"><a class="btn btn-primary" data-toggle="collapse" href="#packagesTable" aria-expanded="false" aria-controls="packagesTable">
-    <i class="fa fa-caret-down" aria-hidden="true"></i> View Packages <i class="fa fa-caret-down" aria-hidden="true"></i>
+    <i class="fa fa-caret-down" aria-hidden="true"></i> View Hotel Packages <i class="fa fa-caret-down" aria-hidden="true"></i>
   </a></p>
                    <div class="collapse" id="packagesTable">
   <div id="rates-table-wrapper-main">
@@ -685,6 +688,20 @@
   </div>
 </div> <!-- END COLLAPSE -->
                     <br>
+                         <p>Please ensure that you <a id="rsvp-nav-link" class="nav-link"><span class="nav-link-separator"></span>RSVP</a> at the bottom of this page. </p>
+                         <p>After you RSVP please you In the coming weeks you will receive information on how to reserve your room and schedule a payment plan (based on your room occupancy) </p> 
+                       
+                       
+
+                     <p>Once you receive your rate the Payment Plan schedule will go as follows:</p>
+                    
+                    <div id="rate-info-wrapper" class=""><ul>
+                        <li>Each payment will be due on <strong>the 20th of every month</strong></li>
+                        <li>50% of the total Room cost must be paid for  <strong>May 20th, 2017</strong></li>
+                        <li>The Final payment is Due <strong>August 20th, 2017</strong></li>
+                    </ul></div>
+                    
+                    
                     <!--<p class="text-xs-center"><a class="btn btn-danger" href="#rsvp-main" role="button">RSVP HERE</a></p> 
                     --> </div>
                      
@@ -752,7 +769,7 @@
    
      </div> <!-- END FORM-GROUP-ROW -->
       <div class="form-group row">
-         <div class="col-sm-4">
+         <div class="col-sm-2">
          <label for="mce-NUMGUESTS"># of Guests:</label>
     <select class="form-control" id="mce-NUMGUESTS" name="NUMGUESTS">
       <option>1</option>
@@ -762,9 +779,17 @@
       <option>5</option>
     </select>
      </div>
-       <div class="col-sm-8"> <label for="ADDLGNAMES">Add'l Guest Names</label>
-    <textarea class="form-control" name="ADDLGNAMES" id="ADDLGNAMES" rows="3"></textarea>
-          </div>
+       <div class="col-sm-4"> <label for="ADDLGNAMES">Add'l Guest Names</label>
+        <textarea class="form-control" name="ADDLGNAMES" id="ADDLGNAMES" rows="3"></textarea>
+      </div>
+      <div class="col-sm-6"> 
+          <label for="mce-LUXSUITE">Desired Hotel Suite:</label>
+            <select class="form-control" id="mce-LUXSUITE" name="LUXSUITE">
+      <option>Luxury Junior Suite</option>
+      <option>Hideaway Luxury Junior Suite - Adults Only</option>
+      <option>Diamond Club Luxury Junior Suite</option>
+            </select>
+     </div>
       </div> <!-- END FORM-GROUP-ROW -->
   
   <div class="form-group">
