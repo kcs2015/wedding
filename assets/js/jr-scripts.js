@@ -268,7 +268,9 @@ $(document).ready(function() {
          //  $('#nav-header').collapse('hide'); 
 });
             
-        $('#rsvp-nav-link').click( function(){
+        //$('.rsvp-nav-link').click( function(){
+       
+       $('.rsvp-animate-nav-link').click( function(){
 
        $('#rsvp-main').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:50});
              // Collapse navbar once nav-link is clicked   

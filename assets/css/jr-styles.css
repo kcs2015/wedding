@@ -648,6 +648,16 @@ background-size: cover;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	}
+/* === LOCATION & TRAVEL INFO STYLES === */
+div.bg-overlay h3{
+    background-color: rgba(255,255,255,.30);
+    border-radius: 4px;
+}
+
+#rsvp-btn{
+    background-color: #bf9963;
+    color: white;
+}
 
 /* === RSVP MAIN STYLES === */
 #rsvp-main{

@@ -150,7 +150,7 @@
             </li>
              
             <li class="nav-item">
-              <a id="rsvp-nav-link" class="nav-link"><span class="nav-link-separator"></span>RSVP</a>
+              <a id="rsvp-nav-link" class="nav-link rsvp-animate-nav-link"><span class="nav-link-separator"></span>RSVP</a>
             </li>
             
              <li class="nav-item">
@@ -496,14 +496,15 @@
                          
                         <h2 id="location-info-header" class="display-4 text-xs-center">Important Info Below: <br>Please Read</h2>
                      
-                         <p>Below you will find detailed information about reserving your room and discounted airfare.</p>
+                         <p class="text-xs-center">Below you will find detailed information about reserving your room and discounted airfare.</p>
+                         <h3 class="text-xs-center travel-info-header">Hotel Reservations</h3>
                          <p>We have 3 Luxury Suite Packages available:</p>
                          <ul>
                              <li>Luxury Junior Suite</li>
                              <li>Hideaway Luxury Junior Suite - Adults Only</li>
                              <li>Diamond Club Luxury Junior Suite</li>
                          </ul>
-                           <hr>
+                            <hr class="thick-hr">
                             <p>If you plan on sharing a room, please make a note of how many people you will be sharing with and each persons name before you RSVP on this page. A deposit is required for each person you are sharing the room with. </p>
                              <blockquote>
                             <p>A deposit of $100 per person is required to hold your room.</p> 
@@ -512,10 +513,10 @@
                             </blockquote>
                             
                              <p>Please note: The maximum persons allowed in one room is 5. Please do not wait until the last minute to book your room as this is a busy season for traveling.</p>
-                             <hr>
-                       <p>Your Deposit will hold a Luxury Junior Suite. If you would like to stay on the Hideaway (Adults Only) or the Diamond Club side. Please make note of this when you RSVP as this side of the resort has a higher rate.</p>
+                             <hr class="thick-hr">
+                       <p>Your Deposit will hold a Luxury Junior Suite. If you would like to stay on the Hideaway (Adults Only) or the Diamond Club side please make note of this when you RSVP as this side of the resort has a higher rate.</p>
                        
-                           <p>You can review the prices for each package and occupancy level below</p>
+                           <p class="text-xs-center">You can review the prices for each package and occupancy level below:</p>
                            
                       
                      <p class="text-xs-center"><a class="btn btn-primary" data-toggle="collapse" href="#packagesTable" aria-expanded="false" aria-controls="packagesTable">
@@ -629,7 +630,6 @@
 </table>
 <hr class="thick-hr">
  <h2 class="text-xs-center">Diamond Club<br>Luxury Junior Suite Packages</h2>
- <hr class="thick-hr">
  <table class="table">
   <thead class="thead-inverse">
     <tr>
@@ -687,23 +687,30 @@
  
   </div>
 </div> <!-- END COLLAPSE -->
-                    <br>
-                         <p>Please ensure that you <a id="rsvp-nav-link" class="nav-link"><span class="nav-link-separator"></span>RSVP</a> at the bottom of this page. </p>
-                         <p>After you RSVP please you In the coming weeks you will receive information on how to reserve your room and schedule a payment plan (based on your room occupancy) </p> 
+                   
+                         <p>Once you have a desired hotel package and know the names of the guests you would like to share a room with (if any) then its time for you to <a id="rsvp-nav-link" class="nav-link">RSVP</a>.</p>
+                         <p class="text-xs-center"><button id="rsvp-btn" type="button" class="btn btn-lg rsvp-animate-nav-link">RSVP HERE</button></p> 
+                         
+                                       
+                       <hr class="thick-hr">
+                       <h3 class="text-xs-center travel-info-header">Travel Reservations</h3>
+                       <p>There is discounted airfare for those traveling within the time frame of a 2 night stay and up to a 4 nights stay. If your stay is for a longer timeframe let us know when you RSVP below so we can get a discounted rate for you. 
+                       </p>
+                          <blockquote>
+                           <p>$350 for 1 Round Trip Plane Ticket</p>
+                           <p>A deposit of $50 per person is required to hold your plane ticket at this rate.</p>
+                           
+                       </blockquote>
                        
-                       
-
-                     <p>Once you receive your rate the Payment Plan schedule will go as follows:</p>
+                     <p>Once you place your deposit you will receive detailed information regarding your payment plan. Below are some important points regarding your Payment Plan schedule:</p>
                     
                     <div id="rate-info-wrapper" class=""><ul>
-                        <li>Each payment will be due on <strong>the 20th of every month</strong></li>
-                        <li>50% of the total Room cost must be paid for  <strong>May 20th, 2017</strong></li>
-                        <li>The Final payment is Due <strong>August 20th, 2017</strong></li>
+                        <li>Each payment will be <strong>due by the end of each month</strong></li>
+                        <li>The Final payment is due <strong>September 31st, 2017</strong></li>
                     </ul></div>
                     
                     
-                    <!--<p class="text-xs-center"><a class="btn btn-danger" href="#rsvp-main" role="button">RSVP HERE</a></p> 
-                    --> </div>
+                     </div>
                      
                      
                 </div>
@@ -755,6 +762,7 @@
     <label for="mce-TRAVDATES">Choose your Travel dates:</label>
     <select class="form-control" id="mce-TRAVDATES" name="TRAVDATES">
       <option>Select Your Dates Here</option>
+      <option>2 Nights: Fri. Nov 3nd - Sun. Nov 5th, 2017</option>
       <option>3 Nights: Thu. Nov 2nd - Sun. Nov 5th, 2017</option>
       <option>3 Nights: Fri. Nov 3rd - Mon. Nov 6th, 2017</option>
       <option>4 Nights: Thu. Nov 2nd- Mon. Nov 6th, 2017</option>
@@ -884,13 +892,13 @@
                              <div class="col-xs-7"><div class="form-check">
                               <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="deposit-amount" id="deposit-50" value="50" checked>
-                                $50-Room Deposit Only
+                                $100 - Room Deposit Only
                               </label>
                             </div>
                             <div class="form-check">
                             <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="deposit-amount" id="deposit-100" value="100">
-                                 $100-Room + Airfare Deposit
+                                 $150 - Room + Airfare Deposit
                               </label>
                             </div>
                            </div>
@@ -962,7 +970,7 @@
                       <div class="click-to-zoom-text text-xs-center"><a href="assets/img/screenshot-cash-note.jpg" data-lightbox="deposit-pic">(Click to Zoom Pic)</a> </div>
                         <br>
                       <ol>
-                          <li>Enter you deposit amount - Ex: $50 or $100</li>
+                          <li>Enter your deposit amount - Ex: $50 or $100</li>
                           <li>Enter your debit card information</li>
                           <li>Submit your deposit</li>
                           <li><strong>**Ensure that your Name and room type are in the notes of the payment.</strong></li>
