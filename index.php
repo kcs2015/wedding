@@ -540,44 +540,44 @@
   <tbody>
     <tr>
       <th scope="row">Single</th>
-      <td>$781</td>
-      <td>$292</td>
+      <td>$786</td>
+      <td>$262</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
-      <td>$553</td>
-      <td>$216</td>
+      <td>$558</td>
+      <td>$186</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
-      <td>$517</td>
-      <td>$204</td>
+      <td>$522</td>
+      <td>$174</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
-      <td>$496</td>
-      <td>$197</td>
+      <td>$501</td>
+      <td>$167</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
-      <td>$487</td>
-      <td>$194</td>
+      <td>$492</td>
+      <td>$164</td>
      
     </tr>
   <tr>
       <th scope="row">Children<br><small>-- under 12 -- </small></th>
-      <td>$165</td>
-      <td>$60</td>
+      <td>$170</td>
+      <td>$30</td>
      
     </tr>
   <tr>
       <th scope="row">2x Children <br><small>-- under 12 -- </small></th>
-      <td>$328</td>
-      <td>$141</td>
+      <td>$333</td>
+      <td>$111</td>
      
     </tr>
   </tbody>
@@ -597,32 +597,32 @@
   <tbody>
     <tr>
       <th scope="row">Single</th>
-      <td>$862</td>
-      <td>$319</td>
+      <td>$867</td>
+      <td>$289</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
-      <td>$610</td>
-      <td>$235</td>
+      <td>$615</td>
+      <td>$205</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
-      <td>$568</td>
-      <td>$221</td>
+      <td>$573</td>
+      <td>$191</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
-      <td>$547</td>
-      <td>$214</td>
+      <td>$552</td>
+      <td>$184</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
-      <td>$487</td>
-      <td>$194</td>
+      <td>$493</td>
+      <td>$164</td>
      
     </tr>
     
@@ -642,44 +642,44 @@
   <tbody>
     <tr>
       <th scope="row">Single</th>
-      <td>$916</td>
-      <td>$337</td>
+      <td>$921</td>
+      <td>$307</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
-      <td>$643</td>
-      <td>$246</td>
+      <td>$648</td>
+      <td>$216</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
-      <td>$598</td>
-      <td>$238</td>
+      <td>$603</td>
+      <td>$208</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
-      <td>$577</td>
-      <td>$224</td>
+      <td>$582</td>
+      <td>$194</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
-      <td>$542</td>
-      <td>$219</td>
+      <td>$547</td>
+      <td>$189</td>
      
     </tr>
     <tr>
       <th scope="row">Children<br><small>-- under 12 -- </small></th>
-      <td>$205</td>
-      <td>$60</td>
+      <td>$210</td>
+      <td>$30</td>
      
     </tr>
   <tr>
       <th scope="row">2x Children <br><small>-- under 12 -- </small></th>
-      <td>$373</td>
-      <td>$156</td>
+      <td>$378</td>
+      <td>$126</td>
      
     </tr>
   </tbody>
@@ -788,7 +788,7 @@
     </select>
      </div>
        <div class="col-sm-4"> <label for="ADDLGNAMES">Add'l Guest Names</label>
-        <textarea class="form-control" name="ADDLGNAMES" id="ADDLGNAMES" rows="3"></textarea>
+        <textarea class="form-control" name="ADDLGNAMES" id="mce-ADDLGNAMES" rows="3"></textarea>
       </div>
       <div class="col-sm-6"> 
           <label for="mce-LUXSUITE">Desired Hotel Suite:</label>

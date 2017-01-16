@@ -278,17 +278,41 @@ $(document).ready(function() {
   
                    
 });
+    /* =================== */ 
+    /* ==== RSVP FORM ==== */
+    /* =================== */
     
-    /* ON CHANGE OF "SELECT TRAVEL DATES FIELD -> SWITCH FOCUS TO ENTER DATES TEXT FIELD */
-   $( "#mce-TRAVDATES" ).change(function() {
-        var selectionOption = $( "#mce-TRAVDATES option:selected" ).text();
-      // console.log("OPTION", selectionOption);
-       
-          if ( selectionOption == 'Other Dates'){
-              $("#mce-OTHERDATES").focus();
-          } 
-        
-    });
+        /* ON CHANGE OF "SELECT TRAVEL DATES FIELD -> SWITCH FOCUS TO ENTER DATES TEXT FIELD */
+           $( "#mce-TRAVDATES" ).change(function() {
+                var selectionOption = $( "#mce-TRAVDATES option:selected" ).text();
+              // console.log("OPTION", selectionOption);
+
+                  if ( selectionOption == 'Other Dates'){
+                      $("#mce-OTHERDATES").focus();
+                  } else{                      
+                       $("#mce-NUMGUESTS").focus();
+                  }
+
+            });
+
+         /* ON CHANGE OF "SELECT # of guests FIELD -> SWITCH FOCUS TO ADDL GUEST NAMES TEXT AREA */
+           $( "#mce-NUMGUESTS" ).change(function() {
+                var selectionOption = $( "#mce-NUMGUESTS option:selected" ).text();
+              // console.log("OPTION", selectionOption);
+
+                  if ( selectionOption != '1'){
+                      $("#mce-ADDLGNAMES").focus();
+                  } else{                      
+                       $("#mce-LUXSUITE").focus();
+                  }
+
+            });
+ 
+    /* ON CHANGE OF "SELECT DESIRED HOTEL SUITE FIELD -> SWITCH FOCUS TO MAILING ADDRESS TEXT AREA */
+           $( "#mce-LUXSUITE" ).change(function() {
+                var selectionOption = $( "#mce-LUXSUITE option:selected" ).text();
+             $("#mce-ADDR").focus();
+            });
 
 
     
