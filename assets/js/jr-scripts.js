@@ -279,6 +279,17 @@ $(document).ready(function() {
                    
 });
     
+    /* ON CHANGE OF "SELECT TRAVEL DATES FIELD -> SWITCH FOCUS TO ENTER DATES TEXT FIELD */
+   $( "#mce-TRAVDATES" ).change(function() {
+        var selectionOption = $( "#mce-TRAVDATES option:selected" ).text();
+      // console.log("OPTION", selectionOption);
+       
+          if ( selectionOption == 'Other Dates'){
+              $("#mce-OTHERDATES").focus();
+          } 
+        
+    });
+
 
     
     /* INITIALIZE TOOLTIP FOR COPY BUTTON */

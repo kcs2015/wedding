@@ -857,7 +857,7 @@
                    <div id="deposit-info-wrapper">
                        
                        <p class="text-xs-center">Please review the:</p>
-                       <h4 class="text-xs-center display-5"><strong><a href="#location-main" class="location-info-link">Important Hotel &amp; Travel Information Here</a></strong></h4>
+                       <h4 id="hotel-travle-info-header" class="text-xs-center display-5"><strong><a href="#location-main" class="location-info-link">Important Hotel &amp; Travel Information Here</a></strong></h4>
                        <p>Then fill out the form below for detailed instructions to reserve your hotel and airfare accomadations</p>
                        
                     <hr>
@@ -996,16 +996,26 @@
             <div class="container-fluid">
             <div class="bridal-party-row row">
                 <div class="col-xs-12 col-md-6 "> 
-                     <h2 id="" class="display-4 light-text section-header text-xs-center">Bridesmaids</h2>
-               <div class="bg-overlay vertical-align-parent bridal-party-info-section">
-                   <h2 class="text-xs-center vertical-align-child annoucement-text">To Be Announced Shortly</h2>
+               <div class="bg-overlay bridal-party-info-section">
+                <div id="groomsmen-section-wrapper" class="bridal-party-section-wrapper">
+                     <h2 id="" class="display-4 light-text section-header text-xs-center">GroomsMen</h2>
+                     <hr>
+
+                   <h2 class="text-xs-center  annoucement-text">To Be Announced Shortly</h2>
+                    
+                </div>
+                
                    
                </div>
                 </div>
                     <div class="col-xs-12 col-md-6 bridal-party-info-section"> 
-                     <h2 class="display-4 light-text section-header text-xs-center">GroomsMen</h2>
-               <div class="bg-overlay vertical-align-parent annoucement-text">
-                   <h2 class="text-xs-center vertical-align-child">To Be Announced Shortly</h2>
+                     
+               <div class="bg-overlay annoucement-text">
+                   <div id="bridesmaid-section-wrapper" class="bridal-party-section-wrapper">
+                 <h2 class="display-4 light-text section-header text-xs-center">Bridesmaids</h2>
+                    <hr>
+                   <h2 class="text-xs-center">To Be Announced Shortly</h2>
+                   </div>
                    
                </div>
                 </div>
@@ -1214,9 +1224,9 @@
      
      // Check if we need to scroll to another section on load of page
       
-     // If # found then animate scroll to web section
+     // If page section variable found then animate scroll to web section
      if (isset($_GET['page-section'])){ 
-        $page_section = "deposit-info"; ?>
+         ?>
          <script>
             
           $(document).ready(function(){

@@ -608,7 +608,7 @@ background-size: cover;
    /* background: url('../img/bg/marriage-fireworks.jpg') no-repeat;
   */
     background-size: cover;
-    background-position: 0 top;
+    background-position: -265px top;
     padding: 0px;
     min-height: 700px;
 }
@@ -622,9 +622,12 @@ background-size: cover;
 
 
 #bridesmaids-main  .bg-overlay{
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(184,142,82,.6);
     min-height: 100px;
     border-radius: 5px;
+}
+#bridesmaids-main  .bg-overlay h2 {
+    color: white;
 }
 
 .bridal-party-info-section{
@@ -699,7 +702,6 @@ div.bg-overlay h3{
     padding: 0px;
 }
 
-
 #deposit-info-row{
     background-color:rgba(184,142,82,.6);
     min-height: 700px;
@@ -718,6 +720,12 @@ div.bg-overlay h3{
        font-size:20px;
 
 }
+
+#hotel-travle-info-header{
+    background-color: rgba(255,255,255,.5);
+    padding-bottom: 4px;
+}
+
 
 #deposit-info-collapse .card{
     color: black;
@@ -766,6 +774,17 @@ div.bg-overlay h3{
     font-size:14px;
     font-weight:400;
     
+}
+
+
+
+/* === BRIDAL PARTY STYLES === */
+.bridal-party-section-wrapper{
+    padding: 10px 30px;
+    
+}
+.bridal-party-section-wrapper hr {
+    border-top: 3px solid rgba(0,0,0,.3);
 }
 
 /* === FOOTER STYLES === */
@@ -953,12 +972,37 @@ div.bg-overlay h3{
         margin-right: 15px;
         margin-bottom: 15px;
     }
+    
+    
 }
 
 /* Small 1 . Above 360 px AND Landscape */
 @media screen and (min-width: 360px) and (orientation: landscape) {
     #cover-main{
         background-position: -220px 30px;
+    }
+    }
+#bridesmaids-main{
+   background-position: -115px top;
+  
+}
+}
+
+/* Small 2 - iPhone 6 - Above 375px */
+@media screen and (min-width: 360px){
+    #bridesmaids-main{
+   background-position: -250px top;
+  
+}
+    
+}
+
+
+/* Small 1 . Above 360 px AND Landscape */
+@media screen and (min-width: 360px) and (orientation: landscape) {
+    #bridesmaids-main{
+       background-position: -85px top;
+  
     }
 }
 
@@ -979,8 +1023,21 @@ div.bg-overlay h3{
         margin-right: 15px;
         margin-bottom: 15px;
     }
+    #bridesmaids-main{
+       background-position: -225px top;
+  
+    }
     
 }
+
+/* Small - Nexus 5X. Above 412px (412px) AND Landscape */
+@media screen and (min-width: 412px) and (orientation: landscape) {
+        #bridesmaids-main{
+       background-position: -50px top;
+  
+    }
+}
+
 
 /* Small. Above 34em (544px) */
 
@@ -1005,6 +1062,10 @@ div.bg-overlay h3{
     #rate-info-wrapper{
         padding-left: 15px ;
    
+    }
+    #bridesmaids-main{
+       background-position: -250px top;
+  
     }
     
     #footer-main, #footer-spacer{
@@ -1096,6 +1157,11 @@ div.bg-overlay h3{
         font-size:25px;
          
     }
+    
+    #bridesmaids-main{
+       background-position: -60px top;
+  
+    }
 
 }
 
@@ -1112,6 +1178,11 @@ div.bg-overlay h3{
 }
     #groom-info-card h4.section-header {
         font-size:3.4rem;
+    }
+    
+       #bridesmaids-main{
+       background-position: -50px top;
+  
     }
     
 
@@ -1283,6 +1354,11 @@ div.bg-overlay h3{
         margin-right: 15px;
         margin-bottom: 15px;
     }
+    
+    #bridesmaids-main{
+       background-position: -50px top;
+  
+    }
 
 }
 
@@ -1297,7 +1373,10 @@ div.bg-overlay h3{
      #cover-main-header-spacer{
         height: 20px;
     }   
-    
+           #bridesmaids-main{
+       background-position: 0px top;
+  
+    }
 }
 
 /* Large. Above 62em (992px) */
@@ -1354,7 +1433,14 @@ div.bg-overlay h3{
     height:100px;
     z-index: -1;
 }
-}
+    #bridesmaids-main{
+         
+    background-size: cover;
+    background-position: 0 top;
+    }
+    
+    
+} /* END MEDIA QUERY */
 
 /* Large. Above 62em (992px) */
 @media screen and (min-width: 62em)  and (orientation: landscape) {
