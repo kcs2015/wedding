@@ -304,7 +304,10 @@
 			<div id="bride-info-card" class="card couple-info-card ">
                   <div class="card-block info-header">
                     <p class="card-text"><span class="large-quote">"</span>She is the love of my life, the pain in my side, the push when I want to stop, the battery that keeps me going, my north star when I can't find my way, she's my everything. </p>
-                    <p class="card-text">Not sure what I did to get such an amazing, beautiful and talented woman in my life, but Thank God I did it." - Richard Knight
+                    <p class="card-text">Not sure what I did to get such an amazing, beautiful and talented woman in my life, but Thank God I did it.<span class="large-quote">"</span> 
+                    </p>
+                    <p class="card-text">
+                        - Richard Knight
                     </p>
                     
                     <div class="text-xs-center">
@@ -370,8 +373,11 @@
 			<!-- back content -->
 			<div id="bride-info-card" class="card couple-info-card ">
                   <div class="card-block info-header">
-                    <p class="card-text"><span class="large-quote">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia explicabo id veniam iste officiis nesciunt animi vitae, doloribus atque temporibus perferendis esse porro recusandae quibusdam magnam natus praesentium necessitatibus iusto?
-                  
+                      <p class="card-text"><span class="large-quote">"</span>He is my Love, my King, my backbone, my bestfriend, my mentor, my business partner, my veteran, a major pain in my side and my partner in crime. And I'm <strong>sooooo</strong> excited to say he's all mine. </p>
+
+ <p class="card-text">Not sure how god blessed me with such a handsome, smart, loving, amazing man who I surprisingly met on the A train but I'm sooo happy I blushed and smiled back.<span class="large-quote">"</span></p>
+                     <p class="card-text">
+                        - Future Mrs. Knight
                     </p>
                     <div class="text-xs-center">
                         <button id="groom-words-btn" type="button" class="btn btn-primary btn-sm couple-words-to-front-btn"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></button>
@@ -520,8 +526,9 @@
                            
                       
                      <p class="text-xs-center"><a class="btn btn-primary" data-toggle="collapse" href="#packagesTable" aria-expanded="false" aria-controls="packagesTable">
+                     
     <i class="fa fa-caret-down" aria-hidden="true"></i> View Hotel Packages <i class="fa fa-caret-down" aria-hidden="true"></i>
-  </a></p>
+  </a></p><p class="text-xs-center">* All hotel packages start at a 3 Night Minimum *</p>
                    <div class="collapse" id="packagesTable">
   <div id="rates-table-wrapper-main">
 
@@ -688,7 +695,7 @@
   </div>
 </div> <!-- END COLLAPSE -->
                    
-                         <p>Once you have a desired hotel package and know the names of the guests you would like to share a room with (if any) then its time for you to <a id="rsvp-nav-link" class="nav-link">RSVP</a>.</p>
+                         <p>Once you have a desired hotel package and know the names of the guests you would like to share a room with (if any) then it is time for you to <a id="rsvp-nav-link" class="nav-link">RSVP</a>.</p>
                          <p class="text-xs-center"><button id="rsvp-btn" type="button" class="btn btn-lg rsvp-animate-nav-link">RSVP HERE</button></p> 
                          
                                        
@@ -762,7 +769,6 @@
     <label for="mce-TRAVDATES">Choose your Travel dates:</label>
     <select class="form-control" id="mce-TRAVDATES" name="TRAVDATES">
       <option>Select Your Dates Here</option>
-      <option>2 Nights: Fri. Nov 3nd - Sun. Nov 5th, 2017</option>
       <option>3 Nights: Thu. Nov 2nd - Sun. Nov 5th, 2017</option>
       <option>3 Nights: Fri. Nov 3rd - Mon. Nov 6th, 2017</option>
       <option>4 Nights: Thu. Nov 2nd- Mon. Nov 6th, 2017</option>
@@ -817,8 +823,60 @@
     </div>
     <div class="col-sm-4">
      <label for="mce-STATE" >State</label>
-    <input type="text" class="form-control" id="mce-STATE" aria-describedby="" placeholder="Enter Your State" name="STATE">
- 
+ <select class="form-control" id="mce-STATE" aria-describedby=""  name="STATE">
+ <option value="">-</option>
+  <option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DE">Delaware</option>
+	<option value="DC">District Of Columbia</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Nebraska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY">Wyoming</option>
+        </select>
        </div>
    
     <div class="col-sm-4">
@@ -1008,13 +1066,13 @@
                    
                </div>
                 </div>
-                    <div class="col-xs-12 col-md-6 bridal-party-info-section"> 
+                    <div class="col-xs-12 col-md-6"> 
                      
-               <div class="bg-overlay annoucement-text">
+               <div class="bg-overlay bridal-party-info-section">
                    <div id="bridesmaid-section-wrapper" class="bridal-party-section-wrapper">
                  <h2 class="display-4 light-text section-header text-xs-center">Bridesmaids</h2>
                     <hr>
-                   <h2 class="text-xs-center">To Be Announced Shortly</h2>
+                   <h2 class="text-xs-center annoucement-text">To Be Announced Shortly</h2>
                    </div>
                    
                </div>

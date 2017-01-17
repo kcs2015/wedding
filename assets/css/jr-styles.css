@@ -348,9 +348,10 @@ text-decoration-color: grey;
 }
 
 span.large-quote{
-    /*font-size: 26px;
+    font-size: 64px;
     font-family: 'Tangerine',cursive;
-    */
+    line-height: 16px;
+    
 }
     
 #bride-bg-row{
@@ -785,6 +786,10 @@ div.bg-overlay h3{
 }
 .bridal-party-section-wrapper hr {
     border-top: 3px solid rgba(0,0,0,.3);
+}
+
+.bridal-party-section-wrapper .annoucement-text{
+    font-size: 24px;
 }
 
 /* === FOOTER STYLES === */
@@ -1537,7 +1542,7 @@ div.bg-overlay h3{
     }
     .couple-bg-row .vertical-align-child{
        
-        top:53%;
+        top:45%;
     }
 
     
