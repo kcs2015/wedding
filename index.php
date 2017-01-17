@@ -373,7 +373,7 @@
 			<!-- back content -->
 			<div id="bride-info-card" class="card couple-info-card ">
                   <div class="card-block info-header">
-                      <p class="card-text"><span class="large-quote">"</span>He is my Love, my King, my backbone, my bestfriend, my mentor, my business partner, my veteran, a major pain in my side and my partner in crime. And I'm <strong>sooooo</strong> excited to say he's all mine. </p>
+                      <p class="card-text"><span class="large-quote">"</span>He is my Love, my King, my backbone, my bestfriend, my mentor, my business partner, my veteran, a major pain in my side and my partner in crime. I'm <strong>sooooo</strong> excited to say he's all mine. </p>
 
  <p class="card-text">Not sure how god blessed me with such a handsome, smart, loving, amazing man who I surprisingly met on the A train but I'm sooo happy I blushed and smiled back.<span class="large-quote">"</span></p>
                      <p class="card-text">
@@ -513,8 +513,8 @@
                             <hr class="thick-hr">
                             <p>If you plan on sharing a room, please make a note of how many people you will be sharing with and each persons name before you RSVP on this page. A deposit is required for each person you are sharing the room with. </p>
                              <blockquote>
-                            <p>A deposit of $100 per person is required to hold your room.</p> 
-                            <p>If you would like to have your own room, a payment of $150 is required to hold your room. </p> 
+                            <p>A deposit of $75 per person is required to hold your room.</p> 
+                            <p>If you would like to have your own room, a payment of $125 is required to hold your room. </p> 
 
                             </blockquote>
                             
@@ -705,13 +705,16 @@
                        </p>
                           <blockquote>
                            <p>$350 for 1 Round Trip Plane Ticket</p>
-                           <p>A deposit of $50 per person is required to hold your plane ticket at this rate.</p>
+                           <p>A deposit of $25 per person is required to hold your plane ticket at this rate.</p>
                            
                        </blockquote>
                        
                      <p>Once you place your deposit you will receive detailed information regarding your payment plan. Below are some important points regarding your Payment Plan schedule:</p>
-                    
-                    <div id="rate-info-wrapper" class=""><ul>
+                    <div id="rate-info-wrapper" class="">
+                        <br>
+                        <h4 class="text-xs-center ">All Deposits are Due Friday February 3rd, 2017</h4>
+                        <hr>
+                        <ul>
                         <li>Each payment will be <strong>due by the end of each month</strong></li>
                         <li>The Final payment is due <strong>September 31st, 2017</strong></li>
                     </ul></div>
@@ -950,20 +953,22 @@
                              <div class="col-xs-7"><div class="form-check">
                               <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="deposit-amount" id="deposit-50" value="50" checked>
-                                $100 - Room Deposit Only
+                                $75 - Room Deposit Only
                               </label>
                             </div>
                             <div class="form-check">
                             <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="deposit-amount" id="deposit-100" value="100">
-                                 $150 - Room + Airfare Deposit
+                                 $25 - Room + Airfare Deposit
                               </label>
                             </div>
                            </div>
                            
                           </fieldset>
+                           <h4 class="text-xs-center ">All Deposits are Due Friday February 3rd, 2017</h4>
                        </div>
                       
+                        
                    <p class="text-xs-center">
                           <button id="deposit-info-submit" type="button" class="btn btn-primary"><i class="fa fa-chevron-down" aria-hidden="true"></i> Submit <i class="fa fa-chevron-down" aria-hidden="true"></i></button></p>
                      

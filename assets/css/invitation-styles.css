@@ -1,0 +1,99 @@
+html, body{
+    height: 100%;
+}
+
+section{
+    margin:0px;
+    width:1268px;
+    min-height: 864px;
+    /*border: medium solid black;*/
+}
+
+.vertical-align-parent, .horizontal-align-parent{
+    position: relative;
+}
+.vertical-align-child{
+      position:absolute;
+    /*width:100%;*/
+    top:60%;
+     -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+}
+
+#left{
+    width:10%;
+}
+
+#right{
+      width:10%;
+}
+
+.invitation-section {
+    background: url("../img/engagement/rich-jess-hold-hands-walking.jpg") no-repeat;
+    width:1268px;
+    min-height: 864px;
+}
+
+ #cover-fade-in-sub{
+    font-family: 'Prata', serif; 
+     font-size: 29px;
+     color: white;
+     
+}
+#cover-fade-in-header{
+    
+/*font-family: 'Parisienne', cursive;*/
+    font-family: 'Great Vibes', cursive;
+    color: #d4bb97;
+     font-size:55px;
+}
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+
+
+#fade-in-wrapper-1{
+    z-index: 10;
+    background-color: rgba(0,0,0,.5);
+    margin-top:45px;
+}
+#fade-in-wrapper-2{
+    z-index: 10;
+    background-color: rgba(0,0,0,.65);
+    margin-top:5px;
+    padding-top: 5px;
+    border-radius:20px;
+    border-width:2px;
+    border-style:solid;
+}
+
+#cover-fade-in-div{
+    float: left;
+    width:50%;
+    margin-left: 10px;;
+}
