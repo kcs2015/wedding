@@ -526,9 +526,10 @@
                            
                       
                      <p class="text-xs-center"><a class="btn btn-primary" data-toggle="collapse" href="#packagesTable" aria-expanded="false" aria-controls="packagesTable">
-                     
+                   
     <i class="fa fa-caret-down" aria-hidden="true"></i> View Hotel Packages <i class="fa fa-caret-down" aria-hidden="true"></i>
-  </a></p><p class="text-xs-center">* All hotel packages start at a 3 Night Minimum *</p>
+  </a></p>  <p class="text-xs-center">* All hotel packages start at a 3 Night Minimum *</p>
+                  <p class="text-xs-center">If you choose not to stay at The Royalton, there is a fee of $175 for a day pass which allows you all inlcusive access to the resort for 1 day</p>
                    <div class="collapse" id="packagesTable">
   <div id="rates-table-wrapper-main">
 
@@ -547,44 +548,44 @@
   <tbody>
     <tr>
       <th scope="row">Single</th>
-      <td>$786</td>
-      <td>$262</td>
+      <td>$791</td>
+      <td>$269</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
-      <td>$558</td>
-      <td>$186</td>
+      <td>$563</td>
+      <td>$193</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
-      <td>$522</td>
-      <td>$174</td>
+      <td>$527</td>
+      <td>$181</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
-      <td>$501</td>
-      <td>$167</td>
+      <td>$506</td>
+      <td>$174</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
-      <td>$492</td>
-      <td>$164</td>
+      <td>$497</td>
+      <td>$171</td>
      
     </tr>
   <tr>
       <th scope="row">Children<br><small>-- under 12 -- </small></th>
-      <td>$170</td>
-      <td>$30</td>
+      <td>$210</td>
+      <td>$37</td>
      
     </tr>
   <tr>
       <th scope="row">2x Children <br><small>-- under 12 -- </small></th>
-      <td>$333</td>
-      <td>$111</td>
+      <td>$338</td>
+      <td>$118</td>
      
     </tr>
   </tbody>
@@ -604,32 +605,32 @@
   <tbody>
     <tr>
       <th scope="row">Single</th>
-      <td>$867</td>
-      <td>$289</td>
+      <td>$872</td>
+      <td>$296</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
-      <td>$615</td>
-      <td>$205</td>
+      <td>$620</td>
+      <td>$212</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
-      <td>$573</td>
-      <td>$191</td>
+      <td>$578</td>
+      <td>$198</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
-      <td>$552</td>
-      <td>$184</td>
+      <td>$557</td>
+      <td>$191</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
-      <td>$493</td>
-      <td>$164</td>
+      <td>$497</td>
+      <td>$171</td>
      
     </tr>
     
@@ -649,44 +650,44 @@
   <tbody>
     <tr>
       <th scope="row">Single</th>
-      <td>$921</td>
-      <td>$307</td>
+      <td>$926</td>
+      <td>$314</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
-      <td>$648</td>
-      <td>$216</td>
+      <td>$653</td>
+      <td>$223</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
-      <td>$603</td>
-      <td>$208</td>
+      <td>$608</td>
+      <td>$215</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
-      <td>$582</td>
-      <td>$194</td>
+      <td>$587</td>
+      <td>$210</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
-      <td>$547</td>
-      <td>$189</td>
+      <td>$577</td>
+      <td>$196</td>
      
     </tr>
     <tr>
       <th scope="row">Children<br><small>-- under 12 -- </small></th>
-      <td>$210</td>
-      <td>$30</td>
+      <td>$215</td>
+      <td>$37</td>
      
     </tr>
   <tr>
       <th scope="row">2x Children <br><small>-- under 12 -- </small></th>
-      <td>$378</td>
-      <td>$126</td>
+      <td>$388</td>
+      <td>$133</td>
      
     </tr>
   </tbody>
@@ -694,10 +695,11 @@
  
   </div>
 </div> <!-- END COLLAPSE -->
-                   
-                         <p>Once you have a desired hotel package and know the names of the guests you would like to share a room with (if any) then it is time for you to <a id="rsvp-nav-link" class="nav-link">RSVP</a>.</p>
+                   <hr class="thick-hr">
+                         <p>Once you have a desired hotel package and know the names of the guests you would like to share a room with (if any) then it is time for you to RSVP.</p>
+                         <p>Important: A welcome dinner will be held on Friday November 3rd, 2017 for all guests. Please make note of this when selecting your travel dates when you RSVP</p>
                          <p class="text-xs-center"><button id="rsvp-btn" type="button" class="btn btn-lg rsvp-animate-nav-link">RSVP HERE</button></p> 
-                         
+                         <p class="text-xs-center">Please RSVP by: February 18th, 2017</p>
                                        
                        <hr class="thick-hr">
                        <h3 class="text-xs-center travel-info-header">Travel Reservations</h3>
@@ -712,7 +714,7 @@
                      <p>Once you place your deposit you will receive detailed information regarding your payment plan. Below are some important points regarding your Payment Plan schedule:</p>
                     <div id="rate-info-wrapper" class="">
                         <br>
-                        <h4 class="text-xs-center ">All Deposits are Due Friday February 3rd, 2017</h4>
+                        <h4 class="text-xs-center ">Place your deposit by <span style="text-decoration:underline;">Friday February 3rd, 2017</span> as rates may change</h4>
                         <hr>
                         <ul>
                         <li>Each payment will be <strong>due by the end of each month</strong></li>
@@ -965,7 +967,7 @@
                            </div>
                            
                           </fieldset>
-                           <h4 class="text-xs-center ">All Deposits are Due Friday February 3rd, 2017</h4>
+                               <h4 class="text-xs-center ">Place your deposit by <span style="text-decoration:underline;">Friday February 3rd, 2017</span> as rates may change</h4>
                        </div>
                       
                         
