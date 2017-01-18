@@ -251,12 +251,16 @@
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-lion-king-rafiki.jpg" alt="Jessica and Rich @ Lion King"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-night-club.jpg" alt="Jessica and Rich @ Night Club"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-smile-casino.jpg" alt="Jessica and Rich @ Casino"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-akaween-2016.jpg" alt="Jessica and Rich @ AKAween 2016"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-myrtle-beach.jpg" alt="Jessica and Rich @ Myrtle Beach"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-chicago.jpg" alt="Jessica and Rich @ Chicago"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-china-fashion-show.jpg" alt="Jessica and Rich @ China Fashion Show"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-dr-birthday-beach.jpg" alt="Jessica and Rich @ DR Jessie's Birthday"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-grant-wedding.jpg" alt="Jessica and Rich @ Grant's Wedding"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-raulston-birthday.jpg" alt="Jessica and Rich @ Cousin Raulston's Birthday"></div>
+                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-times-square.jpg" alt="Jessica and Rich @ Times Square "></div>
                                   
-                  </div>
-                  
-                    
-                                
-                        
+                  </div><!-- END Gallery Carousel -->
                 
             </div>
                
