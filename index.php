@@ -965,7 +965,7 @@
                             <div class="form-check">
                             <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="deposit-amount" id="deposit-100" value="100">
-                                 $25 - Room + Airfare Deposit
+                                 $100 - Room + Airfare Deposit
                               </label>
                             </div>
                            </div>

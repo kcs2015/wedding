@@ -35,9 +35,17 @@ section{
     min-height: 864px;
 }
 
+#invite-header{
+       font-family: 'Great Vibes', cursive;
+font-weight:500;
+    font-size: 96px;
+    margin-left: -645px;
+    margin-bottom: 15px;
+}
+
  #cover-fade-in-sub{
     font-family: 'Prata', serif; 
-     font-size: 29px;
+     font-size: 45px;
      color: white;
      
 }
@@ -46,7 +54,7 @@ section{
 /*font-family: 'Parisienne', cursive;*/
     font-family: 'Great Vibes', cursive;
     color: #d4bb97;
-     font-size:55px;
+     font-size:95px;
 }
 
 /* make keyframes that tell the start state and the end state of our object */
@@ -86,7 +94,7 @@ section{
     z-index: 10;
     background-color: rgba(0,0,0,.65);
     margin-top:5px;
-    padding-top: 5px;
+    padding-top: 12px;
     border-radius:20px;
     border-width:2px;
     border-style:solid;
@@ -94,6 +102,6 @@ section{
 
 #cover-fade-in-div{
     float: left;
-    width:50%;
-    margin-left: 10px;;
+    width:95%;
+    margin-left: -190px;
 }
