@@ -545,6 +545,7 @@
     <tr>
       <th>Occupancy</th>
       <th>3 Nights</th>
+      <th>4 Nights</th>
       <th>Add'l Night</th>
      
     </tr>
@@ -553,42 +554,49 @@
     <tr>
       <th scope="row">Single</th>
       <td>$791</td>
+      <td>$1060</td>
       <td>$269</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
       <td>$563</td>
+      <td>$756</td>
       <td>$193</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
       <td>$527</td>
+      <td>$708</td>
       <td>$181</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
       <td>$506</td>
+      <td>$680</td>
       <td>$174</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
       <td>$497</td>
+      <td>$668</td>
       <td>$171</td>
      
     </tr>
   <tr>
       <th scope="row">Children<br><small>-- under 12 -- </small></th>
       <td>$210</td>
+      <td>$247</td>
       <td>$37</td>
      
     </tr>
   <tr>
       <th scope="row">2x Children <br><small>-- under 12 -- </small></th>
       <td>$338</td>
+      <td>$456</td>
       <td>$118</td>
      
     </tr>
@@ -602,6 +610,7 @@
     <tr>
       <th>Occupancy</th>
       <th>3 Nights</th>
+      <th>4 Nights</th>
       <th>Add'l Night</th>
      
     </tr>
@@ -610,30 +619,35 @@
     <tr>
       <th scope="row">Single</th>
       <td>$872</td>
+      <td>$1168</td>
       <td>$296</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
       <td>$620</td>
+      <td>$832</td>
       <td>$212</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
       <td>$578</td>
+      <td>$776</td>
       <td>$198</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
       <td>$557</td>
+      <td>$748</td>
       <td>$191</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
       <td>$497</td>
+      <td>$668</td>
       <td>$171</td>
      
     </tr>
@@ -647,6 +661,7 @@
     <tr>
       <th>Occupancy</th>
       <th>3 Nights</th>
+      <th>4 Nights</th>
       <th>Add'l Night</th>
      
     </tr>
@@ -655,42 +670,49 @@
     <tr>
       <th scope="row">Single</th>
       <td>$926</td>
+      <td>$1240</td>
       <td>$314</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
       <td>$653</td>
+        <td>$876</td>
       <td>$223</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
       <td>$608</td>
+      <td>$723</td>
       <td>$215</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
       <td>$587</td>
+      <td>$797</td>
       <td>$210</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
       <td>$577</td>
+      <td>$773</td>
       <td>$196</td>
      
     </tr>
     <tr>
       <th scope="row">Children<br><small>-- under 12 -- </small></th>
       <td>$215</td>
+      <td>$252</td>
       <td>$37</td>
      
     </tr>
   <tr>
       <th scope="row">2x Children <br><small>-- under 12 -- </small></th>
       <td>$388</td>
+      <td>$521</td>
       <td>$133</td>
      
     </tr>
@@ -718,7 +740,7 @@
                      <p>Once you place your deposit you will receive detailed information regarding your payment plan. Below are some important points regarding your Payment Plan schedule:</p>
                     <div id="rate-info-wrapper" class="">
                         <br>
-                        <h4 class="text-xs-center ">Place your deposit by <span style="text-decoration:underline;">Friday February 3rd, 2017</span> as rates may change</h4>
+                        <h4 class="text-xs-center ">Early Bird Special: Please place your deposit by <span style="text-decoration:underline;">Friday February 3rd, 2017</span> lock in rates as they may change</h4>
                         <hr>
                         <ul>
                         <li>Each payment will be <strong>due by the end of each month</strong></li>
@@ -971,8 +993,7 @@
                            </div>
                            
                           </fieldset>
-                               <h4 class="text-xs-center ">Place your deposit by <span style="text-decoration:underline;">Friday February 3rd, 2017</span> as rates may change</h4>
-                       </div>
+                               <h4 class="text-xs-center ">Early Bird Special: Please place your deposit by <span style="text-decoration:underline;">Friday February 3rd, 2017</span> lock in rates as they may change</h4>
                       
                         
                    <p class="text-xs-center">
