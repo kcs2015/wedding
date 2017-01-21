@@ -214,6 +214,7 @@ text-decoration-color: grey;
  #cover-fade-in-sub{
     font-family: 'Prata', serif; 
      font-size: 20px;
+     line-height: 23px;
 }
 #cover-fade-in-header{
     
@@ -352,6 +353,10 @@ span.large-quote{
     font-family: 'Tangerine',cursive;
     line-height: 16px;
     
+}
+.couple-info-card span.couple-info-name-small, #groom-info-name-small, #bride-info-name-small{
+    font-family: 'Tangerine',cursive;
+    font-size:39px;
 }
     
 #bride-bg-row{
@@ -584,7 +589,7 @@ background-size: cover;
 
 /* === BRIDAL PARTY STYLES === */
 #bridal-party-main{
-    background: url('../img/bg/pink_rice.png')
+    background: url('../img/bg/pink_rice.png');
 }
 
 .bridal-party-thumbnail{
@@ -1057,6 +1062,7 @@ div.bg-overlay h3{
      #cover-fade-in-sub{
     
         font-size:40px;
+          line-height: 43px;
          
     }
     
@@ -1160,6 +1166,7 @@ div.bg-overlay h3{
      #cover-fade-in-sub{
     
         font-size:25px;
+          line-height: 28px;
          
     }
     
@@ -1205,7 +1212,7 @@ div.bg-overlay h3{
      #cover-fade-in-sub{
     
         font-size:25px;
-         
+          line-height: 28px;
     }
     
 }
@@ -1231,6 +1238,7 @@ div.bg-overlay h3{
      #cover-fade-in-sub{
     
         font-size:25px;
+          line-height: 28px;
          
     }
 
@@ -1290,6 +1298,7 @@ div.bg-overlay h3{
      #cover-fade-in-sub{
     
         font-size:40px;
+          line-height: 43px;
          
     }
     .cover-img-wrapper {
@@ -1406,6 +1415,7 @@ div.bg-overlay h3{
      #cover-fade-in-sub{
     
         font-size:40px;
+          line-height: 43px;
          
     }
     .timer-block span{
@@ -1461,6 +1471,7 @@ div.bg-overlay h3{
      #cover-fade-in-sub{
     
         font-size:50px;
+          line-height: 53px;
          
     }
 }
@@ -1483,6 +1494,7 @@ div.bg-overlay h3{
      #cover-fade-in-sub{
     
         font-size:45px;
+          line-height: 48px;
          
     }
     
@@ -1509,6 +1521,7 @@ div.bg-overlay h3{
      #cover-fade-in-sub{
     
         font-size:35px;
+          line-height: 38px;
          
     }
     #location-info-header{
@@ -1589,7 +1602,7 @@ div.bg-overlay h3{
 /* FLIP CARD ANIMATION */
 /* entire container, keeps perspective */
 .flip-container {
-	perspective: 1000px;
+	
 }
 	/* flip the pane when hovered */
 	.flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -1611,6 +1624,7 @@ div.bg-overlay h3{
     transform-style: preserve-3d;
 
 	position: relative;
+    perspective: 1000px;
 }
 
 /* hide back of pane during swap */
@@ -1627,23 +1641,35 @@ div.bg-overlay h3{
 }
 
 /* front pane, placed above back */
-.front {
+/*.front {
 	z-index: 2;
-	/* for firefox 31 */
 	-webkit-transform: rotateY(0deg);
 	-o-transform: rotateY(0deg);
 	-ms-transform: rotateY(0deg);
 	-moz-transform: rotateY(0deg);
 	transform: rotateY(0deg);
+}*/
+.front{
+transition: all .6s ease-in;
 }
 
 /* back, initially hidden pane */
-.back {
+.back.old {
     -webkit-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
 	-ms-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
 	transform: rotateY(180deg);
+    transition: 0.6s;
+}
+
+.back{
+    -webkit-transform: rotateY(-180deg);
+	-o-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+     transition: all .6s ease-in;
 }
 
 /* entire container, keeps perspective */

@@ -33,6 +33,7 @@ section{
     background: url("../img/engagement/rich-jess-hold-hands-walking.jpg") no-repeat;
     width:1268px;
     min-height: 864px;
+    border-radius:5px
 }
 
 #invite-header{
@@ -47,6 +48,7 @@ font-weight:500;
     font-family: 'Prata', serif; 
      font-size: 45px;
      color: white;
+     line-height:58px;
      
 }
 #cover-fade-in-header{

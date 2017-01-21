@@ -314,6 +314,12 @@ $(document).ready(function() {
              $("#mce-ADDR").focus();
             });
 
+ /* ON CHANGE OF "SELECT state HOTEL SUITE FIELD -> SWITCH FOCUS TO ZIP CODE TEXT AREA */
+           $( "#mce-STATE" ).change(function() {
+                var selectionOption = $( "#mce-STATE option:selected" ).text();
+             $("#mce-ZIP").focus();
+            });
+
 
     
     /* INITIALIZE TOOLTIP FOR COPY BUTTON */
@@ -367,6 +373,64 @@ $(document).ready(function() {
 
 })();
                     
-                     
+                    /* ABOUT COUPLE INFO CARD FLIP SCRIPT */
+
+             
+                         /* ABOUT COUPLE INFO CARD FLIP SCRIPT */
+           $('.couple-words-btn').click(function(event){
+                //console.log('this object', this);
+               var btn_id = '#' + this.getAttribute('id');
+               console.log('this object: ', btn_id);
+               
+               // Set class of flipper card to 'flip-now'
+               var front = $(this).closest('.front');
+                $(front).css('transform','rotateY(180deg)');
+                 console.log('curr front: ', front);
+               
+                // Set class of flipper card to 'flip-now'
+               var curr_flipper_id = $(this).closest('.flipper').attr('id');
+               
+               var curr_back =  $("#" + curr_flipper_id + " .back");
+                   
+                   $(curr_back).css('transform','rotateY(0deg)');
+                console.log('curr back: ', curr_back);
+              
+                var curr_container = $(this).closest('.flip-container');
+                 
+               // DISABLED - FLIP ON HOVER 
+              /* $( curr_container ).hover(function() {
+                  $(curr_flipper).css('transform','rotateY(180deg)');
+                  $(curr_flipper).css('transform','');
+                   // $(this).css('transform','rotateY(180deg)');
+                    //console.log('focus out ', this);
+               });*/
+               
+           });
+            $('.couple-words-to-front-btn').click(function(event){
+                var btn_id = '#' + this.getAttribute('id');
+               
+                 // Set class of flipper card to 'flip-now'
+               var curr_flipper_id = $(this).closest('.flipper').attr('id');
+                
+                 // Set class of flipper card to 'flip-now'
+               var front = $("#" + curr_flipper_id + " .front");
+                $(front).css('transform','rotateY(0deg)');
+                 console.log('curr front: ', front);
+               
+               
+               
+               var curr_back =  $("#" + curr_flipper_id + " .back");
+                   
+                   $(curr_back).css('transform','rotateY(-180deg)');
+                console.log('curr back: ', curr_back);
+                
+                
+             
+                
+            
+               });
+             
+            
+           
  
 });
