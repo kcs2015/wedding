@@ -207,8 +207,7 @@
                  <div id="cover-fade-in-div" class="col-xs-12 col-sm-10 col-md-8 offset-sm-1 offset-md-2 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 vertical-align-child">
                     <div id="fade-in-wrapper-2" class="box fade-in one">
                         <h1 id="cover-fade-in-header" class="display-1">Richard &amp; Jessica</h1> 
-                        <h2 id="cover-fade-in-sub" class="display-4">Saturday,</h2> 
-                        <h2 id="cover-fade-in-sub" class="display-4">November 4th, 2017</h2> 
+                         <h2 id="cover-fade-in-sub" class="display-4">November 4th, 2017</h2> 
                       </div>
                 </div>
             
@@ -279,7 +278,7 @@
                            <div class="col-xs-12 col-sm-12 col-md-12 offset-md-0 col-lg-8 offset-lg-2 vertical-align-child">
 
               <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-	<div id="groom-info-card-flipper" class="flipper">
+	<div class="flipper">
 		<div class="front">
 			<div id="bride-info-card" class="card couple-info-card ">
                   <div class="card-block info-header">
@@ -308,11 +307,11 @@
 			<!-- back content -->
 			<div id="bride-info-card" class="card couple-info-card ">
                   <div class="card-block info-header">
-                    <p class="card-text"><span class="large-quote">"</span>She is the love of my life, the pain in my side, the push when I want to stop, the battery that keeps me going, my north star when I can't find my way, she's my <strong>everything</strong>. </p>
+                    <p class="card-text"><span class="large-quote">"</span>She is the love of my life, the pain in my side, the push when I want to stop, the battery that keeps me going, my north star when I can't find my way, she's my everything. </p>
                     <p class="card-text">Not sure what I did to get such an amazing, beautiful and talented woman in my life, but Thank God I did it.<span class="large-quote">"</span> 
                     </p>
                     <p class="card-text">
-                        <span id="groom-info-name-small" class="couple-info-name-small">- Richard Knight </span><br>"Luckiest Man In the World"
+                        - Richard Knight
                     </p>
                     
                     <div class="text-xs-center">
@@ -346,7 +345,7 @@
                        <div id="groom-bg-row" class="couple-bg-row row vertical-align-parent">
                            <div class="col-xs-12 col-sm-12 col-md-12 offset-md-0 col-lg-8 offset-lg-2 vertical-align-child">
                 <div class="flip-container" >
-                 <div id="bride-info-card-flipper" class="flipper">
+                 <div class="flipper">
 		<div class="front">
 			 <div id="groom-info-card" class="card couple-info-card">
                   <div class="card-block info-header">
@@ -382,7 +381,7 @@
 
  <p class="card-text">Not sure how god blessed me with such a handsome, smart, loving, amazing man who I surprisingly met on the A train but I'm sooo happy I blushed and smiled back.<span class="large-quote">"</span></p>
                      <p class="card-text">
-                        <span id="bride-info-name-small" class="couple-info-name-small">- Jessica Martin</span><br>"Future Mrs. Knight"
+                        - Future Mrs. Knight
                     </p>
                     <div class="text-xs-center">
                         <button id="groom-words-btn" type="button" class="btn btn-primary btn-sm couple-words-to-front-btn"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></button>
@@ -414,7 +413,41 @@
         </div>
         </div>
         
-  
+        <script>
+           $('.couple-words-btn').click(function(event){
+                //console.log('this object', this);
+               var btn_id = '#' + this.getAttribute('id');
+               
+               //console.log('this object: ', btn_id);
+               
+               // Set class of flipper card to 'flip-now'
+               var curr_flipper = $(this).closest('.flipper');
+                $(curr_flipper).css('transform','rotateY(180deg)');
+                
+               var curr_back = $(this).closest('.back');
+                var curr_container = $(this).closest('.flip-container');
+                 
+               // DISABLED - FLIP ON HOVER 
+              /* $( curr_container ).hover(function() {
+                  $(curr_flipper).css('transform','rotateY(180deg)');
+                  $(curr_flipper).css('transform','');
+                   // $(this).css('transform','rotateY(180deg)');
+                    //console.log('focus out ', this);
+               });*/
+               
+           });
+            $('.couple-words-to-front-btn').click(function(event){
+                var btn_id = '#' + this.getAttribute('id');
+               
+               // Set class of flipper card to 'flip-now'
+               var curr_flipper = $(this).closest('.flipper');
+                $(curr_flipper).css('transform','');
+                
+            
+               });
+             
+            
+           </script>
         
     </section> 
        
@@ -690,13 +723,13 @@
 </div> <!-- END COLLAPSE -->
                    <hr class="thick-hr">
                          <p>Once you have a desired hotel package and know the names of the guests you would like to share a room with (if any) then it is time for you to RSVP.</p>
-                         <p>Important: A welcome dinner will be held on Friday November 3rd, 2017 for all guests. Please make note of this when selecting your travel dates when you RSVP.</p>
+                         <p>Important: A welcome dinner will be held on Friday November 3rd, 2017 for all guests. Please make note of this when selecting your travel dates when you RSVP</p>
                          <p class="text-xs-center"><button id="rsvp-btn" type="button" class="btn btn-lg rsvp-animate-nav-link">RSVP HERE</button></p> 
                          <p class="text-xs-center">Please RSVP by: February 18th, 2017</p>
                                        
                        <hr class="thick-hr">
                        <h3 class="text-xs-center travel-info-header">Travel Reservations</h3>
-                       <p>There is discounted airfare for those traveling within the time frame of a 3 night stay and up to a 4 nights stay. If your stay is for a longer timeframe let us know when you RSVP below so we can get a discounted rate for you. 
+                       <p>There is discounted airfare for those traveling within the time frame of a 2 night stay and up to a 4 nights stay. If your stay is for a longer timeframe let us know when you RSVP below so we can get a discounted rate for you. 
                        </p>
                           <blockquote>
                            <p>$350 for 1 Round Trip Plane Ticket</p>
@@ -707,7 +740,7 @@
                      <p>Once you place your deposit you will receive detailed information regarding your payment plan. Below are some important points regarding your Payment Plan schedule:</p>
                     <div id="rate-info-wrapper" class="">
                         <br>
-                        <h4 class="text-xs-center ">Early Bird Special: Place your deposit by <span style="text-decoration:underline;">Friday February 3rd, 2017</span> to lock in your rate as they may change</h4>
+                        <h4 class="text-xs-center ">Early Bird Special: Please place your deposit by <span style="text-decoration:underline;">Friday February 3rd, 2017</span> lock in rates as they may change</h4>
                         <hr>
                         <ul>
                         <li>Each payment will be <strong>due by the end of each month</strong></li>
@@ -731,7 +764,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 ">                    
-                       <h2 class="display-4 wedding-main-text text-xs-center">Are You Attending?</h2> 
+                       <h2 class="display-4 wedding-main-text text-xs-center">Will You Be Attending?</h2> 
                        
                        <hr class="thick-hr">
                        <div class="card">
@@ -960,8 +993,7 @@
                            </div>
                            
                           </fieldset>
-                               <h4 class="text-xs-center ">Early Bird Special: Place your deposit by <span style="text-decoration:underline;">Friday February 3rd, 2017</span> to lock in your rate as they may change</h4>
-                       
+                               <h4 class="text-xs-center ">Early Bird Special: Please place your deposit by <span style="text-decoration:underline;">Friday February 3rd, 2017</span> lock in rates as they may change</h4>
                       
                         
                    <p class="text-xs-center">
