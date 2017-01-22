@@ -721,17 +721,18 @@
  
   </div>
 </div> <!-- END COLLAPSE -->
-                  <hr class="thick-hr">
-                  <h4 class="text-xs-left">If you choose <strong>NOT</strong> to stay at The Royalton:</h4>
-                  <ul>
-                      <li>There is a fee of $225 for a day pass which allows you all inlcusive access to the resort from 9 a.m. to 10 p.m. (needed for the Guest Welcome dinner. </li>
-                      <li>You are responsible for your transportation to the wedding ceremony as this will not be held on the resort</li>
-                  </ul> 
+
                    <hr class="thick-hr">
                          <p>Once you have a desired hotel package and know the names of the guests you would like to share a room with (if any) then it is time for you to RSVP.</p>
                          <p><strong>Important:</strong> A themed welcome dinner will be held on Friday November 3rd, 2017 for all guests. Please make note of this when selecting your travel dates when you RSVP</p>
                          <p class="text-xs-center"><button id="rsvp-btn" type="button" class="btn btn-lg rsvp-animate-nav-link">RSVP HERE</button></p> 
                          <p class="text-xs-center">Please RSVP by: February 18th, 2017</p>
+                                                        <hr class="thick-hr">
+                  <h4 class="text-xs-left">If you choose <strong>NOT</strong> to stay at The Royalton:</h4>
+                  <ul>
+                      <li>There is a fee of $225 for a day pass which allows you all inlcusive access to the resort from 9 a.m. to 10 p.m. (needed for the Guest Welcome dinner. </li>
+                      <li>You are responsible for your transportation to the wedding ceremony as this will not be held on the resort</li>
+                  </ul> 
                                        
                        <hr class="thick-hr">
                        <h3 class="text-xs-center travel-info-header">Travel Reservations</h3>
