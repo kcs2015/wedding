@@ -207,6 +207,7 @@
                  <div id="cover-fade-in-div" class="col-xs-12 col-sm-10 col-md-8 offset-sm-1 offset-md-2 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 vertical-align-child">
                     <div id="fade-in-wrapper-2" class="box fade-in one">
                         <h1 id="cover-fade-in-header" class="display-1">Richard &amp; Jessica</h1> 
+                         <h2 id="cover-fade-in-sub" class="display-4">Saturday</h2>
                          <h2 id="cover-fade-in-sub" class="display-4">November 4th, 2017</h2> 
                       </div>
                 </div>
@@ -251,7 +252,6 @@
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-lion-king-rafiki.jpg" alt="Jessica and Rich @ Lion King"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-night-club.jpg" alt="Jessica and Rich @ Night Club"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-smile-casino.jpg" alt="Jessica and Rich @ Casino"></div>
-                          <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-akaween-2016.jpg" alt="Jessica and Rich @ AKAween 2016"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-myrtle-beach.jpg" alt="Jessica and Rich @ Myrtle Beach"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-chicago.jpg" alt="Jessica and Rich @ Chicago"></div>
                           <div class="item"><img class="rounded" src="assets/img/couple/jess-rich-china-fashion-show.jpg" alt="Jessica and Rich @ China Fashion Show"></div>
@@ -311,7 +311,7 @@
                     <p class="card-text">Not sure what I did to get such an amazing, beautiful and talented woman in my life, but Thank God I did it.<span class="large-quote">"</span> 
                     </p>
                     <p class="card-text">
-                        - Richard Knight
+                        <span id="groom-info-name-small" class="couple-info-name-small">- Richard Knight </span>
                     </p>
                     
                     <div class="text-xs-center">
@@ -381,7 +381,7 @@
 
  <p class="card-text">Not sure how god blessed me with such a handsome, smart, loving, amazing man who I surprisingly met on the A train but I'm sooo happy I blushed and smiled back.<span class="large-quote">"</span></p>
                      <p class="card-text">
-                        - Future Mrs. Knight
+                         <span id="groom-info-name-small" class="couple-info-name-small"> - Future Mrs. Knight</span>
                     </p>
                     <div class="text-xs-center">
                         <button id="groom-words-btn" type="button" class="btn btn-primary btn-sm couple-words-to-front-btn"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></button>
@@ -533,7 +533,7 @@
                    
     <i class="fa fa-caret-down" aria-hidden="true"></i> View Hotel Packages <i class="fa fa-caret-down" aria-hidden="true"></i>
   </a></p>  <p class="text-xs-center">* All hotel packages start at a 3 Night Minimum *</p>
-                  <p class="text-xs-center">If you choose not to stay at The Royalton, there is a fee of $175 for a day pass which allows you all inlcusive access to the resort for 1 day</p>
+                 
                    <div class="collapse" id="packagesTable">
   <div id="rates-table-wrapper-main">
 
@@ -721,18 +721,24 @@
  
   </div>
 </div> <!-- END COLLAPSE -->
+                  <hr class="thick-hr">
+                  <h4 class="text-xs-left">If you choose <strong>NOT</strong> to stay at The Royalton:</h4>
+                  <ul>
+                      <li>There is a fee of $225 for a day pass which allows you all inlcusive access to the resort from 9 a.m. to 10 p.m. (needed for the Guest Welcome dinner. </li>
+                      <li>You are responsible for your transportation to the wedding ceremony as this will not be held on the resort</li>
+                  </ul> 
                    <hr class="thick-hr">
                          <p>Once you have a desired hotel package and know the names of the guests you would like to share a room with (if any) then it is time for you to RSVP.</p>
-                         <p>Important: A welcome dinner will be held on Friday November 3rd, 2017 for all guests. Please make note of this when selecting your travel dates when you RSVP</p>
+                         <p><strong>Important:</strong> A themed welcome dinner will be held on Friday November 3rd, 2017 for all guests. Please make note of this when selecting your travel dates when you RSVP</p>
                          <p class="text-xs-center"><button id="rsvp-btn" type="button" class="btn btn-lg rsvp-animate-nav-link">RSVP HERE</button></p> 
                          <p class="text-xs-center">Please RSVP by: February 18th, 2017</p>
                                        
                        <hr class="thick-hr">
                        <h3 class="text-xs-center travel-info-header">Travel Reservations</h3>
-                       <p>There is discounted airfare for those traveling within the time frame of a 2 night stay and up to a 4 nights stay. If your stay is for a longer timeframe let us know when you RSVP below so we can get a discounted rate for you. 
+                       <p>There is discounted airfare for those traveling within the time frame of a 3 night stay and up to a 4 nights stay. If your stay is for a longer timeframe let us know when you RSVP. We will try to get a discounted airplane rate for you. 
                        </p>
                           <blockquote>
-                           <p>$350 for 1 Round Trip Plane Ticket</p>
+                           <p>$350 for 1 Round Trip Plane Ticket <br><small>(Price Includes transportation to hotel on arrival &amp; to airport on your departure date)</small></p>
                            <p>A deposit of $25 per person is required to hold your plane ticket at this rate.</p>
                            
                        </blockquote>
@@ -740,7 +746,7 @@
                      <p>Once you place your deposit you will receive detailed information regarding your payment plan. Below are some important points regarding your Payment Plan schedule:</p>
                     <div id="rate-info-wrapper" class="">
                         <br>
-                        <h4 class="text-xs-center ">Early Bird Special: Please place your deposit by <span style="text-decoration:underline;">Friday February 3rd, 2017</span> lock in rates as they may change</h4>
+                        <h4 class="text-xs-center ">Early Bird Special: Place your deposit by <span style="text-decoration:underline;">Friday February 5th, 2017</span> to lock in your rate as they may change</h4>
                         <hr>
                         <ul>
                         <li>Each payment will be <strong>due by the end of each month</strong></li>
@@ -993,7 +999,7 @@
                            </div>
                            
                           </fieldset>
-                               <h4 class="text-xs-center ">Early Bird Special: Please place your deposit by <span style="text-decoration:underline;">Friday February 3rd, 2017</span> lock in rates as they may change</h4>
+                             <h4 class="text-xs-center ">Early Bird Special: Place your deposit by <span style="text-decoration:underline;">Friday February 5th, 2017</span> to lock in your rate as they may change</h4>
                       
                         
                    <p class="text-xs-center">
