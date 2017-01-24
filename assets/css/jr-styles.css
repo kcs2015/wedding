@@ -482,6 +482,7 @@ background-size: cover;
     border-top: 3px solid rgba(0,0,0,.1);
 }
 /* === LOCATION MAIN STYLES === */
+
 #location-main{
    background: url('../img/sand-footsteps-large.jpg') left no-repeat;
     background-size: cover;
@@ -512,7 +513,6 @@ background-size: cover;
   width: 100%;
   background: #EDEDED;
 }
-
 
 #rates-table-wrapper-main{
     padding: 5px;
@@ -655,7 +655,8 @@ background-size: cover;
 /* === LOCATION & TRAVEL INFO STYLES === */
 div.bg-overlay h3{
     background-color: rgba(255,255,255,.30);
-    border-radius: 4px;
+    border-radius: 4px;    
+    padding-top: 4px;    
 }
 
 #rsvp-btn{
