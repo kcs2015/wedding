@@ -771,11 +771,11 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 ">                    
-                       <h2 class="display-4 wedding-main-text text-xs-center">Will You Be Attending?</h2> 
+                       <h2 class="display-4 wedding-main-text text-xs-center">Are You Attending?</h2> 
                        
                        <hr class="thick-hr">
                        <div class="card">
-                  <h1 class="section-header dark-text text-xs-center">R.S.V.P. </h1>
+                  <h1 class="section-header dark-text text-xs-center">R.S.V.P.</h1>
                   <hr>
                
                   <div class="card-block">
