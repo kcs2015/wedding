@@ -747,7 +747,7 @@
                      <p>Once you place your deposit you will receive detailed information regarding your payment plan. Below are some important points regarding your Payment Plan schedule:</p>
                     <div id="rate-info-wrapper" class="">
                         <br>
-                        <h4 class="text-xs-center ">Early Bird Special: Place your deposit by <span style="text-decoration:underline;">Friday February 5th, 2017</span> to lock in your rate as they may change</h4>
+                        <h4 class="text-xs-center ">Early Bird Special: Place your deposit by <span style="text-decoration:underline;">Sunday February 5th, 2017</span> to lock in your rate as they may change</h4>
                         <hr>
                         <ul>
                         <li>Each payment will be <strong>due by the end of each month</strong></li>
