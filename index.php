@@ -1000,7 +1000,7 @@
                            </div>
                            
                           </fieldset>
-                             <h4 class="text-xs-center ">Early Bird Special: Place your deposit by <span style="text-decoration:underline;">Friday February 5th, 2017</span> to lock in your rate as they may change</h4>
+                             <h4 class="text-xs-center ">Early Bird Special: Place your deposit by <span style="text-decoration:underline;">Sunday February 5th, 2017</span> to lock in your rate as they may change</h4>
                       
                         
                    <p class="text-xs-center">
@@ -1042,7 +1042,7 @@
 
                    </script>
                 
-                                  </form>
+                                  
                                   <div class="collapse" id="deposit-info-collapse">
                   <div class="card card-block">
                    <p id="deposit-intro-instructions"class="text-xs-center">Follow the directions below to reserve your room and discounted airfare:</p>
@@ -1054,7 +1054,8 @@
                      
                       <p class="deposit-instruction"><span class="deposit-step-num">2. </span> Go to our  Deposit Page:</p>
                     <p id="wedding-acct-link"  class="text-xs-center" ><a href="https://cash.me/$theknightcouple" target="_blank">Jessica &amp; Richard's Wedding Deposit Link</a>
-                      <p  class="text-xs-center">*If you do not have a Square Cash account signup <a href="https://cash.me/app/SLBNDJD">here</a> for $10 account credit</p>
+                      <p  class="text-xs-center"><strong style="color:red">To Pay via Credit Card</strong> you need to login to your Square Cash account and add your credit card once you're logged in.</p>
+                      <p  class="text-xs-center">*If you do not have a Square Cash account <strong><a href="https://cash.me/app/SLBNDJD" target="_blank">signup here</a></strong> (Free) to get $10 added to your account.</p>
 
                       <p class="deposit-instruction"><span class="deposit-step-num">3. </span> Paste your notes from the section above into the notes section </p>
                       <p  class="text-xs-center">  <a href="assets/img/screenshot-cash-note.jpg" data-lightbox="deposit-pic"><img src="assets/img/screenshot-cash-note.jpg" alt="Cash Note Screenshot" class="rounded deposit-screenshot deposit-info-display-item " style="max-width: 100%; height:auto;"></a>
@@ -1070,7 +1071,7 @@
                           <li>Enter your deposit amount - Ex: $50 or $100</li>
                           <li>Enter your debit card information</li>
                           <li>Submit your deposit</li>
-                          <li><strong>**Ensure that your Name and room type are in the notes of the payment.</strong></li>
+                          <li><strong>**Ensure that the Name and room type are in the notes of the payment (especially if you are sending the deposit on someone else's behalf).</strong></li>
                       </ol>
                        <p class="deposit-instruction"> Once complete we will send you additional information regarding rooms and discounted airfare rates as our information becomes available</p>
                   </div><!-- END CARD -->
@@ -1078,6 +1079,7 @@
 
 
                                    </div>
+                                   </form>
                        
            </div>
                     
