@@ -553,51 +553,51 @@
   <tbody>
     <tr>
       <th scope="row">Single</th>
-      <td>$791</td>
-      <td>$1060</td>
-      <td>$269</td>
+      <td>$821</td>
+      <td>$1090</td>
+      <td>$299</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
-      <td>$563</td>
-      <td>$756</td>
-      <td>$193</td>
+      <td>$593</td>
+      <td>$786</td>
+      <td>$223</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
-      <td>$527</td>
-      <td>$708</td>
-      <td>$181</td>
+      <td>$557</td>
+      <td>$738</td>
+      <td>$211</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
-      <td>$506</td>
-      <td>$680</td>
-      <td>$174</td>
+      <td>$536</td>
+      <td>$718</td>
+      <td>$204</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
-      <td>$497</td>
-      <td>$668</td>
-      <td>$171</td>
+      <td>$527</td>
+      <td>$698</td>
+      <td>$201</td>
      
     </tr>
   <tr>
       <th scope="row">Children<br><small>-- under 12 -- </small></th>
-      <td>$210</td>
-      <td>$247</td>
-      <td>$37</td>
+      <td>$240</td>
+      <td>$277</td>
+      <td>$67</td>
      
     </tr>
   <tr>
       <th scope="row">2x Children <br><small>-- under 12 -- </small></th>
-      <td>$338</td>
-      <td>$456</td>
-      <td>$118</td>
+      <td>$368</td>
+      <td>$486</td>
+      <td>$148</td>
      
     </tr>
   </tbody>
@@ -618,37 +618,37 @@
   <tbody>
     <tr>
       <th scope="row">Single</th>
-      <td>$872</td>
-      <td>$1168</td>
-      <td>$296</td>
+      <td>$902</td>
+      <td>$1198</td>
+      <td>$326</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
-      <td>$620</td>
-      <td>$832</td>
-      <td>$212</td>
+      <td>$650</td>
+      <td>$862</td>
+      <td>$242</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
-      <td>$578</td>
-      <td>$776</td>
-      <td>$198</td>
+      <td>$608</td>
+      <td>$806</td>
+      <td>$228</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
-      <td>$557</td>
-      <td>$748</td>
-      <td>$191</td>
+      <td>$587</td>
+      <td>$778</td>
+      <td>$221</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
-      <td>$497</td>
-      <td>$668</td>
-      <td>$171</td>
+      <td>$527</td>
+      <td>$698</td>
+      <td>$201</td>
      
     </tr>
     
@@ -669,51 +669,51 @@
   <tbody>
     <tr>
       <th scope="row">Single</th>
-      <td>$926</td>
-      <td>$1240</td>
-      <td>$314</td>
+      <td>$961</td>
+      <td>$1275</td>
+      <td>$349</td>
       
     </tr>
     <tr>
       <th scope="row">Double</th>
-      <td>$653</td>
-        <td>$876</td>
-      <td>$223</td>
+      <td>$688</td>
+        <td>$912</td>
+      <td>$258</td>
       
     </tr>
     <tr>
       <th scope="row">Triple</th>
-      <td>$608</td>
-      <td>$723</td>
-      <td>$215</td>
+      <td>$643</td>
+      <td>$758</td>
+      <td>$250</td>
       
     </tr>
   <tr>
       <th scope="row">Quad</th>
-      <td>$587</td>
-      <td>$797</td>
-      <td>$210</td>
+      <td>$625</td>
+      <td>$732</td>
+      <td>$245</td>
       
     </tr>
   <tr>
       <th scope="row">5 PAC</th>
-      <td>$577</td>
-      <td>$773</td>
-      <td>$196</td>
+      <td>$612</td>
+      <td>$808</td>
+      <td>$231</td>
      
     </tr>
     <tr>
       <th scope="row">Children<br><small>-- under 12 -- </small></th>
-      <td>$215</td>
-      <td>$252</td>
-      <td>$37</td>
+      <td>$250</td>
+      <td>$287</td>
+      <td>$72</td>
      
     </tr>
   <tr>
       <th scope="row">2x Children <br><small>-- under 12 -- </small></th>
-      <td>$388</td>
-      <td>$521</td>
-      <td>$133</td>
+      <td>$423</td>
+      <td>$556</td>
+      <td>$168</td>
      
     </tr>
   </tbody>
@@ -726,7 +726,7 @@
                          <p>Once you have a desired hotel package and know the names of the guests you would like to share a room with (if any) then it is time for you to RSVP.</p>
                          <p><strong>Important:</strong> A themed welcome dinner will be held on Friday November 3rd, 2017 for all guests. Please make note of this when selecting your travel dates when you RSVP</p>
                          <p class="text-xs-center"><button id="rsvp-btn" type="button" class="btn btn-lg rsvp-animate-nav-link">RSVP HERE</button></p> 
-                         <p class="text-xs-center">Please RSVP by: February 18th, 2017</p>
+                         <p class="text-xs-center">Please RSVP by: Wednesday March 1st, 2017</p>
                                                         <hr class="thick-hr">
                   <h4 class="text-xs-left">If you choose <strong>NOT</strong> to stay at The Royalton:</h4>
                   <ul>
@@ -746,9 +746,6 @@
                        
                      <p>Once you place your deposit you will receive detailed information regarding your payment plan. Below are some important points regarding your Payment Plan schedule:</p>
                     <div id="rate-info-wrapper" class="">
-                        <br>
-                        <h4 class="text-xs-center ">Early Bird Special: Place your deposit by <span style="text-decoration:underline;">Sunday February 5th, 2017</span> to lock in your rate as they may change</h4>
-                        <hr>
                         <ul>
                         <li>Each payment will be <strong>due by the end of each month</strong></li>
                         <li>The Final payment is due <strong>September 31st, 2017</strong></li>
@@ -1000,9 +997,7 @@
                            </div>
                            
                           </fieldset>
-                             <h4 class="text-xs-center ">Early Bird Special: Place your deposit by <span style="text-decoration:underline;">Sunday February 5th, 2017</span> to lock in your rate as they may change</h4>
-                      
-                        
+                                                     
                    <p class="text-xs-center">
                           <button id="deposit-info-submit" type="button" class="btn btn-primary"><i class="fa fa-chevron-down" aria-hidden="true"></i> Submit <i class="fa fa-chevron-down" aria-hidden="true"></i></button></p>
                      
