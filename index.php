@@ -726,7 +726,7 @@
                          <p>Once you have a desired hotel package and know the names of the guests you would like to share a room with (if any) then it is time for you to RSVP.</p>
                          <p><strong>Important:</strong> A themed welcome dinner will be held on Friday November 3rd, 2017 for all guests. Please make note of this when selecting your travel dates when you RSVP</p>
                          <p class="text-xs-center"><button id="rsvp-btn" type="button" class="btn btn-lg rsvp-animate-nav-link">RSVP HERE</button></p> 
-                         <p class="text-xs-center">Please RSVP by: Wednesday March 1st, 2017</p>
+                         <p class="text-xs-center">Please RSVP by: Wednesday March 15th, 2017</p>
                                                         <hr class="thick-hr">
                   <h4 class="text-xs-left">If you choose <strong>NOT</strong> to stay at The Royalton:</h4>
                   <ul>
@@ -739,8 +739,34 @@
                        <p>There is discounted airfare for those traveling within the time frame of a 3 night stay and up to a 4 nights stay. If your stay is for a longer timeframe let us know when you RSVP. We will try to get a discounted airplane rate for you. 
                        </p>
                           <blockquote>
-                           <p>$350 for 1 Round Trip Plane Ticket <br><small>(Price Includes transportation to hotel on arrival &amp; to airport on your departure date)</small></p>
-                           <p>A deposit of $25 per person is required to hold your plane ticket at this rate.</p>
+                          
+                          <table class="table table-bordered table-inverse">
+  <thead class="thead-inverse">
+    <tr>
+      <th>Travel Dates</th>
+      <th>Flight Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <th scope="row">3 Nights: <br>Fri. Nov 3rd - Mon. Nov. 6th</th>
+      <td>$350.00**</td>
+    </tr>
+    <tr>
+      <th scope="row">3 Nights: <br>Thu. Nov 2nd - Sun. Nov. 5th</th>
+      <td>$525.00**</td>
+    </tr>
+    <tr>
+      <th scope="row">4 Nights: <br>Thu. Nov. 2nd - Mon. Nov. 6th</th>
+      <td>$390.00**</td>
+    </tr>
+  </tbody>
+</table>
+                        
+                           <p><small>(Price Includes transportation to hotel on arrival &amp; to airport on your departure date)</small></p>
+                           <p>A deposit of $75 per person is required to hold your plane ticket at this rate.</p>
+                           <p style="background-color:#bf9963"><span style ="font-weight:bold;font-size:14">**Please Note: </span>Due to airline policies, plane ticket prices are subject to change until all group tickets have been purchased. </p>
                            
                        </blockquote>
                        
